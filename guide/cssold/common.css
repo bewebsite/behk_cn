@@ -1,0 +1,616 @@
+body {
+	background: rgb(255, 255, 255); color: rgb(51, 51, 51); line-height: 200%;
+}
+a {
+	color: rgb(76, 76, 76);
+}
+a:hover {
+	color: rgb(0, 0, 0);
+}
+.nav-main {
+	margin: auto; padding: 20px 0px 0px; width: 1000px; height: 76px; position: relative;
+}
+.nav-menubox {
+	padding-top: 5px; float: right;
+}
+.nav-menu {
+	padding-top: 5px; margin-right: 5px; float: left;
+}
+.nav-linkbox {
+	width: 93px; height: 37px; text-align: center; line-height: 37px; font-size: 14px; display: block;
+}
+.nav-item {
+	color: rgb(255, 255, 255); margin-right: 10px;
+}
+.nav-item:hover {
+	color: rgb(0, 91, 172);
+}
+.nav-tel {
+	color: rgb(73, 85, 94); margin-left: 10px; float: left;
+}
+.nav-tel h2 {
+	font: bold 22px/normal "??????"; color: rgb(254, 0, 0); font-size-adjust: none; font-stretch: normal;
+}
+.aclear {
+	height: 10px; overflow: hidden; clear: both;
+}
+.nav-linkbox {
+	background: rgb(239, 239, 239); width: 93px; height: 37px; text-align: center; line-height: 37px; font-size: 14px; display: block;
+}
+.nav-linkbox:hover {
+	background: rgb(33, 127, 195); color: rgb(255, 255, 255);
+}
+.vbanner {
+	height: 500px; overflow: hidden; position: relative;
+}
+.vbanner .img {
+	left: 50%; top: 0px; margin-left: -707px; position: absolute;
+}
+.vbanner .text {
+	margin: 0px 0px 0px -500px; left: 50%; top: 363px; width: 310px; padding-left: 690px; position: absolute;
+}
+.vbanner .text .a {
+	margin-top: 40px;
+}
+.vbanner .text .a a {
+	background: rgb(0, 117, 210); width: 138px; height: 36px; text-align: center; display: inline-block;
+}
+.vbanner .text .a a img {
+	margin-top: 8px; vertical-align: middle;
+}
+.vbanner .text .a .a1 {
+	margin-right: 15px;
+}
+.vbanner .text .a .a2 {
+	background: rgb(11, 34, 80);
+}
+.vbanner .text .a a:hover {
+	opacity: 0.8;
+}
+.vbanner .text .a a:active {
+	opacity: 0.9;
+}
+.barNav {
+	background: rgb(11, 34, 80); height: 46px; text-align: center; line-height: 46px;
+}
+.fxdNav {
+	background: rgb(11, 34, 80); height: 46px; text-align: center; line-height: 46px;
+}
+.fxdNav a {
+	color: rgb(255, 255, 255); font-size: 16px;
+}
+.fxdNav a:hover {
+	color: rgb(165, 169, 181);
+}
+.fxdNav em {
+	margin: 0px 10px; color: rgb(112, 119, 134);
+}
+.about {
+	margin: 0px auto; width: 1000px; padding-bottom: 45px; font-size: 14px;
+}
+.about td div {
+	padding: 0px 0px 0px 30px; text-align: justify;
+}
+.titImg {
+	padding: 40px 0px 30px; text-align: center;
+}
+.footer {
+	margin: 0px auto; width: 1000px; text-align: center;
+}
+.book .tips {
+	text-align: left;height: 50px; color: rgb(0, 0, 0); line-height: 50px;
+}
+.book .tips span {
+	color: rgb(240, 0, 1);
+}
+.footer .logoList {
+	padding: 25px 0px; border: 1px solid rgb(228, 228, 228); height: 50px;
+}
+.footer .logoList img {
+	margin: 0px 10px;
+}
+.footerNav {
+	padding: 10px 0px 20px; margin-top: 10px; border-top-color: rgb(0, 82, 174); border-top-width: 2px; border-top-style: solid;
+}
+.footerNav em {
+	margin: 0px 15px;
+}
+.main , .main2{
+	margin: 0px auto; width: 1000px;
+}
+.main2{
+	position:relative;
+}
+.audience {
+	background: rgb(235, 237, 240); padding: 0px 0px 45px;
+}
+.audience .audDl dl {
+	float: left;
+}
+.audience .audDl dt {
+	background: rgb(76, 93, 126); width: 60px; height: 84px; text-align: center; color: rgb(255, 255, 255); line-height: 84px; letter-spacing: -3px; font-size: 50px; font-weight: 700; float: left; transition: all .2s ease;
+}
+.audience .audDl dd {
+	background: rgb(255, 255, 255); width: 140px; height: 84px; overflow: hidden; float: left; position: relative;
+}
+.audience .audDl dd p {
+	padding: 10px 0px 0px 10px; height: 74px; color: rgb(51, 51, 51); font-size: 14px;
+}
+.audience .audDl dd div {
+	left: 0px; width: 140px; bottom: 0px; position: absolute; transition: all .3s ease;
+}
+.audience .audDl dd p.p1 {
+	background: rgb(88, 115, 160); color: rgb(255, 255, 255);
+}
+.audience .audDl .r {
+	float: right;
+}
+.audience .audDl .c {
+	margin-left: 10px;
+}
+.audience .audDl dl:hover dd div {
+	bottom: -84px;
+}
+.elAud {
+	margin: 40px 0px 0px; padding: 20px; border: 1px dotted rgb(160, 175, 199); position: relative;
+}
+.elAud .tps {
+	background: rgb(235, 237, 240); left: 50%; top: -8px; width: 150px; height: 16px; text-align: center; color: rgb(76, 93, 126); line-height: 16px; font-size: 14px; margin-left: -75px; position: absolute;
+}
+.elAud .tps2 {
+	text-align: center; margin-bottom: 30px;
+}
+.elAud .item {
+	margin: 0px 0px 10px 40px; width: 300px; height: 30px; overflow: hidden; padding-left: 100px; float: left; position: relative;
+}
+.elAud .even {
+	padding-left: 130px;
+}
+.elAud .item span {
+	left: 0px; top: 0px; width: 86px; height: 28px; text-align: right; color: rgb(0, 0, 0); line-height: 28px; font-size: 14px; position: absolute;
+}
+.elAud .even span {
+	left: 0px; top: 0px; width: 120px; height: 28px; text-align: right; line-height: 28px; position: absolute;
+}
+.elAud .item input[type='text'] {
+	background: url("../../guide/images/iconInput.png") repeat-x left top rgb(253, 253, 254); padding: 0px 10px; border-radius: 3px; border: 0px currentColor; width: 280px; height: 28px; line-height: 28px;
+}
+.elAud .item select {
+	padding: 0px 10px;
+}
+.elAud .btn {
+	float: left;
+}
+.elAud .btn a {
+	background: rgb(241, 49, 34); padding: 0px 20px; height: 40px; color: rgb(255, 255, 255); line-height: 40px; font-size: 14px; margin-left: 170px; display: inline-block;
+}
+.elAud .btn a:hover {
+	background: rgb(229, 41, 26);
+}
+.elAud .btn a:active {
+	background: rgb(222, 34, 19);
+}
+.highlights {
+	background: rgb(255, 255, 255); padding: 0px 0px 45px;
+}
+.highlights li {
+	padding: 20px; border-radius: 4px; width: 210px; text-align: center; line-height: 150%; float: left; min-height: 230px; transition: all .3s ease;
+}
+.highlights li span {
+	margin: 0px auto; width: 126px; height: 126px; overflow: hidden; display: block;
+}
+.highlights li.s1 span {
+	background: url("../../guide/images/h1.png") no-repeat 0px 0px;
+}
+.highlights li.s2 span {
+	background: url("../../guide/images/h2.png") no-repeat 0px 0px;
+}
+.highlights li.s3 span {
+	background: url("../../guide/images/h3.png") no-repeat 0px 0px;
+}
+.highlights li.s4 span {
+	background: url("../../guide/images/h4.png") no-repeat 0px 0px;
+}
+.highlights li.s5 span {
+	background: url("../../guide/images/h5.png") no-repeat 0px 0px;
+}
+.highlights li h5 {
+	margin: 18px 0px 10px; color: rgb(60, 60, 119); font-size: 18px;
+}
+.highlights li img {
+	transition: all 0.5s ease;
+}
+.highlights li:hover img {
+	transform: rotate(45deg);
+}
+.highlights li:hover {
+	background: rgb(88, 115, 160);
+}
+.highlights li:hover h5 {
+	color: rgb(255, 255, 255);
+}
+.highlights li:hover p {
+	color: rgb(255, 255, 255);
+}
+.highlights li:hover span {
+	background-position: left bottom;
+}
+.highlights li.s1:hover {
+	background: rgb(108, 122, 150);
+}
+.highlights li.s2:hover {
+	background: rgb(127, 141, 171);
+}
+.highlights li.s3:hover {
+	background: rgb(159, 178, 195);
+}
+.highlights li.s4:hover {
+	background: rgb(173, 193, 213);
+}
+.highlights li.s5:hover {
+	background: rgb(180, 191, 212);
+}
+.schedule {
+	background: rgb(235, 237, 240); padding: 0px 0px 45px;
+}
+.schedule .cons, .main2 .cons {
+	background: rgb(255, 255, 255); padding: 20px; border: 1px solid rgb(199, 210, 230); width: 458px; line-height: 30px; font-size: 14px; float: left; position: relative; min-height: 350px;
+}
+.schedule .right {
+	float: right;
+}
+.schedule .ctit {
+	background: url("../../guide/images/icon-d.png") no-repeat 0px 12px; color: rgb(11, 34, 80); text-transform: uppercase; padding-bottom: 10px; padding-left: 20px; font-size: 18px; font-weight: 700; margin-bottom: 10px; border-bottom-color: rgb(189, 198, 215); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.schedule .top span {
+	
+}
+.schedule p {
+	color: rgb(0, 0, 0);
+}
+.schedule .txt li {
+	color: rgb(11, 34, 80); padding-left: 30px; position: relative;
+}
+.schedule .txt li em {
+	background: rgb(88, 115, 160); left: 0px; top: 8px; width: 16px; text-align: center; color: rgb(255, 255, 255); line-height: 16px; position: absolute;
+}
+.schedule .btn {
+	width: 120px; right: 20px; bottom: 20px; position: absolute;
+}
+.schedule .btn a {
+	background: rgb(0, 117, 210); width: 120px; height: 36px; text-align: center; color: rgb(255, 255, 255); line-height: 36px; margin-top: 10px; display: inline-block;
+}
+.schedule .btn a.v2 {
+	background: rgb(11, 34, 80);
+}
+.schedule .btn a:hover {
+	opacity: 0.8;
+}
+.schedule .btn a:active {
+	opacity: 0.9;
+}
+.guests {
+	padding: 0 auto 45px; width: 100%; position: relative;
+}
+.guests .cons {
+	min-height:300px;
+}
+.main2 .tTxt {
+	background: rgb(255, 255, 255); border: 1px solid rgb(88, 115, 160); left: 50%; top: -34px; width: 260px; height: 55px; text-align: center; padding-top: 15px; margin-left: -130px; position: absolute; z-index:1;
+}
+.main2 .cons {
+	width: 498px;padding:0;
+}
+.guests .bom {
+	padding-left: 160px; font-size: 14px;
+}
+.guests .top {
+	background: rgb(88, 115, 160); height: 80px; color: rgb(255, 255, 255); padding-top: 68px;
+}
+.guests .bom {
+	background: rgb(226, 229, 236); padding-top:15px; min-height: 142px;
+}
+.guests .top dl {
+	margin-right: 60px; float: left;
+}
+.guests .top dt {
+	margin-bottom: 10px;
+}
+.guests .top .dl1 h3 {
+	line-height: 30px; font-size: 24px;
+}
+.guests .top .dl2 {
+	width: 400px;
+}
+.guests .top .dl2 p {
+	height: 60px; line-height: 21px; overflow: hidden;
+}
+.guests .bom .tit {
+	background: url("../../guide/images/rx.png") repeat-x left; padding: 10px 0px; margin-right: 30px;
+}
+.guests .bom .tit span {
+	background: rgb(226, 229, 236); padding-right: 10px;
+}
+.guests > img {
+	border-radius:16px; width:120px; height:160px;
+}
+.guests .bom li {
+	color: rgb(11, 34, 80); line-height: 30px; padding-left: 30px; position: relative;
+}
+.guests .bom li em {
+	background: rgb(88, 115, 160); left: 0px; top: 8px; width: 16px; text-align: center; color: rgb(255, 255, 255); line-height: 16px; position: absolute;
+}
+.guests .top {
+	background: rgb(88, 115, 160); color: rgb(255, 255, 255); padding-top: 68px; min-height: 100px;
+}
+.guests .img {
+	left: 20px; top: 70px; position: absolute;
+}
+#guests {
+	padding-top: 70px; margin-bottom:45px;
+}
+.schools {
+	margin: 0px auto 40px; width: 1000px; position: relative;
+}
+.schools .txt {
+	padding: 20px; border: 1px solid rgb(11, 34, 80);
+}
+.schools .con {
+	margin: 0px 0px 0px 20px; color: rgb(11, 34, 80); padding-left: 20px; font-size: 14px; border-left-color: rgb(210, 214, 223); border-left-width: 1px; border-left-style: dashed;
+}
+.sclList {
+	width: 1100px; overflow: hidden; padding-top: 10px;
+}
+.sclList .hidden {
+	width: 1200px; margin-left: -30px;
+}
+.sclList .item {
+	background: rgb(11, 34, 80); margin: 20px 0px 0px 30px; width: 484px; height: 475px; overflow: hidden; float: left;
+}
+.sclList .item:hover {
+	background: rgb(35, 56, 97);
+}
+.sclList .item .left {
+	padding: 3px; float: left;
+}
+.sclList .item .left .top {
+	background: rgb(255, 255, 255); height: 85px; text-align: center; padding-top: 10px;
+}
+.sclList .item .right {
+	padding: 30px 20px; width: 244px; color: rgb(255, 255, 255); font-size: 14px; float: left;
+}
+.sclList .item .right .top {
+	padding-bottom: 10px; margin-bottom: 10px; border-bottom-color: rgb(126, 138, 162); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.sclList .item .right .top .tit1 {
+	font-size: 16px;
+}
+.sclList .item .right .top .tit1 a {
+	color: rgb(255, 255, 255);
+}
+.sclList .item .right .top h4 {
+	line-height: 30px; font-size: 28px;
+}
+.sclList .item .right .top h4 a {
+	color: rgb(255, 255, 255);
+}
+.sclList .item .right .add {
+	height: 40px; line-height: 20px; overflow: hidden; font-size: 14px; margin-bottom: 20px;
+}
+.sclList .item .right .txtFon td {
+	line-height: 20px; vertical-align: top;
+}
+.sclList .item .right .more {
+	margin-top: 10px;
+}
+.sclList .item .right .more a {
+	color: rgb(255, 255, 255);
+}
+.sclList .item .right .more a:hover {
+	text-decoration: underline;
+}
+.sclList .item .right .aList {
+	margin-top: 20px;
+}
+.sclList .item .right .aList a {
+	background: rgb(254, 0, 0); width: 116px; height: 36px; text-align: center; color: rgb(255, 255, 255); line-height: 36px; font-size: 16px; margin-top: 10px; float: left;
+}
+.sclList .item .right .aList a.v2 {
+	background: rgb(255, 255, 255); color: rgb(11, 34, 80); margin-left: 10px;
+}
+.sclList .item .right .aList a:hover {
+	opacity: 0.8;
+}
+.sclList .item .right .aList a:active {
+	opacity: 0.9;
+}
+.audience {
+	background: rgb(235, 237, 240); padding: 0px 0px 45px;
+}
+.be {
+	background: rgb(255, 255, 255); margin: 45px 0px;
+}
+.book {
+	background: rgb(235, 237, 240); padding: 0px 0px 45px;
+}
+.audience .left {
+	float: left;
+}
+.audience .left li {
+	background: rgb(255, 255, 255); border: 1px dotted rgb(168, 182, 205); width: 570px; height: 51px; color: rgb(73, 93, 131); line-height: 51px; font-size: 16px; margin-bottom: 35px; position: relative;
+}
+.audience .left li .d1 {
+	height: 51px; overflow: hidden; position: relative;
+}
+.audience .left li .d2 {
+	left: 0px; width: 100%; height: 102px; bottom: 0px; position: absolute; transition: all .3s ease;
+}
+.audience .left li .p1 {
+	background: rgb(88, 115, 160); color: rgb(255, 255, 255); padding-left: 100px;
+}
+.audience .left li .p2 {
+	padding-left: 100px;
+}
+.audience .left li:hover .d2 {
+	bottom: -51px;
+}
+.audience .left li em {
+	background: url("../../guide/images/iconD.png") no-repeat; left: 0px; width: 78px; height: 68px; bottom: 0px; color: rgb(255, 255, 255); line-height: 40px; font-size: 40px; font-weight: 700; position: absolute; z-index: 3;
+}
+.audience .left li em b {
+	padding: 14px 0px 0px 10px; display: block;
+}
+.audience .right {
+	float: right;
+}
+.be dl {
+	padding: 0px 0px 0px 112px; color: rgb(255, 255, 255); position: relative; transition: all .3s ease;
+}
+.be dt {
+	left: 0px; top: 50%; width: 112px; height: 102px; text-align: center; line-height: 102px; font-size: 46px; font-weight: 700; margin-top: -26px; position: absolute;
+}
+.be dd {
+	border-left-color: rgb(64, 91, 133); border-left-width: 1px; border-left-style: solid; min-height: 102px; _height: 102px;
+}
+.be .dl01 {
+	background: rgb(132, 156, 197);
+}
+.be .dl01 dd {
+	border-color: rgb(112, 139, 184);
+}
+.be .dl01:hover {
+	background: rgb(124, 148, 189);
+}
+.be .dl02 {
+	background: rgb(102, 129, 174);
+}
+.be .dl02 dd {
+	border-color: rgb(82, 108, 149);
+}
+.be .dl02:hover {
+	background: rgb(94, 121, 165);
+}
+.be .dl03 {
+	background: rgb(79, 105, 146);
+}
+.be .dl03 dd {
+	border-color: rgb(64, 91, 133);
+}
+.be .dl03:hover {
+	background: rgb(74, 99, 140);
+}
+.be .dl04 {
+	background: rgb(64, 91, 132);
+}
+.be .dl04 dd {
+	border-color: rgb(47, 71, 108);
+}
+.be .dl04:hover {
+	background: rgb(59, 86, 127);
+}
+.be .dl05 {
+	background: rgb(50, 78, 117);
+}
+.be .dl05 dd {
+	border-color: rgb(38, 62, 97);
+}
+.be .dl05:hover {
+	background: rgb(47, 75, 113);
+}
+.be .dl06 {
+	background: rgb(132, 156, 197);padding-left:200px;
+}
+.be .dl06 dd {
+	border-color: rgb(112, 139, 184);
+}
+.be .dl06:hover {
+	background: rgb(124, 148, 189);
+}
+.be .dl06 dt {
+	width:200px;
+	line-height:50px;
+}
+.be .dl06 dt img {
+	display:inline-block;
+}
+.be .box {
+	padding: 38px 40px; line-height: 200%; font-size: 16px;
+}
+.bookClear {
+	font-size: 14px;
+}
+.bookClear .left {
+	width: 500px; padding-right: 20px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: dashed; float: left;
+}
+.bookClear .left dl {
+	margin-bottom: 20px;
+}
+.bookClear .left dt {
+	width: 55px; padding-top: 6px; float: left;
+}
+.bookClear .left dd {
+	width: 440px; float: left;
+}
+.bookClear .left dd .p1 {
+	color: rgb(0, 39, 88); font-size: 16px;
+}
+.bookClear .right {
+	width: 444px; float: right;
+}
+.bookClear .right .item input[type='text'] {
+	background: url("../../guide/images/iconInput.png") repeat-x left top rgb(253, 253, 254); padding: 0px 10px; border-radius: 3px; border: 0px currentColor; width: 280px; height: 28px; line-height: 28px;
+}
+.bookClear .right .item select {
+	padding: 0px 10px;
+}
+.bookClear .right .item {
+	padding-left: 120px; margin-bottom: 7px; position: relative;
+}
+.bookClear .right .item span {
+	left: 0px; top: 0px; color: rgb(0, 0, 0); position: absolute;
+}
+.bookClear .btn a {
+	background: rgb(0, 117, 210); padding: 0px 20px; height: 40px; color: rgb(255, 255, 255); line-height: 40px; font-size: 14px; margin-top: 10px; margin-left: 120px; display: inline-block;
+}
+.bookClear .btn a:hover {
+	opacity: 0.8;;
+}
+.bookClear .btn a:active {
+	opacity: 0.8;;
+}
+.popBg {
+	background: url("../../guide/images/fil.png"); left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: fixed; z-index: 1000;
+}
+.popbor {
+	background: url("../../guide/images/fil.png"); margin: -150px 0px 0px -340px; left: 50%; top: 50%; width: 680px; height: 300px; position: fixed; z-index: 1001;
+}
+.popBox {
+	background: rgb(229, 234, 242); margin: 10px; width: 660px; height: 280px; text-align: center;
+}
+.popBox .p1 {
+	margin: 0px 80px 20px; padding: 60px 0px 20px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.popBox .txt {
+	color: rgb(102, 102, 102); line-height: 20px; font-size: 14px;
+}
+.popBox .close {
+	background: url("../../guide/images/close.png") no-repeat; top: 25px; width: 30px; height: 30px; right: 25px; position: absolute; cursor: pointer;
+}
+.popBox .close:hover {
+	background-position: left bottom;
+}
+.scl .fxdNav {
+	left: 0px; top: 0px; width: 100%; position: fixed; z-index: 100;
+}
+.moreinfo {
+	height: 40px; color: rgb(255, 255, 255); overflow: hidden; display: block;
+}
+.moreinfo:hover {
+	color: rgb(255, 255, 255);
+}
+.tips2 {
+	background: rgb(248, 248, 248); padding: 30px; border: 1px dashed rgb(221, 221, 221); color: rgb(102, 102, 102); clear: both; margin-top: 30px;
+}
+.tips2 h4 {
+	color: rgb(17, 17, 17); font-size: 16px;
+}

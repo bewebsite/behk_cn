@@ -1,0 +1,141 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="enewsletter.aspx.cs" Inherits="enewsletter" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>必益教育Enewsletter</title>
+    <link rel="stylesheet" href="css/enewsletter.css" />
+    
+</head>
+<body>
+	<div id="container">
+	
+
+	    <div id="top">
+	    	<div class="top-logo"><a href="http://www.behk.org"><img style="" alt="" src="http://www.behk.org/images/BE-logo-enewsletter.jpg"></a></div>
+	    	<a href="http://www.behk.org/enewsletter.aspx"><div class="lianjie"><p>如果您无法查看邮件，请点击这里</p></div></a>
+	    </div>
+	    <div id="header"><a target="_blank" href="http://alis.behk.org/eton.aspx"><img style="width: 100%" alt="" src="http://www.behk.org/images/newsletter01.jpg"></a></div>
+	    <div id="main">
+	    
+	    	<div class="news1">
+	    		<div class="leftpart">
+	    		<a href="http://www.behk.org/news/jrdjdx.html">
+	    			<img style="" alt="" src="http://www.behk.org/images/enewsletter2.jpg">
+	    		</a>
+	    		</div>
+	    		<div class="rightpart">
+	    			<div class="title1">
+	    			<a href="http://www.behk.org/news/jrdjdx.html">
+	    			<h1>进入顶尖大学的关键是什么？专访美高执行主管</h1>
+	    			</a>
+						
+	    			</div>
+	    			<hr color=#777 size=1 width=370px style="margin-top:15px">
+	    			<div class="intro">
+	    				<p>美国学生在远远早于11年级(17岁)就已开始准备大学申请了。你还在为申请大学苦恼么，听听美国罗斯中学执行主管Kristin Eberstadt女士有哪些好方法吧。</p>
+					
+	    			</div>
+					
+
+	    		</div>
+	    	</div>
+
+	    
+
+	    
+	    	<div class="news2">
+	    		<div class="leftpart">
+	    		<a href="http://www.behk.org/news/ydrtygjy.html">
+	    			<img style="width: 100%" alt="" src="http://www.behk.org/images/enewsletter1.jpg">
+	    		</a>
+	    		</div>
+	    		<div class="rightpart">
+	    			<div class="title1">
+					<a href="http://www.behk.org/news/ydrtygjy.html">
+	    			<h1>必益教育CEO受访三联生活周刊：伊顿人谈英国公学教育</h1>
+	    			</a>
+						
+	    			</div>
+	    			<hr color=#777 size=1 width=370px style="margin-top:15px">
+	    			<div class="intro">
+	    				<p>近日，必益教育创始人William Vanbergen先生接受了杂志专访，这个伊顿毕业生用自身经历展示了英国顶级公学教育和分享了同学威廉王子的趣事。</p>
+						
+	    			</div>
+	    		</div>
+	    	</div>
+	   
+
+	    
+	    
+	    	<div class="news1">
+	    		<div class="leftpart">
+	    		<a href="http://go.behk.org/news/zzzhjh.html">
+	    			<img style="" alt="" src="http://www.behk.org/images/enewsletter3.jpg">
+	    		</a>
+	    		</div>
+	    		<div class="rightpart">
+	    		
+	    			<div class="title1">
+					<a href="http://go.behk.org/news/zzzhjh.html">
+	    			<h1>抓住最后申请机会，2个半月内圆梦国王坎特伯雷院校</h1>
+	    			</a>
+						
+	    			</div>
+	    			<hr color=#777 size=1 width=370px style="margin-top:15px">
+	    			<div class="intro">
+	    				<p>Ashling Liu同学在必益教育的帮助下，成功获得了英国最古老的寄宿学校之一，国王坎特伯雷院校(King's School Canterbury)的录取通知书。</p>
+						
+	    			</div>
+	    		</div>
+	    	</div>
+	   
+	    
+
+	    </div>
+
+	    <hr color=#777 size=1 width=500px >
+	    <div id="event">
+	    	
+	    	<div id="list">
+				<a target="_blank" href="http://alis.behk.org/eton.aspx" style="text-decoration: none;">
+		    	<div class="eventlist" style="float: left; margin-left: 25px;display: inline-block;">
+		    		<h3>7月 · 伊顿公学专场——给你一个成为威廉王子学弟的机会</h3>
+		    		<p class="address">
+		    			<span>地点：</span>
+		    			<em>北京、成都、深圳、上海</em>
+		    		</p>
+		    		<p class="date">
+		    			<span>日期：</span><em>6月30日-7月5日</em>
+		    		</p>
+		    		<p class="time">
+		    			<span>时间：</span><em>13:30-16:30</em>
+		    		</p>
+		    	</div>
+		    	</a>
+		    	<a target="_blank" href="http://www.behk.org" style="text-decoration: none;">
+		    	<div id="weixin"><p>关注必益教育，早上名校！</p>
+				<img style="" alt="" src="http://www.behk.org/images/weixin.jpg">
+	    	</div>
+	    	</a>
+		    	
+	    	
+	    </div>
+	    </div>
+	    
+	    
+	    <div id="footer" style="float: right;display: inline-block;">
+	    	<div class="footer-logo" >
+        <a href="http://www.behk.org"><img src="http://www.behk.org/images/f-logo.jpg" /></a>
+        </div>
+        <div class="copyMeg">
+           <p>上海必益教育信息咨询有限公司<br/>长寿路1111号 悦达889中心 9楼02A-05室 |&nbsp;电话:400-850-4118</p>
+           <p class="copyright" style="margin-top: 0px;margin-bottom: 20px;"><span>© 2015 BE Education</span>留所有权利&nbsp;&nbsp;沪ICP备12028009号</p>
+        </div>
+     </div>
+  
+
+ 	</div>
+</body>
+</html>

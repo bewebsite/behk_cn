@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TempConfigs>
+  <TempConfig>
+    <Path>F:\2.开发项目\2015\201507\必益教育\Web\</Path>
+    <ServiceName>PC-20141017KXQN</ServiceName>
+    <DatabaseName>201507_BiYi</DatabaseName>
+    <TemplateName>BackstageAddPage(后台添加aspx)</TemplateName>
+    <Prefix>TB_</Prefix>
+  </TempConfig>
+</TempConfigs>

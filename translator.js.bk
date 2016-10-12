@@ -1,0 +1,663 @@
+
+var enStr_list = [];
+var msg_enStr_list = [];
+var is_trans_user = false;
+var is_pro_user = false;
+var english_user_list = '';
+var pro_user_list = '';
+var ignore = [];
+var tag_list = [];
+var cls_list = [];
+var timer = null;
+
+
+function get_dict() {
+	$.ajax({
+		url: "http://www.behk.org/translation.json",
+		dataType: "json",
+		async: false,
+		success: function(data){
+			enStr_list = data;
+		}
+	});
+}
+
+function get_msg_dict() {
+	$.ajax({
+		url: "http://www.behk.org/msg_translation.json",
+		dataType: "json",
+		async: false,
+		success: function(data){
+			msg_enStr_list = data;
+		}
+	});
+}
+
+function init() {
+	$.ajax({
+		url: "http://www.behk.org/shr_user.json",
+		dataType: "json",
+		async: false,
+		success: function(data){
+			// get Pro and Trans user list
+			english_user_list = data[0].pro;
+			pro_user_list = data[0].trans;
+			tag_list = data[0].tag_list;
+			ignore = data[0].ignore;
+			cls_list = data[0].class;
+
+			if(english_user_list.indexOf($("#user_name").text()) >= 0) {
+				is_trans_user = true;
+				get_dict();
+				get_msg_dict();
+			}
+
+	        if (pro_user_list.indexOf($("#user_name").text()) >= 0) {
+	            is_pro_user = true;
+	        }
+
+	        document.body.onmousedown = function(event){
+	        	console.log(cls_list);
+	        	
+	        	var skip_trans = false;
+				if(tag_list.indexOf(event.target.tagName) >= 0) {
+					if(timer != null) window.clearInterval(timer);
+					console.log($(event.target).attr("role"));
+					if(event.target.tagName == "SPAN") {
+						console.log("class: "+event.target.className);
+						var class_list = event.target.className.split(" ");
+						for(var cls in class_list) {
+							console.log('cls:  '+class_list[cls]);
+							if(cls_list.indexOf(class_list[cls]) >= 0) {
+								console.log('skip trans');
+								skip_trans = true;
+								break;
+							}
+						}
+
+					}
+					//window.clearInterval(timer);
+					//defer_translator();
+					console.log('delay trans');
+					//setTimeout("translator()" , 500);
+					if(!skip_trans) defer_translator();
+				}
+				console.log('click' + event.target.tagName);
+			}
+
+
+
+			$(".ui-jqgrid-bdiv").scroll(function(event){
+	        	//console.log(cls_list);
+	        	
+	        	var skip_trans = false;
+				if(tag_list.indexOf(event.target.tagName) >= 0) {
+					if(timer != null) window.clearInterval(timer);
+					//console.log($(event.target).attr("role"));
+					/*if(event.target.tagName == "SPAN") {
+						console.log("class: "+event.target.className);
+						var class_list = event.target.className.split(" ");
+						for(var cls in class_list) {
+							console.log('cls:  '+class_list[cls]);
+							if(cls_list.indexOf(class_list[cls]) >= 0) {
+								console.log('skip trans');
+								skip_trans = true;
+								break;
+							}
+						}
+
+					}*/
+					//window.clearInterval(timer);
+					//defer_translator();
+					console.log('delay trans');
+					//setTimeout("translator()" , 500);
+					if(!skip_trans) defer_translator();
+				}
+				console.log('click' + event.target.tagName);
+			});
+
+
+
+
+			//hide_menu();
+
+			//defer_translator();
+		}
+	});
+}
+
+function translator() {
+	var count = 0;
+	var cnStr_list = [];
+	var iframe_cnStr_list = [];
+	//var iframe_cnStr_list2 = [];
+
+        if (is_trans_user) {
+        	console.log('start to translate.');
+			$("*").each(function(index){
+				if ($(this).clone().children().remove().end().text().trim() != "" && ignore.indexOf($(this).clone().children().remove().end().context.tagName) < 0) {
+					cnStr_list.push({'cn': $(this).clone().children().remove().end().text().trim(), 'index': index});
+					//console.log($(this).clone().children().remove().end().text().trim());
+				}
+			})
+
+			if($("#operationDialog-frame").length>0) {
+
+				document.getElementById("operationDialog-frame").onload=function(){  
+    				var ele = document.getElementById("operationDialog-frame");
+    				//$(ele.contentWindow.document).find("body").onmousedown = function(event){
+					window.frames["operationDialog-frame"].document.body.onclick=function(event){
+			        	console.log(cls_list);
+			        	
+			        	var skip_trans = false;
+						if(tag_list.indexOf(event.target.tagName) >= 0) {
+							if(timer != null) window.clearInterval(timer);
+							console.log($(event.target).attr("role"));
+							if(event.target.tagName == "SPAN") {
+								console.log("class: "+event.target.className);
+								var class_list = event.target.className.split(" ");
+								for(var cls in class_list) {
+									console.log('cls:  '+class_list[cls]);
+									if(cls_list.indexOf(class_list[cls]) >= 0) {
+										console.log('skip trans');
+										skip_trans = true;
+										break;
+									}
+								}
+
+							}
+							//window.clearInterval(timer);
+							//defer_translator();
+							console.log('delay trans');
+							//setTimeout("translator()" , 500);
+							if(!skip_trans) defer_translator();
+						}
+						console.log('click' + event.target.tagName);
+					}
+
+
+
+
+					
+					$(ele.contentWindow.document).find("*").each(function(index2){
+						if ($(this).clone().children().remove().end().text().trim() != "" && ignore.indexOf($(this).clone().children().remove().end().context.tagName) < 0) {
+							iframe_cnStr_list.push({'cn': $(this).clone().children().remove().end().text().trim(), 'index': index2});
+							//console.log($(this).clone().children().remove().end().text().trim());
+						}
+					})
+
+					for (var i in iframe_cnStr_list) {
+						//document.write('Index: ' + cnStr_list[i]['index'] + '; Cn: ' + cnStr_list[i]['cn']);
+						//console.log(iframe_cnStr_list[i]['index']+': '+iframe_cnStr_list[i]['cn']);
+						if(iframe_cnStr_list[i]['cn'].indexOf('\n') >= 0) {
+							
+							var temp_list = [];
+							temp_list = iframe_cnStr_list[i]['cn'].split('\n');
+							var combine_str = '';
+							
+							for(var k in temp_list) {
+								
+								for (var j in enStr_list) {
+									if (temp_list[k].trim() == enStr_list[j]['cn']) {
+										console.log(j+': '+$('*').eq(iframe_cnStr_list[i]['index']).html());
+										$(ele.contentWindow.document).find("*").eq(iframe_cnStr_list[i]['index']).html($(ele.contentWindow.document).find("*").eq(iframe_cnStr_list[i]['index']).html().replace(temp_list[k].trim(), enStr_list[j]['en']));
+										count += 1;
+									}		
+								}
+								combine_str += temp_list[k] + '<br />';
+								console.log('cn: '+temp_list[k]);
+							}
+							//$('*').eq(cnStr_list[i]['index']).html( combine_str);
+							//console.log(cnStr_list[i]['cn']);
+							//console.log(cnStr_list[i]['index']+': '+$('*').eq(cnStr_list[i]['index']).html());
+							//console.log(cnStr_list[i]['index']+': '+combine_str);
+						}
+						else {
+							for (var j in enStr_list) {
+								//console.log('CN::'+cnStr_list[i]['cn']);
+								if (iframe_cnStr_list[i]['cn'] == enStr_list[j]['cn']) {
+								//if (cnStr_list[i]['cn'].indexOf(enStr_list[j]['cn'])>=0) {
+									console.log('match found.'+' : '+iframe_cnStr_list[i]['index']+$(ele.contentWindow.document).find("*").eq(iframe_cnStr_list[i]['index']).html());
+									console.log('i: '+i+' j: '+j);
+									$(ele.contentWindow.document).find("*").eq(iframe_cnStr_list[i]['index']).html($(ele.contentWindow.document).find("*").eq(iframe_cnStr_list[i]['index']).html().replace(iframe_cnStr_list[i]['cn'], enStr_list[j]['en']));
+									count += 1;
+								}		
+							}
+						}
+						//count += 1;
+					}
+
+
+
+				}		
+				
+			}
+
+
+
+			/*if($("#resume-001").length>0) {
+
+				document.getElementById("resume-001").onload=function(){  
+    				var ele = document.getElementById("resume-001");
+    				console.log('resume-001 loaded.');
+    				//$(ele.contentWindow.document).find("body").onmousedown = function(event){
+					window.frames["resume-001"].document.body.onclick=function(event){
+			        	console.log(cls_list);
+			        	
+			        	var skip_trans = false;
+						if(tag_list.indexOf(event.target.tagName) >= 0) {
+							if(timer != null) window.clearInterval(timer);
+							console.log($(event.target).attr("role"));
+							if(event.target.tagName == "SPAN") {
+								console.log("class: "+event.target.className);
+								var class_list = event.target.className.split(" ");
+								for(var cls in class_list) {
+									console.log('cls:  '+class_list[cls]);
+									if(cls_list.indexOf(class_list[cls]) >= 0) {
+										console.log('skip trans');
+										skip_trans = true;
+										break;
+									}
+								}
+
+							}
+							//window.clearInterval(timer);
+							//defer_translator();
+							console.log('delay trans');
+							//setTimeout("translator()" , 500);
+							if(!skip_trans) defer_translator();
+						}
+						console.log('resume-001 click' + event.target.tagName);
+					}
+
+
+
+
+					
+					$(ele.contentWindow.document).find("*").each(function(index2){
+						if ($(this).clone().children().remove().end().text().trim() != "" && ignore.indexOf($(this).clone().children().remove().end().context.tagName) < 0) {
+							iframe_cnStr_list2.push({'cn': $(this).clone().children().remove().end().text().trim(), 'index': index2});
+							//console.log($(this).clone().children().remove().end().text().trim());
+						}
+					})
+
+					for (var i in iframe_cnStr_list2) {
+						//document.write('Index: ' + cnStr_list[i]['index'] + '; Cn: ' + cnStr_list[i]['cn']);
+						//console.log(iframe_cnStr_list[i]['index']+': '+iframe_cnStr_list[i]['cn']);
+						if(iframe_cnStr_list2[i]['cn'].indexOf('\n') >= 0) {
+							
+							var temp_list = [];
+							temp_list = iframe_cnStr_list2[i]['cn'].split('\n');
+							var combine_str = '';
+							
+							for(var k in temp_list) {
+								
+								for (var j in enStr_list) {
+									if (temp_list[k].trim() == enStr_list[j]['cn']) {
+										console.log(j+': '+$('*').eq(iframe_cnStr_list2[i]['index']).html());
+										$(ele.contentWindow.document).find("*").eq(iframe_cnStr_list2[i]['index']).html($(ele.contentWindow.document).find("*").eq(iframe_cnStr_list2[i]['index']).html().replace(temp_list[k].trim(), enStr_list[j]['en']));
+										count += 1;
+									}		
+								}
+								combine_str += temp_list[k] + '<br />';
+								console.log('cn: '+temp_list[k]);
+							}
+							//$('*').eq(cnStr_list[i]['index']).html( combine_str);
+							//console.log(cnStr_list[i]['cn']);
+							//console.log(cnStr_list[i]['index']+': '+$('*').eq(cnStr_list[i]['index']).html());
+							//console.log(cnStr_list[i]['index']+': '+combine_str);
+						}
+						else {
+							for (var j in enStr_list) {
+								//console.log('CN::'+cnStr_list[i]['cn']);
+								if (iframe_cnStr_list2[i]['cn'] == enStr_list[j]['cn']) {
+								//if (cnStr_list[i]['cn'].indexOf(enStr_list[j]['cn'])>=0) {
+									console.log('match found.'+' : '+iframe_cnStr_list2[i]['index']+$(ele.contentWindow.document).find("*").eq(iframe_cnStr_list2[i]['index']).html());
+									console.log('i: '+i+' j: '+j);
+									$(ele.contentWindow.document).find("*").eq(iframe_cnStr_list2[i]['index']).html($(ele.contentWindow.document).find("*").eq(iframe_cnStr_list2[i]['index']).html().replace(iframe_cnStr_list2[i]['cn'], enStr_list[j]['en']));
+									count += 1;
+								}		
+							}
+						}
+						//count += 1;
+					}
+
+
+
+				}		
+				
+			}*/
+
+
+
+			if($("#resume-002").length>0) {
+
+				document.getElementById("resume-002").onload=function(){  
+    				var ele = document.getElementById("resume-002");
+    				//$(ele.contentWindow.document).find("body").onmousedown = function(event){
+					window.frames["resume-002"].document.body.onclick=function(event){
+			        	console.log(cls_list);
+			        	
+			        	var skip_trans = false;
+						if(tag_list.indexOf(event.target.tagName) >= 0) {
+							if(timer != null) window.clearInterval(timer);
+							console.log($(event.target).attr("role"));
+							if(event.target.tagName == "SPAN") {
+								console.log("class: "+event.target.className);
+								var class_list = event.target.className.split(" ");
+								for(var cls in class_list) {
+									console.log('cls:  '+class_list[cls]);
+									if(cls_list.indexOf(class_list[cls]) >= 0) {
+										console.log('skip trans');
+										skip_trans = true;
+										break;
+									}
+								}
+
+							}
+							//window.clearInterval(timer);
+							//defer_translator();
+							console.log('delay trans');
+							//setTimeout("translator()" , 500);
+							if(!skip_trans) defer_translator();
+						}
+						console.log('click' + event.target.tagName);
+					}
+
+
+
+
+					
+					$(ele.contentWindow.document).find("*").each(function(index2){
+						if ($(this).clone().children().remove().end().text().trim() != "" && ignore.indexOf($(this).clone().children().remove().end().context.tagName) < 0) {
+							iframe_cnStr_list.push({'cn': $(this).clone().children().remove().end().text().trim(), 'index': index2});
+							//console.log($(this).clone().children().remove().end().text().trim());
+						}
+					})
+
+					for (var i in iframe_cnStr_list) {
+						//document.write('Index: ' + cnStr_list[i]['index'] + '; Cn: ' + cnStr_list[i]['cn']);
+						//console.log(iframe_cnStr_list[i]['index']+': '+iframe_cnStr_list[i]['cn']);
+						if(iframe_cnStr_list[i]['cn'].indexOf('\n') >= 0) {
+							
+							var temp_list = [];
+							temp_list = iframe_cnStr_list[i]['cn'].split('\n');
+							var combine_str = '';
+							
+							for(var k in temp_list) {
+								
+								for (var j in enStr_list) {
+									if (temp_list[k].trim() == enStr_list[j]['cn']) {
+										console.log(j+': '+$('*').eq(iframe_cnStr_list[i]['index']).html());
+										$(ele.contentWindow.document).find("*").eq(iframe_cnStr_list[i]['index']).html($(ele.contentWindow.document).find("*").eq(iframe_cnStr_list[i]['index']).html().replace(temp_list[k].trim(), enStr_list[j]['en']));
+										count += 1;
+									}		
+								}
+								combine_str += temp_list[k] + '<br />';
+								console.log('cn: '+temp_list[k]);
+							}
+							//$('*').eq(cnStr_list[i]['index']).html( combine_str);
+							//console.log(cnStr_list[i]['cn']);
+							//console.log(cnStr_list[i]['index']+': '+$('*').eq(cnStr_list[i]['index']).html());
+							//console.log(cnStr_list[i]['index']+': '+combine_str);
+						}
+						else {
+							for (var j in enStr_list) {
+								//console.log('CN::'+cnStr_list[i]['cn']);
+								if (iframe_cnStr_list[i]['cn'] == enStr_list[j]['cn']) {
+								//if (cnStr_list[i]['cn'].indexOf(enStr_list[j]['cn'])>=0) {
+									console.log('match found.'+' : '+iframe_cnStr_list[i]['index']+$(ele.contentWindow.document).find("*").eq(iframe_cnStr_list[i]['index']).html());
+									console.log('i: '+i+' j: '+j);
+									$(ele.contentWindow.document).find("*").eq(iframe_cnStr_list[i]['index']).html($(ele.contentWindow.document).find("*").eq(iframe_cnStr_list[i]['index']).html().replace(iframe_cnStr_list[i]['cn'], enStr_list[j]['en']));
+									count += 1;
+								}		
+							}
+						}
+						//count += 1;
+					}
+
+
+
+				}		
+				
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			for (var i in cnStr_list) {
+				//document.write('Index: ' + cnStr_list[i]['index'] + '; Cn: ' + cnStr_list[i]['cn']);
+				//console.log(cnStr_list[i]['index']+': '+cnStr_list[i]['cn']);
+				if(cnStr_list[i]['cn'].indexOf('\n') >= 0) {
+					
+					var temp_list = [];
+					temp_list = cnStr_list[i]['cn'].split('\n');
+					var combine_str = '';
+					
+					for(var k in temp_list) {
+						
+						for (var j in enStr_list) {
+							if (temp_list[k].trim() == enStr_list[j]['cn']) {
+								console.log(j+': '+$('*').eq(cnStr_list[i]['index']).html());
+								$('*').eq(cnStr_list[i]['index']).html($('*').eq(cnStr_list[i]['index']).html().replace(temp_list[k].trim(), enStr_list[j]['en']));
+								count += 1;
+							}		
+						}
+						combine_str += temp_list[k] + '<br />';
+						console.log('cn: '+temp_list[k]);
+					}
+					//$('*').eq(cnStr_list[i]['index']).html( combine_str);
+					//console.log(cnStr_list[i]['cn']);
+					//console.log(cnStr_list[i]['index']+': '+$('*').eq(cnStr_list[i]['index']).html());
+					//console.log(cnStr_list[i]['index']+': '+combine_str);
+				}
+				else {
+					for (var j in enStr_list) {
+						//console.log('CN::'+cnStr_list[i]['cn']);
+						if (cnStr_list[i]['cn'] == enStr_list[j]['cn']) {
+						//if (cnStr_list[i]['cn'].indexOf(enStr_list[j]['cn'])>=0) {
+							console.log('match found.');
+
+							if(cnStr_list[i]['cn'] == "启用" && $('*').eq(cnStr_list[i]['index'])[0].tagName == "BUTTON") {
+								$('*').eq(cnStr_list[i]['index']).html($('*').eq(cnStr_list[i]['index']).html().replace(cnStr_list[i]['cn'], "Activate"));
+							}
+
+							else {
+								$('*').eq(cnStr_list[i]['index']).html($('*').eq(cnStr_list[i]['index']).html().replace(cnStr_list[i]['cn'], enStr_list[j]['en']));
+							}
+
+							
+							count += 1;
+						}		
+					}
+				}
+				//count += 1;
+			}
+
+
+			
+
+
+
+    
+        }
+		return count;
+}
+
+function hide_menu() {
+    if(is_pro_user == false) {
+        $(".s-icon-org").hide();
+        $(".s-icon-emp").hide();
+        $(".s-icon-comp").hide();
+        $(".s-icon-holidayManage").hide();
+        $(".s-icon-atsManager").hide();
+        $(".s-icon-recruitment").hide();
+        $(".s-icon-train").hide();
+        $(".s-icon-perf").hide();
+        $(".s-icon-report").hide();
+        $(".s-icon-setting").hide();
+    }
+}
+
+function defer_translator() {
+
+
+	timer = setInterval(function(){
+		console.log('interval running...'+time_out);
+		if (time_out >= 2 || translator() > 0) {
+			console.log(time_out);
+			window.clearInterval(timer);
+			//timer = undefined;
+			//$('.ui-jqgrid').eq(0).bind('DOMSubtreeModified', function(){
+			//	$(this).unbind('DOMSubtreeModified');
+				//e.stopPropagation();
+				//defer_translator();
+			//});
+		}
+		else {
+			console.log('running translator()');
+			translator();
+		}
+		time_out += 1;
+	}, 500);
+
+
+	var time_out = 0;
+	
+}
+
+
+function msg_translator(msg) {
+
+
+	for (var i in msg_enStr_list) {
+		//if (msg.indexOf(msgStr_list[i]['cn']) >= 0) {
+		if (msg == msg_enStr_list[i]['cn']) {
+			msg = msg_enStr_list[i]['en'];
+		}
+	}
+
+	return msg;
+}
+
+$(window).load(function(){ 
+
+	//init();
+
+	//translator();
+	//defer_translator();
+
+
+
+
+
+var iframe_cnStr_list2 = [];
+if($("#resume-001").length>0) {
+
+				document.getElementById("resume-001").onload=function(){  
+    				var ele = document.getElementById("resume-001");
+    				console.log('resume-001 loaded.');
+    				//$(ele.contentWindow.document).find("body").onmousedown = function(event){
+					window.frames["resume-001"].document.body.onclick=function(event){
+			        	console.log(cls_list);
+			        	
+			        	var skip_trans = false;
+						if(tag_list.indexOf(event.target.tagName) >= 0) {
+							if(timer != null) window.clearInterval(timer);
+							console.log($(event.target).attr("role"));
+							if(event.target.tagName == "SPAN") {
+								console.log("class: "+event.target.className);
+								var class_list = event.target.className.split(" ");
+								for(var cls in class_list) {
+									console.log('cls:  '+class_list[cls]);
+									if(cls_list.indexOf(class_list[cls]) >= 0) {
+										console.log('skip trans');
+										skip_trans = true;
+										break;
+									}
+								}
+
+							}
+							//window.clearInterval(timer);
+							//defer_translator();
+							console.log('delay trans');
+							//setTimeout("translator()" , 500);
+							if(!skip_trans) defer_translator();
+						}
+						console.log('resume-001 click' + event.target.tagName);
+					}
+
+
+
+
+					
+					$(ele.contentWindow.document).find("*").each(function(index2){
+						if ($(this).clone().children().remove().end().text().trim() != "" && ignore.indexOf($(this).clone().children().remove().end().context.tagName) < 0) {
+							iframe_cnStr_list2.push({'cn': $(this).clone().children().remove().end().text().trim(), 'index': index2});
+							//console.log($(this).clone().children().remove().end().text().trim());
+						}
+					})
+
+					for (var i in iframe_cnStr_list2) {
+						//document.write('Index: ' + cnStr_list[i]['index'] + '; Cn: ' + cnStr_list[i]['cn']);
+						//console.log(iframe_cnStr_list[i]['index']+': '+iframe_cnStr_list[i]['cn']);
+						if(iframe_cnStr_list2[i]['cn'].indexOf('\n') >= 0) {
+							
+							var temp_list = [];
+							temp_list = iframe_cnStr_list2[i]['cn'].split('\n');
+							var combine_str = '';
+							
+							for(var k in temp_list) {
+								
+								for (var j in enStr_list) {
+									if (temp_list[k].trim() == enStr_list[j]['cn']) {
+										console.log(j+': '+$('*').eq(iframe_cnStr_list2[i]['index']).html());
+										$(ele.contentWindow.document).find("*").eq(iframe_cnStr_list2[i]['index']).html($(ele.contentWindow.document).find("*").eq(iframe_cnStr_list2[i]['index']).html().replace(temp_list[k].trim(), enStr_list[j]['en']));
+										count += 1;
+									}		
+								}
+								combine_str += temp_list[k] + '<br />';
+								console.log('cn: '+temp_list[k]);
+							}
+							//$('*').eq(cnStr_list[i]['index']).html( combine_str);
+							//console.log(cnStr_list[i]['cn']);
+							//console.log(cnStr_list[i]['index']+': '+$('*').eq(cnStr_list[i]['index']).html());
+							//console.log(cnStr_list[i]['index']+': '+combine_str);
+						}
+						else {
+							for (var j in enStr_list) {
+								//console.log('CN::'+cnStr_list[i]['cn']);
+								if (iframe_cnStr_list2[i]['cn'] == enStr_list[j]['cn']) {
+								//if (cnStr_list[i]['cn'].indexOf(enStr_list[j]['cn'])>=0) {
+									console.log('match found.'+' : '+iframe_cnStr_list2[i]['index']+$(ele.contentWindow.document).find("*").eq(iframe_cnStr_list2[i]['index']).html());
+									console.log('i: '+i+' j: '+j);
+									$(ele.contentWindow.document).find("*").eq(iframe_cnStr_list2[i]['index']).html($(ele.contentWindow.document).find("*").eq(iframe_cnStr_list2[i]['index']).html().replace(iframe_cnStr_list2[i]['cn'], enStr_list[j]['en']));
+									////count += 1;
+								}		
+							}
+						}
+						//count += 1;
+					}
+
+
+
+				}		
+				
+			}
+
+
+
+
+
+
+});

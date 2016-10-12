@@ -1,0 +1,251 @@
+
+
+.wrap{ background:#ecedef; }
+.wrapMain{ margin:0 auto; width:1180px;}
+
+
+.conLeft{ float:left; width:880px;}
+.conRight{ float:right; width:280px; padding-bottom:20px;}
+.conRight .ad{ position:relative; height:135px; width:280px; overflow:hidden;}
+.conRight .ad img{ position:absolute; left:0;top:0;}
+
+.conRight .news,
+.conRight .maps{margin-top:20px; border-top:2px solid #141f3f; background:#fff; font-size:14px; color:#666666;}
+.conRight .news .adds,
+.conRight .maps .adds{ padding:10px; font-size:18px; color:#2a3b6e;}
+.conRight .maps .con{ margin:0 10px 10px;}
+.conRight .maps .list{ margin:0 10px;}
+.conRight .maps .list dl{ border-bottom:1px dotted #b9c3da; padding:10px 0;}
+.conRight .maps .list dt{ float:left;}
+.conRight .maps .list dd{padding-left:25px;}
+.conRight .maps .list dd .tit{ color:#697792; margin-bottom:10px;}
+.conRight .maps .list dd .txt{ color:#666666;}
+.conRight .maps .bom{ padding:10px; line-height:24px;}
+.conRight .maps .bom span,
+.conRight .maps .bom a{ color:#697792;}
+.conRight .maps .bom a:hover{ text-decoration:underline;}
+
+.conRight .news .con{ margin:0 10px 10px;}
+.conRight .news .con .tit{ color:#697792; padding:10px 0; display:block; font-size:16px;}
+.conRight .news .con .text{ color:#969090;}
+.conRight .news .con .text a{ color:#697792;}
+.conRight .news .con a:hover{ text-decoration:underline;}
+.conRight .news .list { margin:0 10px;}
+.conRight .news .list li{border-top:1px dashed #cacacb;}
+.conRight .news .list li a{ padding:10px 0; color:#666666; display:block; background:url(../schools/images/icon-d.png) no-repeat 0 18px; padding-left:10px;} 
+.conRight .news .list li a:hover{ text-decoration:underline;}
+
+.block{ margin-bottom:20px; font-size:14px; color:#666666;}
+.block1{ background:#fff; padding:20px;}
+.block1 dl dt{ float:left;margin-right:30px;}
+.block1 dl dd{ float:left;}
+.block1 dl dd.concern{ float:right;}
+.block1 dl dd.name{ color:#959393;padding-top:8px;}
+.block1 dl dd.name h1{ font-size:36px; color:#334169; line-height:40px;}
+.block1 dl dd.name .en{ line-height:24px;}
+.block1 dl dd.name .url a{ color:#959393;}
+.block1 dl dd.name .url a:hover{ text-decoration:underline;}
+.block1 dl dd.concern{ text-align:right;}
+.block1 dl dd.concern a{ height:34px; padding:0 15px; background:#a61c4b; display:inline-block; line-height:34px; text-align:center;}
+.block1 dl dd.concern a img{ margin-right:14px;}
+.block1 dl dd.concern a:hover{ background:#991643;}
+.block1 dl dd.concern p{ color:#666;padding-top:4px;}
+.block1 dl dd.concern p em{ color:#697792;}
+.block1 .text{margin-top:15px; background:#f2f5f7; border:1px solid #e1e7eb; padding:16px; color:#334169; line-height:21px; text-align:justify;}
+.block1 .contact { text-align:right;margin-top:15px;}
+.block1 .contact span{ color:#959393;margin-right:10px;}
+.block1 .contact span em{ color:#53628c;}
+.block1 .contact a{ height:34px; padding:0 15px; background:#334169; display:inline-block; line-height:34px; text-align:center;}
+.block1 .contact a img{ vertical-align:middle; margin:0 10px 3px 0;}
+.block1 .contact a:hover{ background:#2a385e;}
+
+.block2{ padding:20px; background:#fff;}
+/* tFocus */
+#tFocus{width:840px;overflow:hidden;margin:0 auto;}
+#tFocus-pic{width:840px;height:360px;position:relative;}
+#tFocus-pic li{width:338px;height:243px;position:absolute;left:0;top:0;filter:alpha(opacity:0);opacity:0;}
+#tFocusBtn{width:840px;height:86px;z-index:20;overflow:hidden; position:relative;margin-top:10px;}
+#tFocus-btn{width:764px;height:86px;position:relative;overflow:hidden;margin:0 auto;}
+#tFocus-btn ul{width:100000px;position:absolute;left:0;top:0;}
+#tFocus-btn li{height:80px;width:188px;display:block;float:left;margin-right:4px; cursor:pointer; overflow:hidden;}
+#tFocus-btn li.active{background-position:-448px -100px;}
+#tFocus-btn li.active img{border:3px solid #859cc6;width:180px; height:74px;}
+#tFocus-leftbtn,
+#tFocus-rightbtn{width:30px;height:80px;position:absolute;top:0;text-indent:-9999px;}
+#tFocus-leftbtn{ left:0; background:url(../schools/images/btn-left.png) no-repeat 50% 50% #bfc3cb;}
+#tFocus-rightbtn{ right:0; background:url(../schools/images/btn-right.png) no-repeat 50% 50% #bfc3cb;}
+#tFocus-leftbtn:hover,
+#tFocus-rightbtn:hover{ background-color:#859cc6;}
+#tFocus-leftbtn:active,
+#tFocus-rightbtn:active{ background-color:#748cb7;}
+
+.block3 { background:#334169; padding:20px;}
+.block3 .left{ float:left; width:110px; text-align:center; margin-left:10px;}
+.block3 .bor{border-top:1px solid #99a0b4; display:inline-block; height:0px; width:30px;}
+.block3 .left p{ color:#ffffff; font-size:18px; line-height:24px; padding:10px 0;}
+.block3 .right{ float:right; width:660px; border-radius:10px; padding:20px; background:#fff;  color:#666666; line-height:20px; position:relative;}
+.block3 .right:before{     width: 0;
+                           content:"\20";
+    height: 0;
+    border-top: 30px solid transparent;
+    border-right: 22px solid #fff;
+    border-bottom: 30px solid transparent;
+     position:absolute; left:-10px;top:40px;
+    }
+.block3 .right h3{ font-size:16px; color:#334169; margin-bottom:10px;}
+.block3 .right .text1{border-bottom:1px dashed #99a7cf;padding-bottom:20px;margin-bottom:20px;}
+
+.block4{ position:relative; background:#fff;}
+.block4 .tit{ background:#96a1c2; padding:0 20px; height:46px; line-height:46px; color:#fff; font-size:18px;}
+.block4 .tit img{margin-right:10px;}
+.block4 .img{ position:absolute; left:20px;top:66px;}
+.block4 .top{ background:#fff; color:#959393; padding:20px 20px 15px 0; margin:0 20px 0 170px; border-bottom:1px dashed #c8cdd7;}
+.block4 .top h3{ font-weight:700; font-size:20px; color:#53628c;}
+.block4 .bom{padding:15px 20px 20px 170px; color:#666666;}
+.block4 .bom .t{ float:left; color:#4d5d7e;}
+.block4 .bom .clearfix{ margin-bottom:6px;}
+.block4 .bom .text{ padding-left:45px;}
+
+.block5 li{ float:left; background:#53628c; margin:0 11px 11px 0; width:286px; height:106px; color:#fff;}
+.block5 li.noma { margin:0;}
+.block5 li span{ float:left;padding:26px 10px 0 30px; width:110px; text-align:center;}
+.block5 li div{padding-top:26px;}
+.block5 li div h3{ font-size:24px; font-weight:700;}
+.block5 li div h3 em{ font-size:14px; font-weight:400;}
+.block5 li:hover{ background:#334169;}
+
+.block6{ border:1px solid #cccccc; background:#fff;}
+.block6 .td{ padding:15px;}
+.block6 span{color:#697792;}
+
+.block7 { background:#fff;}
+.block7 .title{ height:48px;color:#fff; background:#334169 url(../schools/images/icon-List.png) 20px 50% no-repeat; padding-left:54px; line-height:48px; font-size:18px;}
+.block7 .con {padding:20px 0 20px 0;}
+.block7 .con dl{padding:20px; margin:0 20px;}
+.block7 .con dt{  font-size:16px;color:#334169;  float:left; width:80px;}
+.block7 .con dd{padding-left:84px; line-height:21px; }
+.block7 .con dl.odd{ background:#f5f7fa;}
+
+
+
+.block8 .con {padding:20px 0; background:#fff; display:none;}
+.block8 .con dl{padding:20px; margin:0 20px;}
+.block8 .con dt{  font-size:16px;color:#334169;  float:left; width:80px;}
+.block8 .con dd{padding-left:84px; line-height:21px; }
+.block8 .con dl.odd{ background:#f5f7fa;}
+.block8 .title span{ font-size:18px; cursor:pointer; float:left; height:48px; line-height:48px; background:#96a1c2; color:#fff; width:160px; text-align:center;}
+.block8 .title span.cur{border-top:2px solid #96a1c2; background:#fff; height:46px; line-height:46px; color:#4d5d7e;}
+
+.block9{ background:#455b81 url(../schools/images/icon-z.png) right bottom no-repeat; padding:20px; color:#e8ecf2}
+.block9 .top{border-bottom:1px solid #6a7c9a; padding-bottom:15px; margin-bottom:15px; font-size:18px;}
+.block9 .top img{margin-right:10px; vertical-align:middle; margin-bottom:3px;}
+.block9 .bom .img{ float:left; }
+.block9 .bom .img a{ display:block;}
+.block9 .bom .right{ float:right; width:600px;}
+.block9 .bom .right h3 a{ font-size:20px; line-height:24px; color:#fff;}
+.block9 .bom .right h3 a:hover{ text-decoration:underline;}
+.block9 .bom .right i{display:inline-block; width:24px; text-align:center;}
+.block9 .list1{ padding:5px 10px;margin-top:10px; background:#677398; }
+.block9 .list1 .r{margin-left:30px;}
+.block9 .list2{padding:15px 10px 0;}
+.block9 .list3{padding:5px 10px 0;}
+.block9 .list3 .txt{ padding:5px 0 0 24px;}
+.block9 .list4{padding:15px 0 0 34px;}
+.block9 .list4 a{ background:#cf102d; height:32px; line-height:32px; padding:0 20px; display:inline-block;}
+.block9 .list4 a:hover{ background:#c40c28;}
+
+.block10,
+.block12,
+.block13,
+.block11{ background:#fff; padding:20px;}
+.block10 .top,
+.block12 .top,
+.block13 .top,
+.block11 .top{ color:#4a5b7c; position:relative; height:32px; border-bottom:1px solid #cccccc;}
+.block10 .top span,
+.block12 .top span,
+.block13 .top span,
+.block11 .top span{ position:absolute; left:0;top:0; font-size:18px; border-bottom:2px solid #4e638c; height:31px;}
+.block10 .item{ position:relative; padding:20px 0;border-bottom:1px dashed #cacacb;}
+.block10 .item:last-child{border:0;}
+.block10 .item dt{ float:left; width:82px; height:82px; border-radius:100%; overflow:hidden;}
+.block10 .item dd{ padding: 0 0 0 112px;}
+.block10 .item dd h3{ color:#697792; font-size:16px;}
+.block10 .item dd h3 em{ margin:0 10px; color:#d6d9e1; }
+.block10 .item dd p.name{ color:#959393;}
+.block10 .item dd .text{ position:relative; padding:20px;margin-top:10px; line-height:24px;}
+.block10 .item dd .text .l{ position:absolute; left:0;top:0; width:19px; height:16px; background:url(../schools/images/y1.png) no-repeat;}
+.block10 .item dd .text .r{ position:absolute; right:0;bottom:0;width:18px; height:16px; background:url(../schools/images/y2.png) no-repeat;}
+
+.block11 .tj { background:#96a1c2; margin:20px 0;}
+.block11 .tj dt{ float:left;}
+.block11 .tj dd{padding:10px 20px 10px 110px; color:#fff;}
+.block11 .tj dd h3,
+.block11 .tj dd .txt{ font-size:16px;}
+.block11 .tj dd .name,
+.block11 .tj dd .tit{ color:#e2e2e2}
+.block11 .tj dd .tit{margin-top:10px;}
+.block11 .con {}
+.block11 .con dl{padding:10px 0;border-bottom:1px dashed #cacacb;}
+.block11 .con dt{ background:url(../schools/images/icon-d.png) 6px 50% no-repeat; padding-left:20px;}
+.block11 .con dd{padding-left:20px; line-height:21px; margin-top:6px;}
+.block11 .title span{ font-size:18px; cursor:pointer; float:left; height:48px; line-height:48px; background:#334169; color:#fff; width:160px; text-align:center;}
+.block11 .title span.cur{border-top:2px solid #334169; background:#fff; height:46px; line-height:46px; color:#334169;}
+.block11 .else{ background:#ebeef7; height:38px; padding:0 10px; line-height:38px; font-size:16px; color:#4d5d7e;}
+
+.block12 .tist{ color:#999999; padding:10px 0;}
+.block12 .elAud { padding:20px 0;}
+.block12 .elAud .l{ float:left;}
+.block12 .elAud .r{ float:right;}
+.block12 .elAud .item{ padding-left:100px; position:relative; margin:0 0 10px 0;}
+.block12 .elAud .even{padding-left:130px;}
+.block12 .elAud em{ color:#ee8187; margin-right:3px;}
+.block12 .elAud .item span{ position:absolute; width:86px; text-align:right; left:0;top:0; height:28px; line-height:28px; font-size:14px; color:#4d5d7e;}
+.block12 .elAud .even span{ position:absolute; width:120px; text-align:right; left:0;top:0; height:28px; line-height:28px;}
+.block12 .elAud .item input[type="text"]{ width:220px; height:28px; line-height:28px\9; padding:0 10px; border-radius:2px; border:1px solid #ccc;}
+.block12 .elAud .item select{ padding:0 10px;}
+.block12 .elAud .btn{ float:left;}
+.block12 .elAud .btn a{ background:#a61c4b; margin-left:130px; color:#fff; height:40px; line-height:40px; padding:0 20px; display:inline-block; font-size:14px;}
+.block12 .elAud .btn a:hover{ background:#991642;}
+.block12 .elAud .btn a:active{ background:#8f113c;}
+.block12 .elAud textarea{width:320px; height:48px; line-height:28px\9; padding:10px; border-radius:2px; border:1px solid #ccc; font-size:14px;}
+.block12 .tips2{ color:#4e638c; background:#f2f5f7; border:1px solid #d5dbdf; padding:10px 20px;}
+
+.block13 .list{ overflow:hidden; width:840px;}
+.block13 .list ul{ width:900px; padding:20px 0 0;}
+.block13 .list li{ float:left; width:260px; position:relative;margin:0 30px 0 0; height:180px;}
+.block13 .list li a{ display:block;}
+.block13 .list li a span{ color:#5f5f5f; display:block; text-align:center; line-height:30px;}
+.block13 .list li .img{ position:relative; width:260px; height:140px;}
+.block13 .list li .img .popVideo{ position:absolute; left:0;top:0; width:100%; height:100%; }
+.block13 .list li .img .popVideo .i{ width:80px; height:80px; position:absolute; left:50%; top:50%; margin:-40px 0 0 -40px; background:url(../schools/images/btn.png) left bottom no-repeat;}
+
+.block13 .list li a:hover .img .popVideo{  background:url(../schools/images/fil-bg.png);}
+.block13 .list li a:hover .img .popVideo .i{ background-position:left top;}
+.block13 .list li a:hover span{ color:#334169;}
+
+
+.popWrapLg{display:none;  background:url(../schools/images/fil-bg3.png); position:fixed; width:100%; height:100%; left:0;top:0; z-index:100;}
+.popBor{ background:url(../schools/images/fil-bg2.png); width:880px;padding:15px; position:fixed; left:50%;top:50%; margin:-235px 0 0 -455px;}
+.popWrap{ background:#fff; padding:20px;}
+.popWrap .top{ color:#4a5b7c; position:relative; height:32px; border-bottom:1px solid #cccccc;}
+.popWrap .top .close{ width:24px; height:24px; position:absolute; right:0;top:0; background:url(../schools/images/close.png) no-repeat 50% 50%; background-color:#eee;}
+.popWrap .top .close:hover{ background-color:#ddd;}
+.popWrap .top span{ position:absolute; left:0;top:0; font-size:18px; border-bottom:2px solid #4e638c; height:31px;}
+.popWrap .tist{ color:#999999; padding:10px 0;}
+.popWrap .elAud { padding:20px 0;}
+.popWrap .elAud .l{ float:left;}
+.popWrap .elAud .r{ float:right;}
+.popWrap .elAud .item{ padding-left:100px; position:relative; margin:0 0 10px 0;}
+.popWrap .elAud .even{padding-left:130px;}
+.popWrap .elAud em{ color:#ee8187; margin-right:3px;}
+.popWrap .elAud .item span{ position:absolute; width:86px; text-align:right; left:0;top:0; height:28px; line-height:28px; font-size:14px; color:#4d5d7e;}
+.popWrap .elAud .even span{ position:absolute; width:120px; text-align:right; left:0;top:0; height:28px; line-height:28px;}
+.popWrap .elAud .item input[type="text"]{ width:220px; height:28px; line-height:28px\9; padding:0 10px; border-radius:2px; border:1px solid #ccc;}
+.popWrap .elAud .item select{ padding:0 10px;}
+.popWrap .elAud .btn{ float:left;}
+.popWrap .elAud .btn a{ background:#a61c4b; margin-left:130px; color:#fff; height:40px; line-height:40px; padding:0 20px; display:inline-block; font-size:14px;}
+.popWrap .elAud .btn a:hover{ background:#991642;}
+.popWrap .elAud .btn a:active{ background:#8f113c;}
+.popWrap .elAud textarea{width:320px; height:48px; line-height:28px\9; padding:10px; border-radius:2px; border:1px solid #ccc; font-size:14px;}
+.popWrap .tips2{ color:#4e638c; background:#f2f5f7; border:1px solid #d5dbdf; padding:10px 20px;}

@@ -1,0 +1,267 @@
+﻿[
+    {
+        "cn": "本月您已提交",
+        "en": "You have submitted"
+    },
+    {
+        "cn": "上一次的请假时间为",
+        "en": "Last leave time："
+    },
+    {
+        "cn": "剩余可选职员数",
+        "en": "Remaining employees"
+    },
+    {
+        "cn": "本次选择职员数",
+        "en": "Selected employees"
+    },
+
+    {
+        "cn": "请假申请",
+        "en": "leave application"
+    }, 
+   {
+        "cn": "温馨提示",
+        "en": "Tips"
+    },     
+    {
+        "cn": "剩余",
+        "en": "Remaining"
+    },  
+    {
+        "cn": "在途",
+        "en": "Frozen"
+    },   
+    {
+        "cn": "加班",
+        "en": "OT "
+    },
+    {
+        "cn": "请假",
+        "en": "Leave "
+    },
+    {
+        "cn": "出差",
+        "en": "Biz trip "
+    },
+    {
+        "cn": "补签",
+        "en": "Punch "
+    },
+    {
+        "cn": "迟到",
+        "en": "Late "
+    },
+    {
+        "cn": "早退",
+        "en": "LE "
+    },
+    {
+        "cn": "旷工",
+        "en": "Abs. "
+    },
+    {
+        "cn": "小时",
+        "en": " Hour"
+    },
+    {
+        "cn": "共",
+        "en": "Total"
+    },
+    {
+        "cn": "天",
+        "en": " Day"
+    },
+    {
+        "cn": "次",
+        "en": " Times"
+    },
+    {
+        "cn": "请假单",
+        "en": "Leave Request"
+    },
+    {
+        "cn": "加班单",
+        "en": "OT Request"
+    },
+    {
+        "cn": "全部",
+        "en": "All"
+    },
+    {
+        "cn": "销假单",
+        "en": "Leave Clearance Request"
+    },
+    {
+        "cn": "出差单",
+        "en": "Business Trip Request"
+    },
+   {
+        "cn": "您的帐号",
+        "en": "Your account "
+    },
+   {
+        "cn": "已被",
+        "en": " has been kicked out by "
+    },
+    { 
+        "cn": "踢出！",
+        "en": "! "
+    },
+    {
+        "cn": "于",
+        "en": " at "
+    },
+    {
+        "cn": "今天",
+        "en": "Today"
+    },
+    {
+        "cn": "周期开始日期小于等于",
+        "en": "Cycle start date is not later than "
+    },
+    {
+        "cn": "延期日期大于等于",
+        "en": "Extension date is not earlier than "
+    },
+    {
+        "cn": "申请日期大于等于",
+        "en": "Application date is later than "
+    },
+    {
+        "cn": "仅显示主要任职",
+        "en": "Display main position only"
+    },
+    {
+        "cn": "页",
+        "en": "Page(s)"
+    },
+    {
+        "cn": "3. 使用场景：",
+        "en": "3. Scenario："
+    },
+    {
+        "cn": "&nbsp;&nbsp;若系统初次使用时,先通过系统生成额度，再批量导入用户之前已审核通过的请假单,然后再通过初始化导入更新剩余额度和实际额度；",
+        "en": "If this is the first time to use this module, please generate quota by system first, then batch import the audited leave requests, after that you can update the actual quota and balance by initialize import."
+    },
+    {
+        "cn": "&nbsp;&nbsp;导入当前额度的剩余额度,系统自动计算出额度的实际值;",
+        "en": "Just need to import the quota balance, system can auto-calculate the actual quota."
+    },
+    {
+        "cn": "&nbsp;&nbsp;导入后: 实际额度 = 剩余额度 + 已用额度;",
+        "en": "After import: actual quota= quota balance + used quota."
+    },
+   {
+        "cn": "&nbsp;&nbsp;若员工该假期类型对应的假期额度已生成,且是最新的周期,可以通过修改导入",
+        "en": "If there already have quota records of this leave type in the latest cycle , modify import can "
+    },
+   {
+        "cn": "&nbsp;&nbsp;批量修改增减额度和延期日期;",
+        "en": "be use to batch update the quota adjustment and extension date."
+    },
+  {
+        "cn": " &nbsp;&nbsp;导入后: 实际额度  = 标准额度  + 增减额度",
+        "en": "After import: actual quota= standard quota + quota adjustment."
+    },
+   {
+        "cn": " &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;剩余额度 = 实际额度 - 已用额度 - 冻结额度 - 上期透支额度;",
+        "en": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quota balance= actual quota - used quota -frozen quota - exceed quota in last period."
+    },
+  {
+        "cn": " &nbsp;&nbsp;若员工该假期类型导入周期内没有生成过假期额度,可以通过新增导入来生成;",
+        "en": "If there is no quota record of this leave type in the import cycle, newly import can be used to generate quota."
+    },
+  {
+        "cn": " &nbsp;&nbsp;新增导入的额度项目有标准额度,增减额度,已用额度和上期透支额度;",
+        "en": "Newly import items include standard quota, quota adjustment, used quota, and exceed quota in last period."
+    },
+   {
+        "cn": " &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;剩余额度 = 实际额度 - 已用额度 - 上期透支额度;",
+        "en": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quota balance =actual quota - used quota - exceed quota in last period."
+    },
+  {
+        "cn": "假期类型不能为空！",
+        "en": "Leave type can't be empty!"
+    },
+    {
+        "cn": "您没有勾选周期选择！",
+        "en": "Please select specific cycle to extend!"
+    },
+    {
+        "cn": "您没有选择员工范围！",
+        "en": "Please select employee scope to extend!"
+    },
+    {
+        "cn": "您没有选择延期方式！",
+        "en": "Please choose extension type!"
+    },
+    {
+        "cn": "本月已申请 ",
+        "en": "Left "
+    },
+   {
+        "cn": " 次，最后一次为 ",
+        "en": " times, last "
+    },
+   {
+        "cn": "总额度：",
+        "en": "Total: "
+    },
+   {
+        "cn": ",剩余额度：",
+        "en": " ,Remaining: "
+    },
+   {
+        "cn": "校验通过。",
+        "en": "Verification passed!"
+    },
+   {
+        "cn":  "操作中",
+        "en": "Inprocess..."
+    },
+    {
+        "cn": "进行中(默认)",
+        "en": "In Progress(default)"
+    },
+    {
+        "cn": "待筛选(默认)",
+        "en": "Unscreened(default)"
+    },
+    {
+        "cn": "系统识别为同一人",
+        "en": "Recognized as the same person by system"
+    },
+    {
+        "cn": "多次投递同一需求：",
+        "en": "Apply for same position more than once"
+    },
+    {
+        "cn": "同时投递多个需求：",
+        "en": "Apply for several position at the same time"
+    },
+    {
+        "cn": "候选人：",
+        "en": "Candidate:"
+    },
+    {
+        "cn": "当前的招聘达成率为",
+        "en": "Current recruitment ratio is "
+    },
+    {
+        "cn": "（入职人数/需求人数），请确认终止！",
+        "en": "(number of entry/number of demand), and please confirm to terminate it!"
+    },
+    {
+        "cn": "备注",
+        "en": "Tips"
+    },
+    {
+        "cn": "任务:",
+        "en": "Node:"
+    },
+    {
+        "cn": "审批意见:",
+        "en": "Comments:"
+    }
+]

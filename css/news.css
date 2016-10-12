@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+.centerB{width:1180px; margin:0 auto; position:relative;}
+.news-wrap{ background:#e8ebed;padding:20px 0 30px}
+.newsC{ margin:0 auto; background:#fff; padding:35px 50px;}
+.newsC .artical-h{margin-bottom:25px}
+.artical-h h3{font-size:32px; color:#0b2250;text-align:center}
+.artical-h p.artical-m{color:#999999;margin-top:10px; text-align:center}
+/*.centerB{width:756px; margin:0 auto; position:relative;}
+.news-wrap{ background:#e8ebed;padding:30px 0}
+.newsC{width:640px; margin:0 auto; background:#fff; padding:35px 58px;}
+.newsC .artical-h{margin-bottom:25px}
+.artical-h h3{font-size:32px; color:#0b2250;}
+.artical-h p.artical-m{color:#999999;margin-top:10px}*/
+
+.artical-info {color:#666;line-height:24px;font-size:14px;text-align:justify;}
+.artical-info .title{ font-size:16px; color:#666;}
+.artical-info .img{ margin:20px 0; border-bottom:1px dashed #d9d9d9;}
+.artical-info .img .name{ font-style:italic; text-align:center; padding:10px 0;}
+.artical-info .url{ margin:15px 0 0; color:#878787; font-size:12px;}
+.artical-info .text{ background:#e7ebf2; padding:40px 20px; position:relative; color:#878787; font-size:12px;text-align:justify;margin-top:15px;}
+.artical-info .text .i{ position:absolute; left:0; top:0; width:23px; height:23px; background:url(../images/iconj-1.png) no-repeat; }
+
+ p.artical-m .ar-date{display:inline-block; background:url("../images/ic-date.png") no-repeat 0 center; padding-left:22px}
+ p.artical-m .ar-share{display:inline-block;margin-left:40px;}
+.ar-share a{display:inline-block;width:20px; height:15px; background:url("../images/ic-share.png") no-repeat;margin:0 5px; vertical-align:middle}
+.ar-share a.ic-sweix{ background-position:0 0px}
+.ar-share a.ic-sweix:hover{ background-position:left -33px;}
+.ar-share a.ic-ssina{ background-position:-31px 0px}
+.ar-share a.ic-ssina:hover{ background-position:-31px -33px;}
+.ar-share a.ic-sqq{ background-position:-63px 0px}
+.ar-share a.ic-sqq:hover{ background-position:-63px -33px;}
+
+.ar-j{margin-top:25px;padding:22px 0;border-top:4px solid #e3e6ed;border-bottom:4px solid #e3e6ed; }
+.ar-j p{color:#999999; line-height:18px;}
+.artical-b{margin-top:25px; border:1px solid #6e7d9f;} 
+.artical-b img{float:left;width:108px; height:156px; margin:10px 0 0 10px;}
+.artical-b .r-intr{float:right;width:895px;height:156px;padding:20px 20px 0px 35px; position:relative; background:#6e7d9f}
+.artical-b .r-intr h4{font-size:24px; color:#fff; line-height:24px;color:#fff}
+.artical-b .r-intr h6{color:#d7dbe4}
+.artical-b .r-intr p.txt{color:#fff;font-size:14px; padding:15px 0}
+.artical-b .r-intr p.link{ position:absolute;bottom:15px;left:25px; }
+.artical-b .r-intr p.link a{color:#d7dbe4}
+
+.rBarCon{position:absolute;right:-68px;top:40px; width:68px;display:none}/*2015-11-19*/
+.rBar a{display:block;height:64px; text-align:center; line-height:64px; cursor:pointer}
+.rBar .list{ position:relative; overflow:hidden;}
+.rBar .list ul{ position:absolute; left:0;top:0; width:100%;}
+.ar-menu{ background:#7d8dac url("../images/ic-menu.png") no-repeat center}
+.ar-menu:hover,
+.ar-menu.current{ background-color:#0b2250;}
+.rBar a.ar-zj{ background:#7d8dac; border-top:1px solid #97a4bd; font-size:16px}
+.rBar a.ar-zj:hover{ background:#7384a4}
+.rBar a.cur,
+.rBar a.cur:hover{ background:#fff; color:#697792}
+
+.rBar a.prev-btn{ background:url("../images/ic-triu.png") no-repeat center 0px #0b2250;height:50px; margin:1px  0 }
+.rBar a.next-btn{ background:url("../images/ic-trid.png") no-repeat center 0px #0b2250;height:50px}
+.rBar a.prev-btn:hover{background-position:center -52px}
+.rBar a.next-btn:hover{background-position:center -52px}
+.rBar a.share-btn{ background:url("../images/share.png") no-repeat #7d8dac; margin-bottom:1px;}
+.rBar a.share-weix{ background-position:center 0;margin-top:10px}
+.rBar a.share-sina{background-position:center -64px}
+.rBar a.share-qq{background-position:center -132px}
+.rBar a.share-btn:hover{ background-color:#7384a4;}
+
+.catalog{ position:absolute;right:68px;top:0;width:590px; background:#98a7c4}
+.catalog li{ border-top:1px dotted #fff}
+.catalog li:first-child{border-top:none}
+.catalog li a{display:block; height:64px; line-height:64px; color:#fff; font-size:16px;padding-left:32px;}
+.catalog li a.cur, .catalog li a:hover{ background:#0b2250}
+
+
+.all-box{overflow:hidden; position:relative; background:#fff; min-height:760px;}
+.all-Chapeter{ }/*position:absolute; left:0;top:0;*/
+
+.news-wrap  .mbx{margin:0 0 20px}
+

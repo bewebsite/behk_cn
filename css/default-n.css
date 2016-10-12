@@ -1,0 +1,84 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.index-wrap{ background:#f0f0f0;padding:20px 0 40px}
+
+.swBanner{width:1180px; margin:0 auto; height:396px; overflow:hidden; position:relative;margin-bottom:20px}
+.banContain{}
+.banList{ position:relative}
+.banList li{float:left;width:1180px}
+.banBot{ position:absolute;bottom:0px; left:0px; width:100%; height:40px; line-height:40px; background:url("../images/default/banbot-bg.png") repeat-x}
+.banBot h4{ font-size:14px; color:#fff;padding:0 20px}
+.small-d{ position:absolute;right:15px; top:0px; height:100%;}
+.small-d a{display:inline-block;width:40px;height:40px; margin-right:5px;background:url("../images/default/small-dbg.png") no-repeat -45px center}
+.small-d a.curr, .small-d a:hover{ background-position:0px center}
+.swBanner .banB{ position:absolute;width:42px; height:42px;top:50%;margin-top:-21px}
+.swBanner .leftB{ background:url("../images/default/leftB.png") no-repeat center;left:0px}
+.swBanner .rightB{ background:url("../images/default/rightB.png") no-repeat center;right:0px}
+.swBanner .banB:hover{opacity:0.8;}
+
+.index-main{width:1180px; margin:0 auto}
+.sort-contain{ background:#fff;margin-bottom:20px}
+.sort-hd{}
+.sort-hd li{float:left;width:20%; }
+.sort-hd li:first-child a{border-left:none}
+.sort-hd li a{ display:block;height:60px; background:#f7f8fa;border:1px solid #e3e7ec; line-height:60px; text-align:center;font-size:18px; color:#53628c;border-right:none;border-top:1px solid #fff}
+.sort-hd li a.cur{ background:#fff;border-top:3px solid #53628c; border-bottom:none; height:59px; line-height:59px}
+.sort-hd li a:hover{ background:#fff}
+.sortBody{}
+.sort-it{display:none}
+.sortList li{background:#fafbfc; padding:25px 20px; }
+.sortList li.l-odd{ background:#fff}
+.sortList a{display:block; position:relative;height:150px}
+.sortList .imgC { position:absolute;left:0px; top:0px;width:274px;height:150px; overflow:hidden}
+.sortList .imgC img{transition:all 0.3s ease 0s}
+.sortList .imgT{ padding:0 12px 0 300px; height:150px}
+.sortList .itit{ padding-bottom:10px; border-bottom:1px solid #e5e6eb}
+.sortList .itit h4{ height:26px; line-height:26px; overflow:hidden; font-size:16px;color:#53628c;}
+.sortList .itit .i-data{ font-size:12px; color:#a0a3ab; font-family:Microsoft YaHei}
+.sortList .imgD{ position:relative;padding-top:10px}
+.sortList .imgD p{ line-height:21px; font-size:14px;color:#777;}
+.sortList .imgD .d-btn{margin-top:14px; text-align:right}
+.sortList .imgD .d-btn span{display:inline-block;width:90px;height:28px; line-height:28px; text-align:center;border:1px solid #dcdcde; font-size:14px;color:#798095;margin-right:25px}
+.sortList a:hover .imgD .d-btn span{ background:#606e90; color:#fff; border-color:#606e90}
+.sortList a:hover .imgC img{ transform:scale(1.05)}
+
+.tj-hd{height:50px; background:#505e81;padding:0 20px; position:relative }
+.tj-hd h4{ font-size:18px; color:#fff; line-height:50px;}
+.tj-hd .area-sort{ position:absolute;right:20px; top:2px; height:48px;}
+.area-sort a{ display:inline-block; padding:0 25px; text-align:center; font-size:16px; color:#fff; line-height:48px;margin-right:1px}
+.area-sort a.cur, .area-sort a:hover{ background:#fff; color:#53628c;}
+.tj-main{ padding:15px 20px 20px; background:#fff;}
+.t-Item{display:none}
+.sex-sort{ position:relative; border-bottom:1px solid #f5f7fa; height:40px;}
+.sex-sort a.more-B{ position:absolute;right:0px; bottom:10px; height:22px; line-height:22px; padding:0 10px;border:1px solid #b9c2da; font-size:12px;color:#3d5699; background:#f5f7fa}
+.sex-sort li{ float:left;margin-right:25px}
+.sex-sort li.cur a, .sex-sort li a:hover{border-bottom:2px solid #53628c;color:#53628c}
+.sex-sort li a{display:block; font-size:16px; color:#94969c; line-height:39px; text-align:center;padding:0 20px}
+.sex-sort li a i{ display:inline-block;margin-right:5px; vertical-align:middle}
+.sex-sort li .ic-male{ width:14px;height:16px;background:url("../images/default/ic-male.png") no-repeat center}
+.sex-sort li .ic-female {width:11px;height:16px;background:url("../images/default/ic-female.png") no-repeat center}
+.sex-sort li .ic-mixed {width:19px;height:16px; background:url("../images/default/ic-mixed.png") no-repeat  center;}
+.sexItem{display:none}
+.sch-row{}
+.row1{ background:#fff;}
+.row2{ background:#fafbfc;}
+.sch-item{float:left;width:25%;height:100px;padding:25px 0px}
+.sch-item a{ position:relative;display:block}
+.sch-item .sch-logo{ position:absolute;top:0px; left:10px; width:100px; height:100px;}
+.sch-item .sch-intr{ padding-left:125px}
+.sch-intr h4{font-size:14px; color:#53628c; height:20px; line-height:20px; overflow:hidden}
+.sch-intr h6{ font-size:12px; color:#616266; text-transform:uppercase;height:18px; line-height:18px; overflow:hidden}
+.sch-intr .btn-detial{margin-top:20px}
+.sch-intr .btn-detial span{display:inline-block;padding:0 10px; height:28px; line-height:28px; border:1px solid #dcdcde; font-size:14px;color:#798095;}
+.sch-item a:hover .sch-intr .btn-detial span{ background:#606e90; color:#fff; border-color:#606e90}
+
+.other{ background:#fff; padding:30px 20px}
+.other-item{float:left;width:25%; text-align:center; }
+.other-item a{display:block;border-left:1px dotted #ccc}
+.other-item:first-child a{border:none}
+.other-item a img{margin-right:12px;}
+.other-item .otxt{ display:inline-block;*display:inline;*zoom:1; vertical-align:middle; text-align:left;}
+.otxt h6{ font-size:16px; color:#53628c; }
+.otxt span{ font-size:12px; color:#a3a5aa; }
+.other-item a:hover img{opacity:0.8}
+.other-item a:hover .otxt span{color:#53628c}

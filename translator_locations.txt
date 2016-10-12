@@ -1,0 +1,155 @@
+Searching 88440 files for "translator("
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\addon\attendmanage\web\js\shr\ats\attendancePanelCalculate.js:
+   90  -					$('#first_microToolbar').remove();
+   91  					$('#datagrid').find("div[class='row-fluid row-block view_manager_body']").addClass('moveUp');
+   92: 					$('#dataBox').css({"margin-top":"-5px"}); translator();
+   93  				}
+   94  			});
+   ..
+  909  					},
+  910  					success : function(reponse) {
+  911: 						self.doRenderDataGrid(reponse,refresh); translator();
+  912  					}
+  913  				});
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\addon\attendmanage\web\js\shr\ats\holidayLimitList.js:
+  199  	  	}else{  // 通过 div 等方式来填充页面的 
+  200  			setTimeout(function(){
+  201: 		 		$('#container').before(importHTML); translator();
+  202  		 	},1000);
+  203  		}
+  ...
+  416  	  	}else{  // 通过 div 等方式来填充页面的 
+  417  			setTimeout(function(){
+  418: 		 		$('#container').before(importHTML); translator();
+  419  		 	},1000);
+  420  		}
+  ...
+  689  	  	}else{  // 通过 div 等方式来填充页面的 
+  690  			setTimeout(function(){
+  691: 		 		$('#container').before(importHTML);translator();
+  692  		 	},1000);
+  693  		}
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\addon\commonservice\web\js\io\importInfo.js:
+   97  		html += "</div></div>";
+   98  		
+   99: 		$con.append(html); translator();
+  100  		var cookStr=getJSessionCookie();
+  101  		
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\addon\commonservice\web\js\wf\approve.js:
+  147                         ].join(''); 
+  148         
+  149:         _self.getAssignArea().append(content); translator(); 
+  150         // open and close textarea
+  151          $("#opinion").bind("focus", _self.setOpinionTextarea);
+  ...
+  503          }
+  504          
+  505:         $('#approve-history').append($divApproveHistoryArea); translator('skip');
+  506          
+  507          // 查看流程图
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\addon\commonservice\web\js\wf\assignedList.js:
+  161  	        processListContent.append(processContent);
+  162  		}
+  163: 		$('#process-list-area').append(processListContent); var dt_seft1 = Object.create(DeferTranslator); dt_seft1.set_name('dt_seft1'); dt_seft1.defer_translator();
+  164  		$("#process-list-area").append('<div class ="btn-container"><button class = " load-btn ">Load more...</button></div>');
+  165  		var count = _self.getProcessCountOfPage();
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\addon\commonservice\web\js\wf\process.js:
+  129  	        processListContent.append(processContent);
+  130  		}
+  131: 		$('#process-list-area').append(processListContent); var dt_seft2 = Object.create(DeferTranslator); dt_seft2.set_name('dt_seft2'); dt_seft2.defer_translator();
+  132  		//考虑点击时，可以点击列选中checkbox
+  133  		$(".process-content").bind("click",function(){
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\addon\compensation\web\js\dynamicGrid.js:
+   52      				if ($.isFunction(o.loadComplete)) {
+   53      					o.loadComplete.call(this, ret); 
+   54:                         translator(); 
+   55                          //$("#apply").text('Apply');
+   56      	        	}
+   57                      //alert("OK");
+   58:                     //translator();
+   59      			},
+   60      			onPaging: function() {
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\addon\compensation\web\js\shrQuerySolution.js:
+   81  							'</div>',	
+   82  						'</div>'];
+   83:  			$(".dialogArea").prepend(tpl.join("")); translator();
+   84   			_self.initAddSolution();
+   85  			_self.getSolutionsData(); 			
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\jslib\HubSpot-messenger\build\js\messenger.js:
+  557  
+  558  
+  559:       var translated_msg = msg_translator(opts.message);
+  560  
+  561  /*      var msgStr_list = [
+  ...
+  582          $action.attr('data-action', "" + action.name);
+  583          $link = $('<a>');
+  584:         $link.html(msg_btn_translator(action.label)); console.log(action.label);
+  585          $action.append($('<span class="messenger-phrase">'));
+  586          $action.append($link);
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\scripts\ctrls\dynamicGrid.js:
+   78      				if ($.isFunction(o.loadComplete)) {
+   79      					o.loadComplete.call(this, ret);
+   80:                         translator(); console.log('here');
+   81      	        	}
+   82      			},
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\scripts\ctrls\shrQuerySolution.js:
+  108  							'</div>',	
+  109  						'</div>'];
+  110:  			$(".dialogArea").siblings(".ui-dialog-titlebar").append(tpl.join("")); translator();
+  111   			_self.initAddSolution();
+  112  			_self.getSolutionsData();
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\scripts\framework\core.js:
+  230  							target.replaceWith(response);
+  231  							shr.setIframeHeight();
+  232: 							translator();
+  233  						}
+  234  					});
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\scripts\framework\shr.js:
+  733              complete:function(jqXHR, textStatus){
+  734              	// TODO 稍后补充
+  735:             	translator();
+  736              }
+  737  		};
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\scripts\shr\desktop\desktop.js:
+   78          // hide menus that are not in use
+   79          //hide_menu();
+   80:         translator();
+   81          
+   82      },
+   ..
+  955  $(window).load(function(){
+  956      //hide_menu();
+  957:     console.log('menu click desktop'); translator();
+  958  });
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\scripts\shr\homepage\homePage.js:
+  116  				// set height
+  117  				_self.setElementHeight();
+  118: 				translator();
+  119  			}
+  120  		})
+
+D:\Kingdee_2sHRfyq\eas\server\deploy\easweb.ear\eas_web.war\WEB-INF\freemarker\lib\core\grid.ftl:
+   80  	        <#if loadComplete != "">
+   81  	        	if ($.isFunction(${loadComplete})) {
+   82: 	        		${loadComplete}.call(this, ret); translator();
+   83  	        	}	        	
+   84  	        </#if>
+
+
+23 matches across 16 files

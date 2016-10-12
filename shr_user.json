@@ -1,0 +1,14 @@
+﻿[{
+
+    "pro": ["王海明", "Britney Yu", "Yolanda Yuan", "Feynman Yu", "Sabrina Wei", "Patrick Hoey", "Tina Che", "Grace Li", "Elena Zhang", "Rye Hou", "Mary Ren", "Summer Sun", "Karen Ge", "Jessica Ju", "Jacinda Zhang", "Chris Ge","Isabelle Zhang","John Hussey"],
+
+
+    "trans": ["Britney Yu", "Yolanda Yuan", "Feynman Yu", "Grace Li", "Elena Zhang", "Mary Ren", "Summer Sun"],
+
+
+
+    "ignore": ["SCRIPT"],
+    "tag_list": ["A", "TD", "P", "I", "SPAN"],
+    "class": ["edit", "ui-button-icon-primary", "modelListLi", "badge", "ui-icon-seek-next", "ui-icon-seek-prev"],
+    "id": ["btn-close"]
+}]

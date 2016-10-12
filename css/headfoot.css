@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+/* 首页右侧悬浮*/
+.sy_share{ position:fixed; right:0;  z-index:20; height:170px; top:50%; margin-top:-110px;}
+.sy_share img{ float:left;}
+.share_ico1,.share_ico2,.share_ico3,.share_ico4,.share_ico5{ position:absolute; cursor:pointer; background: url(/images/xf2_07.png);color:#fff; border-radius:3px;-webkit-border-radius:3px; -moz-border-radius:3px; behavior:url(/css/PIE.htc);}
+.share_ico1:hover,.share_ico2:hover,.share_ico3:hover,.share_ico4:hover,.share_ico5:hover{background: url(/images/xf2_03.png);color:#fff;}
+.share_ico1{ right:-260px; width:313px;  height:53px; font-size:36px; line-height:53px; /*font-family:Arial;*/}
+.share_ico1 img,.share_ico2 img,.share_ico3 img,.share_ico4 img{ margin-right:5px;}
+.share_ico2{ right:-140px; width:193px;  height:53px; font-size:12px; line-height:53px; top:110px; }
+.share_ico2 h2{/* font-family:"arial"; font-size:18px; color:#fff; z-index:1; text-align:center; float:left;*/}
+.share_ico2 h2 img{ margin:15px 10px;}
+/*.share_ico3{ right:-150px; top:55px; width:203px; z-index:2;  height:53px;}
+.share_ico3 .img_weixin{ top:-54px; position:absolute; left:53px; width:150px; height:150px;}
+.share_ico3 a{ display:inline-block; position:absolute; left:-53px; top:50%; margin-top:-21px;background: url(../images/34_07.png);}
+.share_ico3 a:hover{background: url(../images/34_03.png);color:#fff;}
+*/
+.share_ico4{ /*right:-120px;*/ top:220px; right:-5px; width:58px;  height:53px; line-height:130%;  color:#fff; z-index:1;}
+
+
+.share_ico3{ right:-3px; top:55px; width:56px; z-index:2;  height:53px;}
+.share_ico3 .img_weixin{ top:-56px; position:absolute; right:56px; width:170px; height:160px; padding:10px; background: url(../images/weixeinbg.png); display:none;}
+.share_ico3 .img_weixin img{width:160px; height:160px;}
+.share_ico3 a{ display:inline-block; position:absolute; left:-53px; top:50%; margin-top:-21px;background: url(../images/34_07.png);}
+.share_ico3 a:hover{background: url(../images/34_03.png);color:#fff;}
+
+.share_ico5{ right:-140px; width:193px;  height:53px; font-size:12px; line-height:53px; top:165px; }
+.share_ico5 h2{/* font-family:"arial"; font-size:18px; color:#fff; z-index:1; text-align:center; float:left;*/}
+.share_ico5 h2 img{ margin:15px 10px;}
+

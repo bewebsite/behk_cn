@@ -1,0 +1,426 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="v_Default" %>
+
+<%@ Register Src="../ascx/header.ascx" TagName="header" TagPrefix="uc1" %>
+<%@ Register Src="../ascx/footer.ascx" TagName="footer" TagPrefix="uc2" %>
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+    <meta charset="UTF-8">
+    <title>必益教育-推广页</title>
+    <meta name="Keywords" content="" runat="server" id="Key" />
+    <meta name="Description" content="" runat="server" id="Des" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link href="../css/v.css" rel="stylesheet" type="text/css" />
+    <script src="../js/jquery.js" type="text/javascript"></script>
+    <script src="../js/common.js" type="text/javascript"></script>
+    <script src="../js/kxbdSuperMarquee.js" type="text/javascript"></script>
+    <script src="../js/school-solid2.js" type="text/javascript"></script>
+    <script src="../js/layer/layer.js" type="text/javascript"></script>
+    <script src="../js/base.js" type="text/javascript"></script>
+    <script src="/temp/js/temp.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+
+
+            $("#videolist").kxbdSuperMarquee({
+                isAuto: false,
+                distance: 260,
+                time: 5,
+                direction: 'left',
+                btnGo: { right: '#vleft1', left: '#vright1' }
+            });
+            $_body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+            $(".go-Lmeg a").bind("click", function () {
+                var nTop = $("#registration").offset().top;
+                $_body.stop().animate({ scrollTop: nTop }, "normal");
+            })
+
+            //            $(".wrap-6 dl").bind("click", function () {
+            //                var obj = $(this).find("dd");
+            //                if (!obj.is(":hidden")) {
+            //                    $(this).addClass("cur");
+            //                    obj.slideDown();
+            //                } else {
+            //                    var vT = $(this);
+            //                    obj.slideUp(function () {
+
+            //                        vT.removeClass("cur");
+            //                    });
+            //                }
+            //            })
+
+        })
+    </script>
+</head>
+<body>
+    <uc1:header ID="header1" runat="server" />
+    <div class="v-wrap">
+        <div class="wrap-1" <%=HaveSchool %>>
+            <div class="titbar">
+                <em></em>
+                <h3>
+                    相关院校</h3>
+                <span><em>Schools</em></span>
+            </div>
+            <div class="mql">
+                <div id="slide-1-3" class="clearfix oh">
+                    <ul>
+                        <asp:Repeater runat="server" ID="repSchool">
+                            <ItemTemplate>
+                                <li>
+                                    <div class="img">
+                                        <a title="<%#Eval("CNName") %>" target="_blank" href="<%#Eval("GetUrl") %>">
+                                            <img width="100" height="100" src="<%#Eval("Logo") %>"></a>
+                                    </div>
+                                    <div class="text">
+                                        <h3>
+                                            <a title="<%#Eval("CNName") %>" target="_blank" href="<%#Eval("GetUrl") %>">
+                                                <%#Eval("CNName") %></a></h3>
+                                        <p>
+                                            <a title="Dean Close Senior School" target="_blank" href="<%#Eval("GetUrl") %>">
+                                                <%#Eval("ENName") %></a></p>
+                                        <div class="t">
+                                            <%#Eval("Intor")%></div>
+                                        <a target="_blank" href="<%#Eval("GetUrl") %>" class="more_school">查看详情</a>
+                                    </div>
+                                </li>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="wrap-2">
+            <div class="title-bar">
+                <h3>
+                    活动案例</h3>
+                <p>
+                    Event case</p>
+            </div>
+            <div class="cons clearfix">
+                <div class="left">
+                    <asp:Repeater runat="server" ID="repCase">
+                        <ItemTemplate>
+                            <a>
+                                <div class="item">
+                                    <div class="con">
+                                        <div class="img">
+                                            <img src="<%#Eval("Image") %>"></div>
+                                        <div class="top">
+                                            <span>姓名：</span><%#Eval("Name") %>
+                                            <em>|</em> <span>类型：</span><%#Eval("CaseType")%>
+                                        </div>
+                                        <div class="bottom">
+                                            <em class="e1"></em><em class="e2"></em>
+                                            <%#Eval("Intor")==null?"":Eval("Intor").ToString().Replace("\r\n","<br/>")%>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </div>
+                <div class="right">
+                    <h3 class="h3">
+                        您符合条件吗？</h3>
+                    <p class="p">
+                        填写表单即可免费报名参加活动啦！</p>
+                    <div class="tb">
+                        <table>
+                            <tr>
+                                <th>
+                                    学生姓名
+                                </th>
+                                <td>
+                                    <input type="text" id="txt_Name" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    联络手机
+                                </th>
+                                <td>
+                                    <input type="text" id="txt_Mobile" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    所在城市
+                                </th>
+                                <td>
+                                    <input type="text" id="txt_City" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    学生年龄
+                                </th>
+                                <td>
+                                    <input type="text" id="txt_Age" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    所在班级
+                                </th>
+                                <td>
+                                    <input type="text" id="txt_Grand" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    备注
+                                </th>
+                                <td>
+                                    <textarea id="txt_Intor"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                </th>
+                                <td>
+                                    <a href="javascript:void(0)" onclick="AddComment()">点击完成预约</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block block2" <%=HaveImage %>>
+            <div id="tFocus">
+                <div class="prev" id="prev">
+                </div>
+                <div class="next" id="next">
+                </div>
+                <ul id="tFocus-pic">
+                    <asp:Repeater runat="server" ID="repImage">
+                        <ItemTemplate>
+                            <li><a>
+                                <img src="<%#Eval("Image") %>" width="1000" height="430" alt="必益教育" /></a></li>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </ul>
+                <div id="tFocusBtn">
+                    <a href="javascript:void(0);" id="tFocus-leftbtn">上一张</a>
+                    <div id="tFocus-btn">
+                        <ul>
+                            <asp:Repeater runat="server" ID="repImage2">
+                                <ItemTemplate>
+                                    <li <%# Container.ItemIndex==0?"class='active'":"" %>>
+                                        <img src="<%#Eval("Image") %>" width="196" height="84" alt="必益教育" /></li>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                        </ul>
+                    </div>
+                    <a href="javascript:void(0);" id="tFocus-rightbtn">下一张</a>
+                </div>
+            </div>
+        </div>
+        <div class="wrap-3" <%=HaveVoide %>>
+            <div class="titbar">
+                <em></em>
+                <h3>
+                    相关视频</h3>
+                <span><em>School Video</em></span>
+            </div>
+            <div class="video-index">
+                <div class="list" id="videolist">
+                    <ul class="clearfix">
+                        <asp:Repeater runat="server" ID="repVoide">
+                            <ItemTemplate>
+                                <li><a target="_blank" href="<%#Eval("GetUrl") %>" title="<%#Eval("Name") %>">
+                                    <div class="img">
+                                        <p class="popVideo">
+                                            <i class="i"></i>
+                                        </p>
+                                        <img src="<%#Eval("Image") %>" width="230" height="124"></div>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </ul>
+                </div>
+                <a href="javascript:void(0);" class="btn btnLeft" id="vleft1"></a><a href="javascript:void(0);"
+                    class="btn btnRight" id="vright1"></a>
+            </div>
+        </div>
+        <div class="wrap-4">
+            <div class="titbar">
+                <em></em>
+                <h3>
+                    <%=t.CNName %></h3>
+                <span><em>
+                    <%=t.ENName %></em></span>
+            </div>
+            <div class="con">
+                <%=t.Intor %>
+            </div>
+        </div>
+        <div class="wrap-5">
+            <div class="titbar">
+                <em></em>
+                <h3>
+                    适用人群</h3>
+                <span><em>Target Audience</em></span>
+            </div>
+            <div class="cob">
+                <%=t.CategoriesInfo.Replace("\r\n", "<br/>")%></div>
+            <div class="highlights">
+                <ul class="clearfix">
+                    <li class="s1"><span></span>
+                        <h5>
+                            相关留学国家</h5>
+                        <p>
+                            <%=GetCountry()%></p>
+                    </li>
+                    <li class="s2"><span></span>
+                        <h5>
+                            必益相关业务</h5>
+                        <p>
+                            <%=GetBuessin()%></p>
+                    </li>
+                    <li class="s3"><span></span>
+                        <h5>
+                            适用城市</h5>
+                        <p>
+                            <%=GetCity() %></p>
+                    </li>
+                    <li class="s4"><span></span>
+                        <h5>
+                            适用学习阶段</h5>
+                        <p>
+                            <%=GetLevels() %></p>
+                    </li>
+                    <li class="s5"><span></span>
+                        <h5>
+                            适用人群年龄</h5>
+                        <p>
+                            <%=t.StarYear %>-<%=t.EndYear %>岁</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrap-6" <%=HaveProduct %>>
+            <asp:Repeater runat="server" ID="repProduct">
+                <ItemTemplate>
+                    <div class="titbar">
+                        <h3>
+                            <%#Eval("Name")%></h3>
+                        <span><em>
+                            <%#Eval("ENName")%></em></span>
+                    </div>
+                    <%#GetInfo(Eval("ID")) %>
+                </ItemTemplate>
+            </asp:Repeater>
+        </div>
+        <asp:Repeater runat="server" ID="repOther">
+            <ItemTemplate>
+                <div class="wrap-<%# Container.ItemIndex%2==0?"7":"8" %> even">
+                    <div class="titbar">
+                        <em></em>
+                        <h3>
+                            <%#Eval("Name")%></h3>
+                        <span><em>
+                            <%#Eval("ENName")%></em></span>
+                    </div>
+                    <div class="con clearfix">
+                        <%#Eval("Intor")%>
+                    </div>
+                </div>
+            </ItemTemplate>
+        </asp:Repeater>
+        <div class="wrap-9" id="registration">
+            <div class="titbar">
+                <em></em>
+                <h3>
+                    现在免费报名参加</h3>
+                <span><em>book your place now</em></span>
+            </div>
+            <div class="bookClear clearfix">
+                <div class="left">
+                    <%=t.RegistrationInfo %>
+                </div>
+                <div class="right">
+                    <div class="clearfix">
+                        <div class="item">
+                            <span>学生姓名：</span>
+                            <div>
+                                <input type="text" maxlength="10" id="txt_Name2">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <span>联络手机：</span>
+                            <div>
+                                <input type="text" maxlength="11" id="txt_Mobile2">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <span>所在城市：</span>
+                            <div>
+                                <input type="text" maxlength="15" id="txt_City2">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <span>学生年龄：</span>
+                            <div>
+                                <input type="text" maxlength="10" id="txt_Age2" style="width: 100px;">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <span>所在班级：</span>
+                            <div>
+                                <input type="text" maxlength="10" id="txt_Grand2" style="width: 100px;">
+                            </div>
+                        </div>
+                        <div class="item even">
+                            <span>备注：</span>
+                            <div>
+                                <textarea id="txt_Intor2"></textarea>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <a onclick="AddComment2()" href="javascript:void(0)">点击完成预约</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="go-Lmeg">
+        <a href="#registration">在线报名</a></div>
+    <input type="hidden" id="Hid_Id" value="<%=t.ID %>" />
+    <uc2:footer ID="footer1" runat="server" />
+    <script type="text/javascript">
+        addLoadEvent(Focus());
+
+        $(function () {
+            $(".block6 .tr:odd").css({
+                background: "#eceff3"
+            })
+
+            $(".block8 .title span").bind("click", function () {
+                var _index = $(this).index();
+
+                $(this).siblings("span").removeClass("cur").end().addClass("cur");
+                $(".block8 .con").hide().eq(_index).slideDown();
+            })
+
+
+
+        })
+
+        function openYue() {
+
+            $(".popWrapLg").fadeIn();
+        }
+
+        function openYueClose() {
+
+            $(".popWrapLg").fadeOut();
+        }
+        
+    </script>
+</body>
+</html>

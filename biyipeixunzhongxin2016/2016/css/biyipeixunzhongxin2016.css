@@ -1,0 +1,431 @@
+	#header {
+		
+		height:90px;
+		width:100%;
+		background: #141f3f;
+	}
+
+    #logoa {
+        float:left;
+        margin: 20px 0 0 160px;
+        position: absolute;
+    }
+
+	.tels {
+	margin-top: 15px;
+	margin-right: 160px;
+    float: right;
+    background: url(../images/it.png) 0 40% no-repeat;
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    color: white;
+    line-height: 15px;
+	}
+
+	.tels p{
+		padding: 0;
+		margin:0;		
+	}
+
+	.tels h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 2px;
+	}
+
+
+	#banner{
+		background:url(../images/banner.png);
+        background-size:1920px 350px;
+		height:350px;
+		width:100%;	
+	}
+
+	#center{
+		width: 1000px;
+		margin: 0 auto;
+		z-index: 1000;
+	}
+
+	.leftpart {
+		height:350px;
+		width:320px;
+		float:left;   
+	}
+
+	.leftpart img{
+		margin-top:100px;
+	}
+
+	.rightpart {
+		height:350px;
+		width:320px;
+		float:right;
+        
+        
+        
+        
+	}
+
+	.baoming{
+		
+		height:350px;
+		width:280px;
+        background: 002653;
+        background-color:rgba(0,0,0,0.3);
+        position: absolute;
+        
+   
+	}
+
+	.rightpart .h3{font-size:16px; font-family:"microsoft yahei";color:white; text-align:center;font-weight: bold;padding-top:20px;}
+	.rightpart .p{font-family:"microsoft yahei";font-size:14px; margin-top:-12px;margin-bottom:10px; color:white; text-align:center;font-weight: bold;}
+	.rightpart .tb{ padding:3px 30px;}
+	.rightpart .tb table{ width:100%;}
+	.rightpart .tb th{font-family:"microsoft yahei";text-align:right; color:white; font-size:14px; width:65px;padding:5px 10px 0px 0px; vertical-align:top;}
+	.rightpart .tb input{ margin-bottom:7px; height:25px; width:208px; background:#fff; border:1px solid #dadada; border-radius:2px; box-shadow:0 1px 2px rgba(0,0,0,.1) inset; padding:0 10px;}
+	
+	.rightpart .tb select {margin-bottom:7px; height:25px;  background:#fff; border:1px solid #dadada; border-radius:2px; box-shadow:0 1px 2px rgba(0,0,0,.1) inset; padding:0 10px;}
+	.rightpart .tb textarea{ height:55px; font-size:12px; width:215px; background:#fff; border:1px solid #dadada; border-radius:2px; box-shadow:0 1px 2px rgba(0,0,0,.1) inset; padding:10px;}
+	.rightpart .tb a{ margin:0px auto; display:inline-block; padding:0 20px; }
+
+	.barNav{
+	background: rgb(11, 34, 80); 
+	height: 48px; 
+	text-align: center; 
+	line-height: 46px;
+	font-family: microsoft yahei;
+	
+	}
+
+	.scl .fxdNav {
+   	left: 0px; 
+   	top: 0px; 
+   	width: 100%; 
+   	position: fixed; 
+   	z-index: 100;
+   	background: rgb(11, 34, 80);
+  }
+
+	.fxdNav a {
+	color: rgb(255, 255, 255); 
+	font-size: 18px;
+	text-decoration:none;
+	padding: 0 60px 0 60px;
+
+	}
+
+	.fxdNav a:hover {
+	color:rgb(163,0,54); 
+}
+
+	#success{
+		
+		
+		height: auto;
+		display: inline-block;
+	}
+
+	.main{
+		width: 70%;
+		height:auto;
+		margin-left: 50px;
+	}
+
+	.picsa{
+		width: 20%;
+		height: 200px;
+		float: left;
+		
+		
+	}
+
+	.wenzia{
+		width: 80%;
+		height:200px;
+		float: right;
+
+		
+	}
+
+	.wenzia em{
+		font-family: microsoft yahei;
+		font-style:normal 
+	}
+	
+	.wenzia p {
+		font-family: microsoft yahei;
+		font-size: 14px;
+		margin-top: 40px;
+		
+	}
+
+	.wenzia p em{
+		font-family: microsoft yahei;
+		font-size: 14px;
+		color: #141f3f;
+	}
+
+	.wenzia ul{
+		font-family: microsoft yahei;
+		font-size: 14px;
+		margin-left: -20px;
+		margin-right: 60px;
+	}
+
+	.subtitle{
+    	height:60px;
+    	width:70%;
+    	background:#002653;
+    	text-align: center;
+       	margin-top: 40px;
+       	margin-left: 50px;
+    	
+    }
+    .subtitle h6{
+    	line-height: 50px;
+    	font-size: 25px;
+    	font-weight: 900;
+    	color: white;
+    	font-family:"microsoft yahei";
+    }
+
+    .smalltitle h4{
+    	font-size: 20px;
+    	font-family: microsoft yahei;
+    	color: #141f3f;
+    	text-align: center;
+    	font-weight: 700;
+    	margin: 20px 0 20px 0;
+    }
+
+    .table{
+    	font-family: microsoft yahei;
+		color: black;
+		margin-left:10px;
+    }
+
+    
+    .table h4{
+    	color: #fff;
+    	font-size:18px;
+    	font-weight:bold;  
+    }
+
+    .table tr td{
+    	font-size:14px; 
+    }
+
+    .table p{
+    	font-size: 14px;
+    }
+
+    #servicedetail{
+    	width: 100%;
+    	height: auto;
+    	
+    }
+
+
+
+    .steps{
+    	width: 80%;
+    	height: 200px;
+    	
+    	margin:0 auto;
+    }
+
+    .picsb{
+    	width: 30%;
+    	height: 200px;
+    	
+    	float: left;
+    }
+
+    .wenzib{
+    	width: 65%;
+    	height: 200px;
+    	float:right;
+    }
+
+    .wenzib h5{
+    	font-size: 16px;
+    	font-family: microsoft yahei;
+    	color: #141f3f;
+    	line-height: 18px;
+    	-webkit-text-size-adjust:none;
+    	margin:15px 0 0 0;
+    	padding:0;
+    	font-weight: 700;
+    }
+
+    .wenzib ul{
+    	font-size: 14px;
+    	font-family: microsoft yahei;
+		margin:5px 0 0 30px;
+    	padding:0;
+    }
+
+    #whybe{
+        width: 100%;
+        height: 650px;
+    }
+
+    #whybe h3{
+        font-size: 16px;
+        font-family: microsoft yahei;
+        color: #141f3f;
+        line-height: 18px;
+        -webkit-text-size-adjust:none;
+        margin:15px 0 0 0;
+        padding:0;
+        font-weight: 700;
+
+    }
+
+    #whybe .row1{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #whybe .reason{
+        width: 100%;
+        height: 250px;
+        
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    #whybe .pica{
+        width: 35%;
+        background: rgb(108,125,153);
+        max-width: 350px;
+        height: 250px;
+        float: left;
+
+    }
+
+    #whybe .wenzic{
+        width: 65%;
+        background: rgb(108,125,153);
+        float: right;
+        height: 250px;
+        float: left;
+    }
+
+     #whybe h5{
+        font-size: 14px;
+        font-family: microsoft yahei;
+        color: white;
+        line-height: 18px;
+        -webkit-text-size-adjust:none;
+        margin:10px 0 -5px 0;
+        padding:0 0 0 30px;
+        font-weight: 700;
+
+    }
+
+    #whybe ul{
+        font-size: 13px;
+        font-family: microsoft yahei;
+        margin:0px 0 0 30px;
+        padding:5px 25px 0 30px;
+    }
+
+    #whybe ul li{
+        padding-top: 3px;
+        color: white;
+    }
+
+
+    #guocheng{
+    	width: 100%;
+    	height: auto;
+    	margin-left: 100px;
+    }
+
+    #aboutbe .main p{
+    	font-size: 14px;
+    	font-family: microsoft YaHei;
+    	padding-left: 50px;
+    	padding-right: 50px;
+    	margin-top: 30px;
+    }
+
+    .process{
+	font-family: "Microsoft YaHei UI";
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+	background-image: url(../images/jiantou.png);
+	background-repeat: no-repeat;
+	line-height: 20px;
+	padding-left: 20px;
+	float: left;
+	height: 105px;
+	width: 22%;
+	text-align: justify;
+	padding-top: 40px;
+	padding-bottom: 40px;
+    }
+
+    .sliderTV__next {
+    font-size: 120px;
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+.sliderTV__next {
+    width: 50px;
+    float: right;
+    display: inline-block;
+    margin-top: 200px;
+}
+
+
+	.sliderTV__prev {
+	    font-size: 120px;
+	    color: rgb(128, 128, 128);
+	    cursor: pointer;
+	}
+
+	.sliderTV__prev {
+    width: 50px;
+    float: left;
+    display: inline-block;
+    margin-top: 200px;
+}
+
+ #footer{
+ 	width: 100%;
+ 	height: 120px;
+ 	background: #35373b;
+ 	display: inline-block;
+ }
+
+ #logob{
+ 	width: 50%;
+ 	float:left;
+ 
+ }
+
+ #logob img {
+	display: block;
+    
+    padding: 40px 0 0 200px;
+ }
+
+ #address{
+ 	width: 50%;
+ 	float:right;
+ 	font-family: microsoft yahei;
+ 	color: white;
+ 	font-size: 13px;
+ 	padding-top: 25px;
+ 	
+ }
+
+ #footer em{
+		font-family: microsoft yahei;
+		font-style:normal;
+	}

@@ -1,0 +1,8 @@
+
+
+.css3 {
+    behavior: url(/js/PIE.htc);
+}
+.css3In {
+    behavior: url(../js/PIE.htc);
+}

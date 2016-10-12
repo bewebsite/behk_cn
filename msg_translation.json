@@ -1,0 +1,1334 @@
+﻿[
+    {
+        "cn": "添加成功",
+        "en": "Add successfully"
+    },
+   {
+        "cn": "审核完成!",
+        "en": "Audit completed!"
+    },
+   {
+        "cn": "审核失败!",
+        "en": "Audit failed！"
+    },
+   {
+        "cn": "反审核完成!",
+        "en": "Cancel audit completed!"
+    },
+   {
+        "cn": "反审核失败!",
+        "en": "Cancel audit failed！"
+    },
+    {
+        "cn": "请选择审批通过的单据",
+        "en": "Please select approved documents."
+    },
+    {
+        "cn": "请选中审批通过的销假记录进行反审批",
+        "en": "Please select approved leave clearance to cancel."
+    },
+    {
+        "cn": "操作成功",
+        "en": "Done."
+    },
+    {
+        "cn": "请选择行",
+        "en": "Please select a record"
+    },
+    {
+        "cn": "请选择2位调班人员!",
+        "en": "Please select 2 shift employees"
+    },
+    {
+        "cn": "请选择人员信息!",
+        "en": "Please select personnel information"
+    },
+    {
+        "cn": "请选择未排班的员工",
+        "en": "Please select non-shift employee"
+    },
+    {
+        "cn": "请选择记录行进行进行操作!",
+        "en": "Please select record to operate"
+    },
+    {
+        "cn": "没有选中行",
+        "en": "No line to select"
+    },
+    {
+        "cn": "您没有选中任何数据。",
+        "en": "You haven't selected any data."
+    },
+    {
+        "cn": "当前没有考勤结果，不能转薪资",
+        "en": "You can't transfer salary without attendance result"
+    },
+    {
+        "cn": "当前没有考勤结果，不能撤销",
+        "en": "You can’t revoke without attendance result."
+    },
+    {
+        "cn": "请选中人员数据行数据",
+        "en": "Please select data in personnel data line"
+    },
+    {
+        "cn": "未设置培训管理集成配置的地址，请联系系统管理员进行配置！",
+        "en": "Can't link to learning development platform, please contact system administrator!"
+    },
+    {
+        "cn": "请重新选择假期类型",
+        "en": "Please reselect leave type."
+    },
+    {
+        "cn": "请重新选择假期类型！",
+        "en": "Please reselect leave type."
+    },
+    {
+        "cn": "查看更多请假记录",
+        "en": "View more leave records"
+    },
+    {
+        "cn": "请选择请假类型，保存失败",
+        "en": "Save failed, and please select leave type."
+    },
+    {
+        "cn": "请选择请假类型，保存失败！",
+        "en": "Save failed, and please select leave type."
+    },
+    {
+        "cn": "请假开始时间不能大于等于请假结束时间",
+        "en": "The start time of leave can't be larger or equal to end time."
+    },
+    {
+        "cn": "请假时间长度不能为0",
+        "en": "The leave length can't be zero."
+    },
+    {
+        "cn": "请假时间差不能大于12个月",
+        "en": "The time lag can't be larger than twelve months."
+    },
+    {
+        "cn": "请假时间长度不能大于该人员的年假剩余额度",
+        "en": "The leave length can't be larger than employees' rest quota of annual leave."
+    },
+    {
+        "cn": "假期类型单位为空,请先设置假期类型单位",
+        "en": "Please set up leave type unit firstly."
+    },
+    {
+        "cn": "假期类型单位为空,请先设置假期类型单位！",
+        "en": "Please set up leave type unit firstly."
+    },
+    {
+        "cn": "请假的开始时间或者结束时间不在年假额度周期范围内,不能请假。",
+        "en": "You can't ask for a leave as the start or end time is not within the annual leave quota period."
+    },
+    {
+        "cn": "该请假单已经销过假",
+        "en": "The leave has been clean"
+    },
+    {
+        "cn": "请先选中行",
+        "en": "Please select a record."
+    },
+    {
+        "cn": "请选择一条单据",
+        "en": "Please select a document firstly."
+    },
+    {
+        "cn": "请选中一行",
+        "en": "Please select one record."
+    },
+    {
+        "cn": "只能废弃未审批和审批中的单据",
+        "en": "You can only abandon documents not approved or under approval."
+    },
+    {
+        "cn": "请先选中表格中的数据!",
+        "en": "Please select one or more records in the list!"
+    },
+    {
+        "cn": "上传成功",
+        "en": "Upload successfully."
+    },
+    {
+        "cn": "初始化数据失败",
+        "en": "Initialized data failed."
+    },
+    {
+        "cn": "开始日期不能大于结束日期!",
+        "en": "The start time can't be larger than end time!"
+    },
+    {
+        "cn": "请选择单个提交的请假单",
+        "en": "Please select a single submitted leave request "
+    },
+    {
+        "cn": "请选择单人请假单",
+        "en": "Please select single leave request "
+    },
+    {
+        "cn": "加班单分录不能超过100条！",
+        "en": "The number of OT application journal entry can't be over 100!"
+    },
+    {
+        "cn": "不支持跨多天加班。",
+        "en": "The \"OT Date\" should be the same with \"Start Time\"."
+    },
+    {
+        "cn": "加班单分录不能为空！",
+        "en": "OT application journal entry can't be empty!"
+    },
+    {
+        "cn": "未选择导入的文件！",
+        "en": "You haven't selected any imported file!"
+    },
+    {
+        "cn": "加班开始时间必须小于加班结束时间。",
+        "en": "The start time of OT must be earlier than the end time."
+    },
+    {
+        "cn": "加班开始结束时间和上班时间有交叉。",
+        "en": "There must be temporal overlap between OT and office time."
+    },
+    {
+        "cn": "最多只能填充100条明细记录！",
+        "en": "You can only fill 100 detailed records at most!"
+    },
+    {
+        "cn": "组织和人员不能同时为空！",
+        "en": "Org. and employee can't be empty at the same time!"
+    },
+    {
+        "cn": "开始时间不能为空！",
+        "en": "Start time can't be empty!"
+    },
+    {
+        "cn": "补偿方式不能为空！",
+        "en": "Comensation method can't be empty!"
+    },
+    {
+        "cn": "休息时长(分钟)不能为空！",
+        "en": "Break minute(s) can't be empty!"
+    },
+    {
+        "cn": "申请加班小时数不能为空！",
+        "en": "OT hour(s) can't be empty!"
+    },
+    {
+        "cn": "加班原因不能为空！",
+        "en": "OT reason can't be empty!"
+    },
+    {
+        "cn": "加班类型不能为空！",
+        "en": "OT type can't be empty!"
+    },
+    {
+        "cn": "结束时间不能为空！",
+        "en": "End time can't be empty!"
+    },
+    {
+        "cn": "加班日期不能为空！",
+        "en": "OT date can't be empty!"
+    },
+    {
+        "cn": "请选择数据导入方案！",
+        "en": "Please select data import scheme!"
+    },
+    {
+        "cn": "导入异常，请检查您的导入模板和导入数据",
+        "en": "Import error, please check your import template and data."
+    },
+    {
+        "cn": "找不到默认的加班补偿方式",
+        "en": "No default OT compensation method."
+    },
+    {
+        "cn": "找不到默认的加班补偿方式。",
+        "en": "No default OT compensation method."
+    },
+    {
+        "cn": "不支持跨多天加班",
+        "en": "OT across a day is not supported."
+    },
+    {
+        "cn": "实际加班开始时间必须小于实际加班结束时间",
+        "en": "The actual start time of OT must be less than the actual end time."
+    },
+    {
+        "cn": "实际加班开始时间必须小于实际加班结束时间。",
+        "en": "The actual start time of OT must be less than the actual end time."
+    },
+    {
+        "cn": "加班开始结束时间和上班时间有交叉",
+        "en": "There is a temporal overlap between OT and office time."
+    },
+    {
+        "cn": "不能在固定加班时间段内提交加班单。",
+        "en": "You can't submit OT application in fixed OT intervals."
+    },
+    {
+        "cn": "请假开始日期不能大于请假结束日期",
+        "en": "The start time of leave can't be larger than the end time."
+    },
+    {
+        "cn": "新增失败！最多只能填充100条明细记录。",
+        "en": "Newly adding failed! You can only fill 100 detailed records at most!"
+    },
+    {
+        "cn": "您输入的字符超过80个字符，请重新输入。",
+        "en": "The number of fields input have exceeded 80, please re-input."
+    },
+    {
+        "cn": "请至少录入一条出差单信息！",
+        "en": "Please record an official business at least!"
+    },
+    {
+        "cn": "选中记录均为非“审批通过”单据！",
+        "en": "Selected records are not approved document!"
+    },
+    {
+        "cn": "您未安装FLASH控件，无法上传文件！请安装FLASH控件后再试。",
+        "en": "You can't upload files before installing FLASH controls! Please install FLASH and try again."
+    },
+    {
+        "cn": "导入成功",
+        "en": "Import successfully!"
+    },
+    {
+        "cn": "未选择导入的文件文件！",
+        "en": "You haven't select any import file!"
+    },
+    {
+        "cn": "文件类型不正确, 请检查您的文件类型！",
+        "en": "Incorrect file type, please check your file type!"
+    },
+    {
+        "cn": "请至少选中一行。",
+        "en": "Please select one line at least."
+    },
+    {
+        "cn": "出差时间重复,不能重复提交出差单。",
+        "en": "You can't submit official business application with repeated official business time."
+    },
+    {
+        "cn": "出差开始时间必须小于出差结束时间。",
+        "en": "The start time of official business must be earlier than the end time."
+    },
+    {
+        "cn": "销假开始时间不能大于销假结束时间",
+        "en": "The start time of leave clearance can't be larger than the end time."
+    },
+    {
+        "cn": "销假单中的请假单已销假，不能重复销假",
+        "en": "This leave application has been clean, you can't clean leave again."
+    },
+    {
+        "cn": "销假单中的实际请假开始时间不能小于请假单中的请假开始时间",
+        "en": "The actual start time of leave clearance can't less than the start time in the leave request."
+    },
+   {
+        "cn": "销假单中的实际请假开始时间不能大于请假单中的请假结束时间",
+        "en": "The actual start time of leave clearance can't be larger than the end time in the leave request."
+    },
+   {
+        "cn": "销假单中的实际请假结束时间不能小于请假单中的请假开始时间",
+        "en": "The actual end time of leave clearance can't less than the start time in the leave request."
+    },
+   {
+        "cn": "销假单中的实际请假结束时间不能大于请假单中的请假结束时间",
+        "en": "The actual end time of leave clearance can't be larger than the end time in the leave request."
+    },
+   {
+        "cn": "销假单中的实际请假时间长度不能大于请假单中的请假时间长度",
+        "en": "The actual period of leave in leave clearance can't be larger than the period the leave request."
+    },
+    {
+        "cn": "查看流程图",
+        "en": "View flow chart."
+    },
+    {
+        "cn": "还没有已办流程哦",
+        "en": "There is no processed flow."
+    },
+    {
+        "cn": "加载更多…",
+        "en": "Load more…"
+    },
+    {
+        "cn": "全部",
+        "en": "All"
+    },
+    {
+        "cn": "运行中",
+        "en": "Running"
+    },
+    {
+        "cn": "已挂起",
+        "en": "Pended"
+    },
+    {
+        "cn": "已完成",
+        "en": "Completed"
+    },
+    {
+        "cn": "已撤销",
+        "en": "Revoked"
+    },
+    {
+        "cn": "标题",
+        "en": "Title"
+    },
+    {
+        "cn": "接收日期",
+        "en": "Receipt date"
+    },
+    {
+        "cn": "处理日期",
+        "en": "Process date"
+    },
+    {
+        "cn": "流程状态",
+        "en": "Flow status"
+    },
+    {
+        "cn": "更多",
+        "en": "More"
+    },
+    {
+        "cn": "收起",
+        "en": "Put away"
+    },
+    {
+        "cn": "搜索标题",
+        "en": "Search title"
+    },
+    {
+        "cn": "抱歉，由于对应模块没有合法的license，页面暂时无法展示。",
+        "en": "Sorry, the page can't display as there is no legal license in corresponding module."
+    },
+    {
+        "cn": "对不起，没有找到对应的单据",
+        "en": "Sorry, there is no corresponding document."
+    },
+    {
+        "cn": "请输入审批意见",
+        "en": "Please enter approval comments."
+    },
+    {
+        "cn": "现在提交",
+        "en": "Submit now"
+    },
+    {
+        "cn": "关闭",
+        "en": "Close"
+    },
+    {
+        "cn": "同意",
+        "en": "Agree"
+    },
+    {
+        "cn": "不同意",
+        "en": "Disagree"
+    },
+    {
+        "cn": "审批记录",
+        "en": "Approval records"
+    },
+    {
+        "cn": "暂无审批记录",
+        "en": "No approval records"
+    },
+    {
+        "cn": "审批提交成功",
+        "en": "You've submitted approval successfully."
+    },
+    {
+        "cn": "批量审批",
+        "en": "Batch approval"
+    },
+    {
+        "cn": "提交审批",
+        "en": "Submit approval"
+    },
+    {
+        "cn": "您选中的任务项审批的流程不一致，无法进行批量审批。试一试按照分类进行批量审批吧",
+        "en": "Batch approval can't be conducted, as its flow is not coincided with the task item you selected. Please try according to classification."
+    },
+    {
+        "cn": "请至少选择一条记录进行审批",
+        "en": "Please select one record to approve at least."
+    },
+    {
+        "cn": "申请日期",
+        "en": "Application date"
+    },
+    {
+        "cn": "上一步处理人",
+        "en": "Operator on last step"
+    },
+    {
+        "cn": "查看单据",
+        "en": "View document"
+    },
+    {
+        "cn": "我的待办",
+        "en": "To do list"
+    },
+    {
+        "cn": "我的已办",
+        "en": "Processed list"
+    },
+    {
+        "cn": "请先选中行。",
+        "en": "Please select a record."
+    },
+    {
+        "cn": "请选择一行记录",
+        "en": "Please select one record."
+    },
+    {
+        "cn": "请选择一条记录",
+        "en": "Please select one record."
+    },
+    {
+        "cn": "数据加载中，请稍等…",
+        "en": "Loading, please wait…"
+    },
+    {
+        "cn": "对不起,当前用工关系状态不支持此变动申请！",
+        "en": "Cannot create personnel action request in current employment status."
+    },
+    {
+        "cn": "批量分配中人员不能为空,请选择",
+        "en": "Please select employees for batch assignment."
+    },
+    {
+        "cn": "发起人",
+        "en": "Applicant"
+    },
+    {
+        "cn": "请先选中列表数据",
+        "en": "Please select employee in the list."
+    },
+    {
+        "cn": "请先保存再上传附件",
+        "en": "Please save before uploading attachment."
+    },
+    {
+        "cn": "请选择表格中的合同信息!",
+        "en": "Please select contract in the list."
+    },
+    {
+        "cn": "所选行没有合同，请另选择一行",
+        "en": "Please select contracts to delete."
+    },
+    {
+        "cn": "请选择记录行进行进行操作!!",
+        "en": "Please select records to be disabled."
+    },
+    {
+        "cn": "请选中新增行数据",
+        "en": "Please select employee to create profile."
+    },
+    {
+        "cn": "请选中行",
+        "en": "Please select record(s)."
+    },
+    {
+        "cn": "请选中审批通过以及未进行销假的请假记录",
+        "en": "Please select approved leave request that has no clearance request."
+    },
+    {
+        "cn": "只能删除未提交状态的数据，请选中表格中未提交的数据!",
+        "en": "Please select requests that are unsubmitted to delete."
+    },
+    {
+        "cn": "您确认要反审批吗？",
+        "en": "Do you want to cancel approval?"
+    },
+    {
+        "cn": "反审批成功",
+        "en": "Cancel approval successfully"
+    },
+    {
+        "cn": "您确认要删除吗？",
+        "en": "Do you want to delete?"
+    },
+    {          
+        "cn": "不能对没有审批通过的单据以及销过假的单据进行反审批",
+        "en": "Cannot cancel approval against document that is not approved or that has leave clearance record."
+    },
+   {          
+        "cn": "不能对没有审批通过的单据以及销过假的单据进反审批",
+        "en": "Can't cancel approval against document that is not approved or that has leave clearance record."
+    },
+    {
+        "cn": "没有审批通过的单据：",
+        "en": "Documents that is not approved:"
+    },
+    {
+        "cn": "您确认要废弃此单据吗？",
+        "en": "Do you want to abandon the document?"
+    },
+    {
+        "cn": "请先选择数据!",
+        "en": "Please select record(s)."
+    },
+    {
+        "cn": "请选中一行数据",
+        "en": "Please select record(s)"
+    },
+    {
+        "cn": "您确认要提交生效吗？",
+        "en": "Do you want to submit into effective?"
+    },
+    {
+        "cn": "您确认要提交吗？",
+        "en": "Do you want to submit?"
+    },
+    {
+        "cn": "已经进入审批流程，是否确认要放弃？",
+        "en": "Approval workflow is in process. Do you want to abandon?"
+    },
+    {
+        "cn": "类型不能为空！",
+        "en": "Type cannot be empty!"
+    },
+    {
+        "cn": "请假时长不能为空！",
+        "en": "The peirod of leave cannot be empty."
+    },
+    {
+        "cn": "请假单分录不允许同一个人提交两条！",
+        "en": "Cannot create more than one leave record for the same employee at the same time."
+    },
+    {
+        "cn": "确认",
+        "en": "OK"
+    },
+    {
+        "cn": "取消",
+        "en": "Cancel"
+    },
+    {
+        "cn": "无审批意见",
+        "en": "No Comments"
+    },
+    {
+        "cn": "只能选中一条审批通过的销假记录进行反审批",
+        "en": "Only one approved leave clearance request can be selected to cancel approval."
+    },
+    {
+        "cn": "反审批失败",
+        "en": "Failed to cancel approval"
+    },
+    {
+        "cn": "删除单据会将已产生工作流的流程废弃，确认删除？",
+        "en": "The delection of documents will make the workflow abandoned. Do you want to delete?"
+    },
+    {
+        "cn": "撤回后单据将置回未提交状态，确认撤回？",
+        "en": "Document will be reset as unsubmitted after withdrawn. Do you want to withdraw?"
+    },
+    {
+        "cn": "\"未审批\"、\"审批中\"的单据才能撤回！",
+        "en": "Documents with status \"Not Approved\" or \"Pending\" can be withdrawn."
+    },
+    {
+        "cn": "该员工不能创建此单据",
+        "en": "Document cannot be created against selected employee."
+    },
+    {
+        "cn": "反审批后单据将置回未提交状态，确认反审批？",
+        "en": "Document will be reset as unsubmitted after cancelling approval. Do you want to cancel approval?"
+    },
+    {
+        "cn": "\"审批通过\"的单据才能反审批！",
+        "en": "Only document with status \"Approved\" can be cancelled approval."
+    },
+    {
+        "cn": "批量分配中不能同时含有调动人员及借调人员,请重新选择",
+        "en": "You cannot select both transferring employee and secondee for batch assignment. Please reselect."
+    },
+    {
+        "cn": "预计调回日期不可以早于生效日期",
+        "en": "Expected secondment return date cannot be earlier than effective date."
+    },
+    {
+        "cn": "选择员工",
+        "en": "Please select employee"
+    },
+    {
+        "cn": "不允许选择多条记录",
+        "en": "Cannot select more than one record."
+    },
+    {
+        "cn": "身份证号码和护照号码不能同时为空",
+        "en": "Either ID card No or passport number is required. "
+    },
+    {
+        "cn": "表单输入错误，请修改一下",
+        "en": "There is error in the document, please modify."
+    },
+    {
+        "cn": "读卡失败,请检查设备是否连接正确",
+        "en": "Failed to read ID card. Please check the connection of equipment."
+    },
+    {
+        "cn": "最多可选200个字段，超过的部分已被忽略",
+        "en": "200 fields can be selected at most. Fiels over 200 are ignored."
+    },
+    {
+        "cn": "选中表格中的组织机构，都没有启用!",
+        "en": "Selected organizations are not activated."
+    },
+    {
+        "cn": "选中表格中的组织机构含有禁用的，禁用的将忽略!",
+        "en": "Some of the selected organizations are disabled. The disabled will be ignored."
+    },
+    {
+        "cn": "请假单分录不能为空！",
+        "en": "The leave detailed item cannot be empty."
+    },
+    {
+        "cn": "请假时长不能大于计算时长 ！",
+        "en": "Leave length cannot be larger than calculated length."
+    },
+    {
+        "cn": "请假时长与真实时长不一致 ！",
+        "en": "Leave length is inconsistent with real length."
+    },
+    {
+        "cn": "请假单分录不能超过100条",
+        "en": "The number of leave detailed items cannot be more than 100."
+    },
+    {
+        "cn": "工作流已产生，提交生效将废弃工作流，确认废弃？",
+        "en": "Workflow has been generated, and \"Submit into Effect\" will make workflow abandoned. Do you want to continue?"
+    },
+    {
+        "cn": "请输入正确的日期时间",
+        "en": "Please enter correct date and time."
+    },
+    {
+        "cn": "您确认对此单据进行反审批吗？",
+        "en": "Do you want to cancel approve?"
+    },
+    {
+        "cn": "组织填充的加班类型与个人的加班类型不一致",
+        "en": "The OT type assigned by \"Create by org\" is inconsistent with personal OT type. "
+    },
+    {
+        "cn": "实际加班小时数与真实加班小时数不一致",
+        "en": "The actual OT hours are inconsistent with real OT hours."
+    },
+    {
+        "cn": " 温馨提示：",
+        "en": "Tips:"
+    },
+    {
+        "cn": "选中记录中有部分单据处于非“审批通过”状态，",
+        "en": "Some of the selected documents are in status \"Approved\""
+    },
+    {
+        "cn": "您确认对选中单据进行反审批吗？",
+        "en": "Do you want to cancel approve for selected documents?"
+    },
+    {
+        "cn": "行的出差开始时间必须小于出差结束时间。",
+        "en": "The business trip start time must be earlier than end time."
+    },
+    {
+        "cn": "实际出差时长与真实出差时长不一致。",
+        "en": "The actual business trip period is inconsistent with real period."
+    },
+    {
+        "cn": "出差天数只能为正数",
+        "en": "Business trip days must be positive number."
+    },
+    {
+        "cn": "请输入非负整数",
+        "en": "Please enter a nonnegative integer！"
+    },
+   {
+        "cn": "请输入正整数!",
+        "en": "Please enter a positive integer！"
+    },
+    {
+        "cn": "不能删除默认数据",
+        "en": "Can't delete default data！"
+    },
+    {
+        "cn": "该请假单已超过销假期限!",
+        "en": "This leave request has exceeded the deadline of been cleared！"
+    },
+    {
+        "cn": "请上传.xlsx格式文件",
+        "en": "Please upload .xlsx format file."
+    }, 
+    {
+        "cn": "3. 使用场景：  若系统初次使用时,先通过系统生成额度，再批量导入用户之前已审核通过的请假单,然后再通过初始化导入更新剩余额度和实际额度；  导入当前额度的剩余额度,系统自动计算出额度的实际值;  导入后: 实际额度 = 剩余额度 + 已用额度;",
+        "en": "Saving...3"
+    },
+    {
+        "cn": "请选择状态为'未审批'或'审批中'的单据。",
+        "en": "Please select documents with status 'Not approved' or 'Pending'."
+    }, 
+    {
+        "cn": "只能选中一条记录进行反审批",
+        "en": "Please select only one record to cancel approval."
+    },
+    {
+        "cn": "请选择审批通过的加班单",
+        "en": "Please select approved OT request."
+    }, 
+    {
+        "cn": "数据校验未通过，请修正后再处理",
+        "en": "Validation didn't pass, please correct input"
+    },
+    {
+				"cn": "此档案状态已经是启用!",
+				"en": "This profile already has been activated!"
+		},
+		{
+				"cn": "启用成功！",
+				"en": "Activation success!"
+		},
+		{
+				"cn": "此档案状态已经是禁用! ",
+				"en": "This profile already has been disabled!"
+		},
+		{
+				"cn": "禁用成功！",
+				"en": "Dsiabled successful! "
+		},
+		{
+				"cn": "不能选择启用状态的档案进行操作!!",
+				"en": "Can't activate the profile which already has been activated!"
+		},
+	{
+		"cn": "不能删除启用状态的人员档案!",
+		"en": "Can't delete the profile which already has been activated!"
+	},
+	{
+		"cn": "不能选择禁用状态的档案进行操作!",
+		"en": "Can't disable the profile which already has been disabled!"
+	},
+	{
+		"cn": "请选择记录行进行进行操作!!",
+		"en": "Please choose records to operate!"
+	},
+	{
+		"cn": "没有任何符合条件的数据需要延期！",
+		"en": "No record meet the conditions to extend!"
+	},
+	{
+		"cn": "列表无任何记录！",
+		"en": "No record in the list!"
+	},
+	{
+		"cn": "您没有选中任何记录！",
+		"en": "No record selected!"
+	},
+	{
+		"cn": "所选延期记录超过20000，请重新选择！",
+		"en": "The number of selected records exceeds the max value(2000)that system can process at the same time, please reselect!"
+	},
+	{
+		"cn": "温馨提示：通过该功能进行延期后，将不能再将延期日期恢复到较早的日期。",
+		"en": "Tips: After executing batch extend ,extension date can't restore to the early date."
+	},
+	{
+		"cn": "对列表中所有的记录进行延期-固定日期 不能为空！",
+		"en": "\"Fixed date\" can't be empty!"
+	},
+	{
+		"cn": "对列表中所有的记录进行延期-按月数 不能为空！",
+		"en": "\"Months\" cant't be empty!"
+	},
+	{
+		"cn": "您没有选择延期方式！",
+		"en": "Please choose extension type!"
+	},
+	{
+		"cn": "假期类型不能为空！",
+		"en": "Leave type can't be empty!"
+	},
+	{
+		"cn": "开始/结束日期不能不能为空！",
+		"en": "Start date or end date can't be empty!"
+	},
+	{
+		"cn": "您没有勾选周期选择！",
+		"en": "Please select specific cycle to extend!"
+	},
+	{
+		"cn": "未选择指定人更新延期日期！",
+		"en": "Please select employee scope to extend!"
+	},
+	{
+		"cn": "按下面的条件进行延期-固定日期 不能为空！",
+		"en": "\"Fixed date\" can't be empty!"
+	},
+	{
+		"cn": "按下面的条件进行延期-按月数 不能为空！",
+		"en": "\"Months\" cant't be empty!"
+	},
+	{
+		"cn": "生效日期不能大于延期时间",
+		"en": "Effective date can't be larger than extension time!"
+	},
+	{
+		"cn": "生效日期不能小于周期开始时间",
+		"en": "Effective date can't be less than the start date of cycle!"
+	},
+	{
+		"cn": "延期时间不能小于周期结束时间",
+		"en": "Extension time can't be less than the end date of cycle!"
+	},
+	{
+		"cn": "起始日期不能为空!",
+		"en": "Start date can't be empty!"
+	},
+	{
+		"cn": "结束日期不能为空!",
+		"en": "End date can't be empty!"
+	},
+	{
+		"cn": "第一行班次名称不能为空!",
+		"en": "Shift name of the first row can't be empty!"
+	},
+	{
+		"cn": "起始日期不能大于结束日期!",
+		"en": "Start date can't be larger than end date!"
+	},
+	{
+		"cn": "您确认要审核单据吗？",
+		"en": "Are you confirm to audit the document?"
+	},
+	{
+		"cn": "导入异常，请检查您的导入模板和导入数据",
+		"en": "Import exception！Please check the import template and data!"
+	},
+	{
+		"cn": "假期额度初始化数据导入完毕",
+		"en": "Initialization data of leave quota has been imported. "
+	},
+	{
+		"cn": "假期额度修改数据导入完毕",
+		"en": "Modification data of leave quota has been imported. "
+	},
+	{
+		"cn": "导入失败",
+		"en": "Import failed"
+	},
+	{
+		"cn": "假期额度新增数据导入完毕",
+		"en": "New data of leave quota has been imported. "
+	},
+	{
+		"cn": "假期额度新增导入模板",
+		"en": "Newly import template of leave quota"
+	},
+        {
+		"cn": "请填写启动周期长度或单位！",
+		"en": "Please fill in length or unit of the start cycle!"
+	},
+	{
+		"cn": "周期长度必须能被12月整除，例如：1,2,3,4,6！",
+		"en": "The length of the cycle must be divisible by 12(month)!"
+	},
+	{
+		"cn": "请填写补请假期限或单位！",
+		"en": "Please fill in deadline or unit of afterwards leave application!"
+	},
+	{
+		"cn": "请填写销假期限或单位！",
+		"en": "Please fill in deadline or unit of leave cancelation!"
+	},
+	{
+		"cn": "请填写请假单位额度！",
+		"en": "Please fill in quota unit of leave!"
+	},
+	{
+		"cn": "请假单位暂只支持天!",
+		"en": "Only day(s) can be the unit of leave!"
+	},
+	{
+		"cn": "预置数据不能编辑!",
+		"en": "Can't edit preset data!"
+	},
+	{
+		"cn": "员工范围存在数据为空，保存失败！",
+		"en": "Employee scope can't be empty!"
+	},
+	{
+		"cn": "司龄计算规则存在数据为空，保存失败！",
+		"en": "Date of service year calculation rule can't be empty!"
+	},
+	{
+		"cn": "工龄计算规则存在数据为空，保存失败！",
+		"en": "Date of career year calculation rule can't be empty!"
+	},
+	{
+		"cn": "固定值不能为空，保存失败！",
+		"en": "Fixed value can't be empty!"
+	},
+	{
+		"cn": "入职满一年计算额度，生效日期只能入职满一年",
+		"en": "Quota can be generate and effective only after service for 1st year."
+	},
+	{
+		"cn": "启用的假期类型不能删除。",
+		"en": "Can't delete valid leave type!"
+	},
+	{
+		"cn": "选中全是预置数据，预置数据不能删除!",
+		"en": "You have selected the preset data which can't be deleted!"
+	},
+	{
+		"cn": "请先选中要删除的数据!",
+		"en": "Please selected the data first!"
+	},
+	{
+		"cn": "存在预置数据，删除时将忽略预置数据。 您确认要删除吗？",
+		"en": "Preset data will be ignore when deleting! Are you sure to delete?"
+	},
+	{
+		"cn": "删除成功",
+		"en": "Delete successful!"
+	},
+	{
+		"cn": "请先保存路录入的考勤中心数据!",
+		"en": "Please save the recorded data of attendance center first! "
+	},
+	{
+		"cn": "班次，考勤制度，假期制度，打卡考勤，是否自动排班都为空，请至少选择一个目标项赋值",
+		"en": "Shift,attendance system,leave system,punch card,shift automatically can't be empty at same time! Please select at least one to assign!"
+	},
+	{
+		"cn": "只能选中一行",
+		"en": "Can only select one line!"
+	},
+	{
+		"cn": "考勤周期没有明细，请重新选择考勤制度或重新设置该考勤周期",
+		"en": "Attendace cycle didn't have details. Please reselect attendace system or reset this attendance cycle!"
+	},
+	{
+		"cn": "当前加班补偿方式为默认的补偿方式，无法禁用！",
+		"en": "This compensation type is default, can't be disable it!"
+	},
+	{
+		"cn": "当前加班补偿方式为禁用状态，无法设置为默认值，请启用后重试。",
+		"en": "Disabled compensation type can't be set as default! Please try again after enabled!"
+	},
+	{
+		"cn": "预置数据、默认数据不能删除!",
+		"en": "Can't delete default or preset data!"
+	},
+	{
+		"cn": "存在预置数据或默认数据，删除时将忽略预置数据和默认数据。 您确认要删除吗？",
+		"en": "Preset data and default will be ignore when deleting! Are you sure to delete?"
+	},
+	{
+		"cn": "选择的假期制度没有调休假",
+		"en": "The leave system selected didn't have compensation leave!"
+	},
+	{
+		"cn": "输入值应大于0",
+		"en": "Input values should be greater than 0!"
+	},
+	{
+		"cn": "获取用户权限失败",
+		"en": "Failed to obtain user rights!"
+	},
+	{
+		"cn": "结束日期必须大于开始日期！",
+		"en": "End date should be greater than start date!"
+	},
+	{
+		"cn": "保存数据成功",
+		"en": "Save successful!"
+	},
+	{
+		"cn": "结束日期、法定假日均不能为空！",
+		"en": "End date,legal holiday can't be empty!"
+	},
+	{
+		"cn": "正在按模板重新生成工作日历",
+		"en": "Rebuilding…"
+	},
+	{
+		"cn": "重新生成工作日历成功",
+		"en": "Rebuild successful!"
+	},
+	{
+		"cn": "无效日期",
+		"en": "Invalid date"
+	},
+	{
+		"cn": "法定假日不可以调整，无法选择！",
+		"en": "Can't edit legal holiday!"
+	},
+	{
+		"cn": "调整的日期不在该工作日历的范围内，请确认",
+		"en": "The adjustment date is out of working calendar, please confirm！"
+	},
+	{
+		"cn": "温馨提示：保存后将会覆盖更新原有工作日历，请谨慎操作！",
+		"en": "Tips:The New will cover the original working calendar, please be careful!"
+	},
+	{
+		"cn": "未找到相应的额度信息，保存失败！",
+		"en": "Save Failed. There is no leave quota."
+	},
+	{
+		"cn": "不能重置历史工作日历！",
+		"en": "Can't reset the historical working calendar!"
+	},
+	{
+		"cn": "您确认要反审核单据吗？",
+		"en": "Are you confirm to cancel audit the document?"
+	},
+	{
+		"cn": "名称已存在，不能重复！",
+		"en": "Duplicate Name!"
+	},
+  {
+           "cn": "校验通过。",
+           "en": "Verification passed!"
+   },
+    {
+        "cn": "请选中一条发送！",
+        "en": "Please select one candidate to send."
+    },
+    {
+        "cn": "请选中一条数据！",
+        "en": "Please select one record."
+    },
+    {
+        "cn": "请选中一条简历！",
+        "en": "Please select one resume."
+    },
+    {
+        "cn": "请选中一条Offer！",
+        "en": "Please select one offer."
+    },
+    {
+        "cn": "任职资格和岗位职责不能少于20个字符！",
+        "en": "Qulification and position responsibility cannot be less than 20 characters."
+    },
+    {
+        "cn": "招聘需求为0，视为无需求，请更改!",
+        "en": "This is invalid demand as recruiting number is 0. Please change it."
+    },
+    {
+        "cn": "一次只能操作一条数据！！",
+        "en": "Please select one record at a time."
+    },
+    {
+        "cn": "您确认要删除该招聘需求吗？",
+        "en": "Do you want to delete the recruitment demand?"
+    },
+    {
+        "cn": "删除单据成功！",
+        "en": "Deletion completed."
+    },
+    {
+        "cn": "未提交状态的单据不允许废弃！！",
+        "en": "Unsubmitted document cannot be abandoned."
+    },
+    {
+        "cn": "终止只适用于审批通过的流程！",
+        "en": "Termination only applies to approved process."
+    },
+    {
+        "cn": "请先选中一数据！！",
+        "en": "Please select on record."
+    },
+    {
+        "cn": "请至少选中一条简历！",
+        "en": "Please select at least one resume."
+    },
+    {
+        "cn": "简历状态为面试不通过、放弃面试、终止面试才可以转其它部门!",
+        "en": "Resume with status interview failed, interview dropped, interview terminated can be transferred to other depatment."
+    },
+    {
+        "cn": "您确认重点关注此人吗？",
+        "en": "Do you want to mark the candidate as key talent?"
+    },
+    {
+        "cn": "当前简历已重点关注，不需要再操作！",
+        "en": "The resume is marked as key, and cannot be marked again."
+    },
+    {
+        "cn": "您确认取消关注此人吗？",
+        "en": "Do you want to cacel key mark?"
+    },
+    {
+        "cn": "当前状态为报批中，不允许操作终止面试",
+        "en": "Termination cannot be done for cadidate with status- to be approved."
+    },
+    {
+        "cn": "当前状态为待入职，不允许操作终止面试",
+        "en": "Termination cannot be done for cadidate with status- waiting for entry."
+    },
+    {
+        "cn": "当前简历不在黑名单中，不需要再移除！",
+        "en": "The resume is not in blacklist, and cannot be removed."
+    },
+    {
+        "cn": "只能终止未提交的单据！",
+        "en": "Only unsubmitted documents can be terminated."
+    },
+    {
+        "cn": "只有待入职状态的简历才能转预入职！",
+        "en": "Resume with status - wait for entry - can be transferred to Pre-Entry."
+    },
+    {
+        "cn": "只有待入职或者已预入职状态的简历才能直接入职！",
+        "en": "Resume with status - wait for entry or pre-entry - can be transferred to direct entry."
+    },
+    {
+        "cn": "请至少选中一数据！！",
+        "en": "Please select at least one record."
+    },
+    {
+        "cn": "刷新完成！（每天只能免费刷新1次）",
+        "en": "Refresh done. ( One free refresh every day)"
+    },
+    {
+        "cn": "请选中一行数据进行查看！！",
+        "en": "Please select one record to view."
+    },
+    {
+        "cn": "该需求未发布或者已发布但是未到达截止日期，不能重新发布！",
+        "en": "The demand is not published or is published but before deadline, so it cannot be republished."
+    },
+    {
+        "cn": "当前的招聘达成率为 （入职人数/需求人数），请确认终止！",
+        "en": "Current recruitment ratio is (number of entry/number of demand), and please confirm to terminate.1"
+    },
+    {
+        "cn": "您确认这些简历失效吗？",
+        "en": "Do you want to make the resumes invalid?"
+    },
+    {
+        "cn": "您确认这些简历取消失效吗？",
+        "en": "Do you want to cancle invalid for the resumes?"
+    },
+    {
+        "cn": "您确认此简历锁定吗？",
+        "en": "Do you want to lock the resume?"
+    },
+    {
+        "cn": "您确认筛选不通过吗？",
+        "en": "Do you want to reject resume screening?"
+    },
+    {
+        "cn": "您确认筛选通过吗？",
+        "en": "Do you want to approve resume screening?"
+    },
+    {
+        "cn": "身份证号码或护照号输入不正确!",
+        "en": "ID No. or passport No. is incorrect!"
+    },
+    {
+        "cn": "身份证号码长度只能为15位或18位。",
+        "en": "The length of ID Card No should be 15 or 18."
+    },
+    {
+        "cn": "请选中一条简历进行解锁！",
+        "en": "Please select one resume to unlock."
+    },
+    {
+        "cn": "请选择一条简历！",
+        "en": "Please select one resume."
+    },
+    {
+        "cn": "请至少选中一行数据！！",
+        "en": "Please select at least one record."
+    },
+    {
+        "cn": "请至少选中一行数据进行刷新！！",
+        "en": "Please select at least one record to refresh."
+    },
+    {
+        "cn": "请先选中行！",
+        "en": "Please select record."
+    },
+    {
+        "cn": "只能解锁“待筛选”状态的简历，其它应聘进行中的简历，请通过“不通过”或“终止”来解锁简历。解锁后该简历的应聘将不再启用，请确认？",
+        "en": "Resumes with status \"to be screened\" can be unlocked. Other resumes can be unlocked via \"Terminate\" or \"Reject\" action. Hiring will not be active after unlocked. Continue?"
+    },
+    {
+        "cn": "您确认要废弃该招聘单据吗？",
+        "en": "Do you want to abandon this recruitment document?"
+    },
+    {
+        "cn": "信息填写不完整！",
+        "en": "Incomplete information!"
+    },
+    {
+        "cn": "操作成功",
+        "en": "Operation done."
+    },
+    {
+        "cn": "请选择不通过原因！",
+        "en": "Please select reason for no passing."
+    },
+    {
+        "cn": "不通过时间",
+        "en": "Date"
+    },
+    {
+        "cn": "您确认此简历筛选通过吗？",
+        "en": "Do you want to approve resume screening?"
+    },
+    {
+        "cn": "只有待入职、已预入职状态的简历才能更新入职日期！",
+        "en": "The entry date of resumes with status wait for entry or pre-entered can be updated."
+    },
+    {
+        "cn": "您确认此Offer放弃入职吗？",
+        "en": "Do you want to drop entry for this offer?"
+    },
+    {
+        "cn": "确认终止该offer？",
+        "en": "Do you want to terminate the offer?"
+    },
+    {
+        "cn": "该数据记录已被[档案库-工作经验]引用，操作失败！",
+        "en": "Data has been referred by archive - work experience and cannot be deleted."
+    },
+    {
+        "cn": "该数据记录已被[档案库-求职意向]引用，操作失败！",
+        "en": "Data has been referred by archive - job intension and cannot be deleted."
+    },
+    {
+        "cn": "您确认要废弃该招聘需求吗？",
+        "en": "Do you want abandon this recruitment demand?"
+    },
+    {
+        "cn": "每次只能操作一条数据！！",
+        "en": "Only one record can be republished at a time!"
+    },
+    {
+        "cn": 该简历无需解锁！",
+        "en": "This resume does not need to unlock!"
+    },
+    {
+        "cn": "您确认此简历锁定吗？",
+        "en": "Do you want to unlock this resume?"
+    },
+    {
+        "cn": "",
+        "en": ""
+    },
+	{
+		"cn": "操作中",
+		"en": "In process..."
+	}
+]

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode>
+    <siteMapNode title="网站设置" url="/Admin/">
+      <siteMapNode menuKey="Admin" description="/admin/admin_" url="/eyoung/admin/admin_list.aspx" title="管理员列表"></siteMapNode>
+      <siteMapNode menuKey="Admin" description="/admin/Stores_" url="/eyoung/admin/Stores_List.aspx" title="职位列表"></siteMapNode>
+      <siteMapNode menuKey="Admin" description="/admin/AdminLog" url="/eyoung/admin/AdminLog.aspx" title="操作日志列表"></siteMapNode>
+      <siteMapNode menuKey="SEO" description="/admin/seo_" url="/eyoung/admin/seo_list.aspx" title="页面关键词列表"></siteMapNode>
+      <siteMapNode menuKey="SEO" description="/admin/systemkeyword" url="/eyoung/admin/systemkeyword_list.aspx" title="全文关键词列表"></siteMapNode>
+      <siteMapNode menuKey="SearchKind" description="/admin/Country_" url="/eyoung/admin/Country_List.aspx" title="相关留学国家"></siteMapNode>
+      <siteMapNode menuKey="SearchKind" description="/admin/City_" url="/eyoung/admin/City_List.aspx" title="适用城市"></siteMapNode>
+      <siteMapNode menuKey="SearchKind" description="/admin/Business_" url="/eyoung/admin/Business_List.aspx" title="必益相关业务"></siteMapNode>
+      <siteMapNode menuKey="SearchKind" description="/admin/Levels_" url="/eyoung/admin/Levels_List.aspx" title="适用学习阶段"></siteMapNode>
+      <siteMapNode menuKey="SearchKind" description="/admin/Categories_" url="/eyoung/admin/Categories_List.aspx" title="适用人群类型"></siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode title="招生推广页" url="/Guide/">
+      <siteMapNode menuKey="AppointmentComment" description="/Guide/AppointmentComment_" url="/eyoung/Guide/AppointmentComment_List.aspx" title="招生会预约列表"></siteMapNode>
+      <siteMapNode menuKey="GuideGuest" description="/Guide/GuideGuest_" url="/eyoung/Guide/GuideGuest_List.aspx" title="重磅嘉宾列表"></siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode title="中文首页" url="/Home/">
+      <siteMapNode menuKey="Home" description="/Home/ListBanner_" url="/eyoung/Home/ListBanner_List.aspx" title="广告图列表"></siteMapNode>
+      <siteMapNode menuKey="Home" description="/Home/HomeNews_" url="/eyoung/Home/HomeNews_List.aspx" title="新闻列表"></siteMapNode>
+      <siteMapNode menuKey="Home" description="/Home/HomeNewsUrl_" url="/eyoung/Home/HomeNewsUrl_List.aspx" title="新闻相关连接"></siteMapNode>
+      <siteMapNode menuKey="Home" description="/Home/HomeSchool_" url="/eyoung/Home/HomeSchool_List.aspx" title="院校列表"></siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode title="英文首页" url="/ENHome/">
+      <siteMapNode menuKey="ENHome" description="/ENHome/ENHomeBanner_" url="/eyoung/ENHome/ENHomeBanner_Add.aspx" title="广告图"></siteMapNode>
+      <siteMapNode menuKey="ENHome" description="/ENHome/ENHomeParteners_" url="/eyoung/ENHome/ENHomeParteners_List.aspx" title="合作伙伴"></siteMapNode>
+      <siteMapNode menuKey="ENHome" description="/ENHome/ENHomeImage_" url="/eyoung/ENHome/ENHomeImage_List.aspx" title="照片列表"></siteMapNode>
+    </siteMapNode>
+
+
+    <siteMapNode title="院校中心" url="/Schools/">
+      <siteMapNode menuKey="Schools" description="/Schools/Schools_" url="/eyoung/Schools/Schools_List.aspx" title="院校列表"></siteMapNode>
+      <siteMapNode menuKey="SchoolPageList" description="/Schools/SchoolPageListActivity_" url="/eyoung/Schools/SchoolPageListActivity_List.aspx" title="列表页面最新活动"></siteMapNode>
+      <siteMapNode menuKey="SchoolPageList" description="/Schools/SchoolPageListNews_" url="/eyoung/Schools/SchoolPageListNews_List.aspx" title="列表页面最新资讯"></siteMapNode>
+      <siteMapNode menuKey="SchoolPageList" description="/Schools/SchoolPageListSchool_" url="/eyoung/Schools/SchoolPageListSchool_List.aspx" title="列表页面院校展示"></siteMapNode>
+      <siteMapNode menuKey="SchoolPageList" description="/Schools/SchoolPageListVoide_" url="/eyoung/Schools/SchoolPageListVoide_List.aspx" title="列表页面院校视频"></siteMapNode>
+      <siteMapNode menuKey="SchoolPageList" description="/Schools/Banner_" url="/eyoung/Schools/Banner_List.aspx" title="列表页面大图广告"></siteMapNode>
+      <siteMapNode menuKey="SchoolPageList" description="/Schools/SmallBanner_" url="/eyoung/Schools/SmallBanner_List.aspx" title="列表页面小图广告"></siteMapNode>
+      <siteMapNode menuKey="SchoolPageList" description="/Schools/ListBanner_" url="/eyoung/Schools/ListBanner_List.aspx" title="检索页广告图"></siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode title="新闻中心" url="/News/">
+      <siteMapNode menuKey="News" description="/News/NewsType_" url="/eyoung/News/NewsType_List.aspx" title="分类管理"></siteMapNode>
+      <siteMapNode menuKey="News" description="/News/News_" url="/eyoung/News/News_List.aspx" title="新闻列表"></siteMapNode>
+      <siteMapNode menuKey="News" description="/News/ListBanner_" url="/eyoung/News/ListBanner_List.aspx" title="新闻列表页广告图"></siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode title="精彩活动" url="/Events/">
+      <siteMapNode menuKey="Events" description="/Events/EventsType_" url="/eyoung/Events/EventsType_List.aspx" title="活动类型"></siteMapNode>
+      <siteMapNode menuKey="Events" description="/Events/Events_" url="/eyoung/Events/Events_List.aspx" title="活动列表"></siteMapNode>
+      <siteMapNode menuKey="Events" description="/Events/ListBanner_" url="/eyoung/Events/ListBanner_List.aspx" title="活动列表页广告图"></siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode title="产品模版" url="/Temps/">
+      <siteMapNode menuKey="Temp" description="/Temps/Temps_" url="/eyoung/Temps/Temps_List.aspx" title="产品模版列表"></siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode title="在线留言" url="/GuestComment/">
+      <siteMapNode menuKey="Comment" description="/GuestComment/GuestComment_" url="/eyoung/GuestComment/GuestComment_List.aspx" title="选校评估预约"></siteMapNode>
+      <siteMapNode menuKey="Comment" description="/GuestComment/Activity_" url="/eyoung/GuestComment/Activity_List.aspx" title="活动预约"></siteMapNode>
+      <siteMapNode menuKey="Comment" description="/GuestComment/Product_" url="/eyoung/GuestComment/Product_List.aspx" title="产品留言"></siteMapNode>
+      <siteMapNode menuKey="Comment" description="/GuestComment/JoinUsComment_" url="/eyoung/GuestComment/JoinUsComment_List.aspx" title="合作申请"></siteMapNode>
+      <siteMapNode menuKey="Comment" description="/GuestComment/ContantComment_" url="/eyoung/GuestComment/ContantComment_List.aspx" title="联系我们留言"></siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode title="关于我们" url="/About/">
+      <siteMapNode menuKey="About" description="/About/Single_" url="/eyoung/About/Single_List.aspx" title="单页列表"></siteMapNode>
+      <siteMapNode menuKey="About" description="/About/ListBanner_" url="/eyoung/About/ListBanner_List.aspx" title="广告位列表"></siteMapNode>
+      <siteMapNode menuKey="About" description="/About/Partner_" url="/eyoung/About/Partner_List.aspx" title="合作伙伴"></siteMapNode>
+      <siteMapNode menuKey="About" description="/About/Job_" url="/eyoung/About/Job_List.aspx" title="招聘信息"></siteMapNode>
+      <siteMapNode menuKey="About" description="/About/JobPoint_" url="/eyoung/About/JobPoint_List.aspx" title="招聘评价"></siteMapNode>
+    </siteMapNode>
+
+  </siteMapNode>
+</siteMap>

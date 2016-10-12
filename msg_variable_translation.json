@@ -1,0 +1,250 @@
+﻿[
+    {
+        "cn": "假期类型不能为空！",
+        "en": "Leave type cannot be empty."
+    },
+    {
+        "cn": "您没有勾选周期选择！",
+        "en": "You didnot check the Period."
+    },
+    {
+        "cn": "您没有选择员工范围！",
+        "en": "You didnot choose the scope"
+    },
+    {
+        "cn": "您没有选择延期方式！",
+        "en": "You didnot choose the extension method."
+    },
+    {
+        "cn": "请假时长不能大于",
+        "en": "Period of leave can't be greater than"
+    },
+    {
+        "cn": "请假时间不能超过",
+        "en": "Period of leave can't be greater than "
+    },
+    {
+        "cn": "已经存在编码为",
+        "en": "A record with number of "
+    },
+   {
+        "cn": "此列与第",
+        "en": "Overlapping OT time in row "
+    },
+    {
+        "cn": "名称：",
+        "en": "Name:"
+    },
+    {
+        "cn": "编码：",
+        "en": "No.："
+    },
+    {
+        "cn": "员工考勤档案禁用后，",
+        "en": "Shift records scheduled after or in disable date( "
+    },
+    {
+        "cn": "温馨提示：本次将尝试延期",
+        "en": "There are "
+    },
+    {
+        "cn": "批量延期 ",
+        "en": "Successfully extended "
+    },
+    {
+        "cn": "已延期 ",
+        "en": "Successfully extended"
+    },
+    {
+        "cn": "您选择的员工  ",
+        "en": "No updates in selected employee"
+    },
+    {
+        "cn": "导入的文件中共",
+        "en": "The import file contains"
+    },
+    {
+        "cn": " 导入成功的记录有",
+        "en": "Imported successfully "
+    },
+    {
+        "cn": "导入失败",
+        "en": "Import failed "
+    },
+    {
+        "cn": "导入失败的原因如下：",
+        "en": "Import failed for the following reasons:"
+    },
+    {
+        "cn": "第",
+        "en": "Quota rule No."
+    },
+    {
+        "cn": "行",
+        "en": ""
+    },
+    {
+        "cn": "天",
+        "en": " day(s)"
+    },
+    {
+        "cn": "是默认",
+        "en": " is default"
+    },
+    {
+        "cn": "补请假期限不能超过上限",
+        "en": "Deadline for applying leave afterward can't over (month) "
+    },
+    {
+        "cn": "销假期限不能超过上限",
+        "en": "Deadline for leave clearance can't over (month) "
+    },
+    {
+        "cn": "的对象。",
+        "en": " already exists!"
+    },
+    {
+        "cn": ",开始时间：",
+        "en": ", start time: "
+    },
+    {
+        "cn": " 结束时间：",
+        "en": ", end time: "
+    },
+    {
+        "cn": "行加班时间存在交叉。",
+        "en": " !"
+    },
+    {
+        "cn": "已经存在，不能重复",
+        "en": " already exists. Duplicate names is not allowed!"
+    },
+    {
+        "cn": "及以后的排班记录将会删除，您确认要禁用吗？",
+        "en": ") will be deleted. Do you want to disable it?"
+    },
+    {
+        "cn": "条记录，通过该功能进行延期后，将不能再将延期日期恢复到较早的日期。",
+        "en": " records selected to extend, after extended the extension date can't be recovered to the early date, please be careful!"
+    },
+    {
+        "cn": " 条记录成功!",
+        "en": " records!"
+    },
+    {
+        "cn": " 条记录。",
+        "en": " records!"
+    },
+    {
+        "cn": "未更新任何记录!",
+        "en": "!"
+    },
+    {
+        "cn": "条记录",
+        "en": " records!"
+    },
+    {
+        "cn": "条",
+        "en": " records!"
+    },
+    {
+        "cn": "个额度规则，第",
+        "en": ", row "
+    },
+    {
+        "cn": ",不能删除!",
+        "en": "can't be deleted!"
+    },
+    {
+        "cn": "您没有 ",
+        "en": "You don't have the permission of "
+    },
+    {
+        "cn": " 的业务权限!",
+        "en": " !"
+    },
+    {
+        "cn": "该人员年假额度为",
+        "en": "The annual leave quota of this employee is "
+    },
+    {
+        "cn": ",不允许请假",
+        "en": ",annual leave application is not allowed!"
+    },
+    {
+        "cn": " 行的出差开始时间必须小于出差结束时间。",
+        "en": "Start time must be less than end time!"
+    },
+    {
+        "cn": "当前人的可用年假为",
+        "en": "The remianing annual quota of this employee is"
+    },
+    {
+        "cn": "天,不能提交或保存",
+        "en": " days,it not allowed to save or submit!"
+    },
+    {
+        "cn": "没有审批通过的单据：[",
+        "en": "Documents without approval:["
+    },
+    {
+        "cn": "已经销过假的单据：[",
+        "en": "Documents with clearance:["
+    },
+   {
+        "cn": "在编号为[",
+        "en": "There is an overlapping record in "
+    },
+    {
+        "cn": "]的请假单中,存在时间重叠的记录：",
+        "en": " of leave request: "
+    },
+    {
+        "cn": "]的加班单中,存在时间重叠的记录：",
+        "en": " of OT request: "
+    },
+    {
+        "cn": "]的出差单中,存在时间重叠的记录：",
+        "en": " of business tirp request: "
+    },
+    {
+        "cn": " ] 没有在全局默认的工作日历范围内！",
+        "en": " is not in the default working calendar!"
+    },
+     {
+        "cn": "已存在默认加班补偿方式[",
+        "en": "["
+    },
+    {
+        "cn": "],是否将当前加班补偿方式设置为默认值？",
+        "en": "] has been set as the default OT compensation, do you want replace it with the selected one now?"
+    },
+    {          
+        "cn": "不能对没有审批通过的单据以及销过假的单据进反审批",
+        "en": "Can't cancel approval against document that is not approved or that has leave clearance record."
+    },
+    {
+        "cn": "请先选中一数据！！",
+        "en": "Please select one record."
+    },
+    {
+        "cn": "请至少选中一数据",
+        "en": "Please select at least one record."
+    },
+    {
+        "cn": "请选择状态为'未审批'或'审批中'的单据。",
+        "en": "Please select documents with status 'Not approved' or 'Pending'."
+    },
+    {
+        "cn": "招聘需求【",
+        "en": "Recruitment demand ["
+    },
+    {
+        "cn": "发布状态为已发布,只有发布状态为未发布，流程状态为进中的需求才能一键发布!!",
+        "en": "] has been published, only demands which it's status is 'unpublished' and the process-state of it is 'In progress' can be published!"
+    },
+    {
+        "cn": "",
+        "en": "" 
+    }
+]

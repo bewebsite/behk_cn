@@ -1,0 +1,180 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="news_Default" %>
+
+<%@ Register Src="../ascx/header.ascx" TagName="header" TagPrefix="uc1" %>
+<%@ Register Src="../ascx/footer.ascx" TagName="footer" TagPrefix="uc2" %>
+<%@ Register Src="../ascx/navHotEvents.ascx" TagName="navHotEvents" TagPrefix="uc3" %>
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+    <meta charset="UTF-8">
+    <title>必益教育-院校列表</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/common.css?b2" />
+    <link href="../css/school-index.css" rel="stylesheet" type="text/css" />
+    <script src="../js/jquery.js" type="text/javascript"></script>
+    <script src="../js/kxbdSuperMarquee.js" type="text/javascript"></script>
+    <script src="../js/school-index-slide.js" type="text/javascript"></script>
+    <script src="../js/common.js" type="text/javascript"></script>
+    <script src="../js/school-list.js" type="text/javascript"></script>
+</head>
+<body>
+    <uc1:header ID="header1" runat="server" />
+    <div class="wrap">
+        <div class="wrapMain">
+            <div class="clear">
+            </div>
+            <div class="mbx">
+                <a href="/">
+                    <img src="../images/icon-home.png"></a> <em></em><a href="/events/">精彩活动</a><em></em><label>活动列表</label>
+            </div>
+            <div class="slideBanner2" <%=HaveBanner %>>
+                <div class="imglist">
+                    <ul>
+                        <asp:Literal ID="Lit_Banner" runat="server"></asp:Literal>
+                    </ul>
+                </div>
+                <div class="popBar">
+                    <h3 class="title">
+                    </h3>
+                    <div class="anniu">
+                        <asp:Repeater runat="server" ID="repBanner">
+                            <ItemTemplate>
+                                <a href="javascript:;" <%# Container.ItemIndex==0?"class='cur'":"" %>></a>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </div>
+                </div>
+                <%=MoreBanner %>
+            </div>
+            <div class="clear">
+            </div>
+            
+            <div class="list-left">
+                <!--
+                <div class="select-search" id="searchlist">
+                    <%=GetInfo() %>
+                    <div class="con">
+                        <%=GetTyes() %>
+                        <%=GetCounty() %>
+                        <%=GetCity()%>
+                        <%=GetBusiness() %>
+                        <%=GetLevels()%>
+                        <%=GetCategories() %>
+                        <dl class="clearfix">
+                            <dt>条件搜索</dt>
+                            <dd>
+                                适用年龄
+                                <input type="text" id="txt_StarAge" value="<%=Stars %>" />
+                                -
+                                <input type="text" id="txt_EndAge" value="<%=Ends %>" />
+                                <input type="text" class="t" onblur="if(this.value=='')this.value='请输入活动名称'" onfocus="if(this.value=='请输入活动名称')this.value='';"
+                                    value="<%=Name %>" id="txt_Name"><a href="javascript:void(0)" class="sure-btn" onclick="SearchSchool()">确定</a>
+                                <span class="num">共<em><%=AllCount %></em>条活动信息 </span>
+                            </dd>
+                        </dl>
+                    </div>
+                    
+                </div>
+            -->
+                <div class="activity_list">
+                    <asp:Repeater runat="server" ID="repList">
+                        <ItemTemplate>
+                            <dl>
+                                <dt>
+                                    <h3>
+                                        <a href="<%#Eval("HtmlName") %>.html" title="<%#Eval("CNTitle") %>">
+                                            <%#Eval("CNTitle") %></a></h3>
+                                    <p>
+                                        <%#Eval("ENTitle")%></p>
+                                    <a href="<%#Eval("HtmlName") %>.html" class="m">查看详情</a> </dt>
+                                <dd class="even clearfix">
+                                    <span>活动日期：<em><%#DateTime.Parse(Eval("StarDay").ToString()).ToString("M月d日") %><%#GetInfo2(Eval("EndDay"))%></em></span>
+                                    <span>活动时间：<em><%#Eval("StarTimer")%><%#GetInfo(Eval("EndTimer"))%></em></span>
+                                    <span class="ts">活动地点：<em><%#Comm.Help.Substring(Eval("Address"),54,"..") %></em></span>
+                                </dd>
+                                <dd class="clearfix">
+                                    <span>活动类型：<em><%#Eval("TypeName") %></em></span> <span>相关国家：<em><%#GetCountryName(Eval("RelevantCountry"))%></em></span>
+                                    <span>适用人群类型：<em><%#GetCountryName(Eval("RelevantCategories"))%></em></span> <span>相关业务：<em><%#GetCountryName(Eval("RelevantBusiness"))%></em></span>
+                                </dd>
+                            </dl>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                    <div class="page" <%=HaveMorePage %>>
+                        <asp:Literal ID="lit_nodata" Visible="false" Text="<div style='text-align:center; padding-top:10px;'>暂无相关活动</div>"
+                            runat="server"></asp:Literal>
+                        <My:AspNetPager UrlPaging="true" runat="server" LastButtonClass="last" PrevButtonClass="pre"
+                            FirstButtonClass="first" NextButtonClass="next" ID="pgServer" CurrentPageButtonClass="cur_page"
+                            FirstPageText="首页" LastPageText="尾页" NextPageText="下一页" PrevPageText="上一页" ShowMoreButtons="False"
+                            ShowPrevNext="True" class="page" EnableUrlRewriting="true" UrlRewritePattern="/events/?TypeId=%TypeId%&CountryId=%CountryId%&CityId=%CityId%&BusinessId=%BusinessId%&LevelsId=%LevelsId%&CategoriesId=%CategoriesId%&StarAge=%StarAge%&EndAge=%EndAge%&Name=%Name%&page={0}#searchlist">
+                        </My:AspNetPager>
+                        <!--内容部分 end-->
+                    </div>
+                </div>
+            </div>
+            <div class="list-right">
+                <div class="ad">
+                    <a href="javascript:void(0)" onclick="openChat('g')">
+                        <img src="/images/ads1.png" /></a></div>
+                <uc3:navHotEvents ID="navHotEvents" runat="server" />
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <uc2:footer ID="footer1" runat="server" />
+    <script type="text/javascript">
+        $(function () {
+            $("#txt_StarAge,#txt_EndAge").keypress(function (event) {
+                var keyCode = event.which;
+
+                if ((keyCode >= 48 && keyCode <= 57) || keyCode == 8 || keyCode == 0)
+                    return true;
+                else
+                    return false;
+            }).focus(function () {
+                this.style.imeMode = 'disabled';
+            });
+
+
+            $("#txt_StarAge").bind("keyup", function () {
+                var reg = /^[1-9]\d*$/;
+                var value = $.trim($(this).val());
+                if (value != "" && reg.test(value) == false) {
+                    $(this).val("");
+                }
+            })
+
+            $("#txt_EndAge").bind("keyup", function () {
+                var reg = /^[1-9]\d*$/;
+                var value = $.trim($(this).val());
+                if (value != "" && reg.test(value) == false) {
+                    $(this).val("");
+                }
+            })
+            $("#txt_EndAge").bind("blur", function () {
+                var value = $.trim($(this).val());
+                var star = $.trim($("#txt_StarAge").val());
+                if (star != "" && value != "" && parseInt(star) >= parseInt(value)) {
+                    $(this).val("");
+                }
+            })
+        })
+
+        function SearchSchool() {
+            var star = $.trim($("#txt_StarAge").val());
+            var end = $.trim($("#txt_EndAge").val());
+            var name = $.trim($("#txt_Name").val());
+            if (name == "请输入活动名称") {
+                name = "";
+            }
+            var v = "&Name=" + escape(name);
+            v += "&StarAge=" + star;
+            v += "&EndAge=" + end;
+            var url = "/events/?TypeId=<%=TypeId %>&CountryId=<%=CountryId %>&CityId=<%=CityId %>&BusinessId=<%=BusinessId %>&LevelsId=<%=LevelsId %>&CategoriesId=<%=CategoriesId %>" + v + "#searchlist";
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>

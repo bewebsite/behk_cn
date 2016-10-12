@@ -1,0 +1,6749 @@
+﻿[
+
+	{
+    "cn": "我要请假",
+    "en": "Submit Leave"
+  },
+  {
+    "cn": "leave时长",
+    "en": "Leave duration"
+  },
+  {
+    "cn": "leave次数",
+    "en": "Leave times"
+  },
+  {
+    "cn": "一段",
+    "en": "1st segment"
+  },
+  {
+    "cn": "三段",
+    "en": "3rd segment"
+  },
+  {
+    "cn": "上下班卡",
+    "en": "Work card"
+  },
+  {
+    "cn": "上下班时间",
+    "en": "Commuter hour"
+  },
+  {
+    "cn": "上下班时间，及是否需要打卡等设置",
+    "en": "Set up office and off hours, and whether to punch card"
+  },
+  {
+    "cn": "上传数据文件",
+    "en": "Upload data files"
+  },
+  {
+    "cn": "上期透支额度",
+    "en": "Exceed quota in last period"
+  },
+  {
+    "cn": "上班下班取卡规则",
+    "en": "Clock in and out rule"
+  },
+  {
+    "cn": "上班取卡提前（H）",
+    "en": "Advanced hour(s) for clock-in"
+  },
+  {
+    "cn": "上班时间",
+    "en": "Office hour"
+  },
+  {
+    "cn": "上班是否打卡",
+    "en": "Clock in or not"
+  },
+  {
+    "cn": "上班第一次取卡",
+    "en": "1st time clock-in"
+  },
+  {
+    "cn": "上班第一次取卡方式",
+    "en": "1st time clock-in mode"
+  },
+  {
+    "cn": "上班第二次取卡",
+    "en": "2nd time clock-in"
+  },
+  {
+    "cn": "下一步",
+    "en": "Next step"
+  },
+  {
+    "cn": "下班取卡延后（H）",
+    "en": "Delayed hour(s) for clock-out"
+  },
+  {
+    "cn": "下班时间",
+    "en": "Off hour"
+  },
+  {
+    "cn": "下班是否打卡",
+    "en": "Clock out or not"
+  },
+  {
+    "cn": "下班第一次取卡",
+    "en": "1st time clock-out"
+  },
+  {
+    "cn": "下班第二次取卡",
+    "en": "2nd time clock-out"
+  },
+  {
+    "cn": "下载列表字段",
+    "en": "Download list field"
+  },
+  {
+    "cn": "下载导入模板",
+    "en": "Download import template"
+  },
+  {
+    "cn": "不包含",
+    "en": "Exclude"
+  },
+  {
+    "cn": "不同意",
+    "en": "Disagree"
+  },
+  {
+    "cn": "不显示",
+    "en": "No display"
+  },
+  {
+    "cn": "不等于",
+    "en": "Unequal to"
+  },
+  {
+    "cn": "专员考勤看板，可以查看考勤明细以及汇总，并对其进行审核",
+    "en": "Attendance spectacular for specialist to view details and summary,  and audit"
+  },
+  {
+    "cn": "业务流程列表",
+    "en": "Business process list"
+  },
+  {
+    "cn": "个人加班额度",
+    "en": "Personal OT quota"
+  },
+  {
+    "cn": "个人加班额度方案",
+    "en": "Personal OT quota scheme"
+  },
+  {
+    "cn": "个人加班额度调整申请",
+    "en": "Application of personal OT quota adjustment"
+  },
+  {
+    "cn": "临时加班必须打加班",
+    "en": "Required application for temporary OT"
+  },
+  {
+    "cn": "主页",
+    "en": "Homepage"
+  },
+  {
+    "cn": "事假时长（天）",
+    "en": "Personal leave day(s)"
+  },
+  {
+    "cn": "事假时长（小时）",
+    "en": "Personal leave hour(s)"
+  },
+  {
+    "cn": "事假次数",
+    "en": "Personal leave times"
+  },
+  {
+    "cn": "二段",
+    "en": "2nd segment"
+  },
+  {
+    "cn": "云之家",
+    "en": "K3 cloud"
+  },
+  {
+    "cn": "人员列表信息",
+    "en": "Personnel list info"
+  },
+  {
+    "cn": "人员编码",
+    "en": "Personnel No."
+  },
+  {
+    "cn": "人工成本项目",
+    "en": "Manual cost item"
+  },
+  {
+    "cn": "仅显示主要任职",
+    "en": "Display main position only"
+  },
+  {
+    "cn": "任务:",
+    "en": "Task:"
+  },
+  {
+    "cn": "休息开始",
+    "en": "Rest start"
+  },
+  {
+    "cn": "休息日",
+    "en": "Weekend"
+  },
+  {
+    "cn": "休息时长(分钟)",
+    "en": "Rest minute(s)"
+  },
+  {
+    "cn": "休息结束",
+    "en": "Rest end"
+  },
+  {
+    "cn": "保存",
+    "en": "Save"
+  },
+  {
+    "cn": "保存为方案",
+    "en": "Save as scheme"
+  },
+  {
+    "cn": "保存为查询方案",
+    "en": "Save as query scheme"
+  },
+  {
+    "cn": "修正",
+    "en": "Correction"
+  },
+  {
+    "cn": "修订人",
+    "en": "Reviser"
+  },
+  {
+    "cn": "假期信息",
+    "en": "Leave info"
+  },
+  {
+    "cn": "假期制度",
+    "en": "Leave system"
+  },
+  {
+    "cn": "假期单位",
+    "en": "Leave unit"
+  },
+  {
+    "cn": "假期类型",
+    "en": "Leave type"
+  },
+  {
+    "cn": "假期项目",
+    "en": "Leave item"
+  },
+  {
+    "cn": "假期额度",
+    "en": "Leave quota"
+  },
+  {
+    "cn": "假期额度列表",
+    "en": "Leave quota list"
+  },
+  {
+    "cn": "允许的补卡次数",
+    "en": "Permissive retroactive punch-card times"
+  },
+  {
+    "cn": "允许自动生成加班单",
+    "en": "Permit generating OT application automatically"
+  },
+  {
+    "cn": "免卡点按实际打卡运算",
+    "en": "Compute actual punch-card time in non-punch card time"
+  },
+  {
+    "cn": "入职日期",
+    "en": "entry date"
+  },
+  {
+    "cn": "全部",
+    "en": "All"
+  },
+  {
+    "cn": "全部导出",
+    "en": "Import all"
+  },
+  {
+    "cn": "全部新增",
+    "en": "Add new to all"
+  },
+  {
+    "cn": "全部计算",
+    "en": "Calculate all"
+  },
+  {
+    "cn": "关闭",
+    "en": "Close"
+  },
+  {
+    "cn": "其他",
+    "en": "Others"
+  },
+  {
+    "cn": "其他设置",
+    "en": "Other settings"
+  },
+  {
+    "cn": "其它项目",
+    "en": "Other items"
+  },
+  {
+    "cn": "冻结前",
+    "en": "Before frozen"
+  },
+  {
+    "cn": "冻结额度",
+    "en": "Frozen quota"
+  },
+  {
+    "cn": "出勤类型",
+    "en": "Attendance type"
+  },
+  {
+    "cn": "出勤记录",
+    "en": "Attendance record"
+  },
+  {
+    "cn": "出勤记录列表",
+    "en": "Attendance records list"
+  },
+  {
+    "cn": "出发地点",
+    "en": "Departure place"
+  },
+  {
+    "cn": "出差信息",
+    "en": "Official business info"
+  },
+  {
+    "cn": "出差单",
+    "en": "Official business application"
+  },
+  {
+    "cn": "出差单状态",
+    "en": "Official business application status"
+  },
+  {
+    "cn": "出差原因",
+    "en": "Reason for official business"
+  },
+  {
+    "cn": "出差天数",
+    "en": "Official business days"
+  },
+  {
+    "cn": "出差开始时间",
+    "en": "Start time of official business"
+  },
+  {
+    "cn": "出差时长（天）",
+    "en": "Official business day(s)"
+  },
+  {
+    "cn": "出差时间",
+    "en": "Official business time"
+  },
+  {
+    "cn": "出差次数",
+    "en": "Official business times"
+  },
+  {
+    "cn": "出差申请列表",
+    "en": "Official business application list"
+  },
+  {
+    "cn": "出差类型",
+    "en": "Official business type"
+  },
+  {
+    "cn": "出差结束时间",
+    "en": "end time of official business"
+  },
+  {
+    "cn": "分配类型",
+    "en": "Assignment type"
+  },
+  {
+    "cn": "列表字段选择",
+    "en": "Field list selection"
+  },
+  {
+    "cn": "列表式排班",
+    "en": "List shift"
+  },
+  {
+    "cn": "创建",
+    "en": "Create"
+  },
+  {
+    "cn": "创建时间",
+    "en": "Creation time"
+  },
+  {
+    "cn": "创建者",
+    "en": "Creator"
+  },
+  {
+    "cn": "删除",
+    "en": "Delete"
+  },
+  {
+    "cn": "刷新",
+    "en": "Refresh"
+  },
+  {
+    "cn": "前一天",
+    "en": "Last day"
+  },
+  {
+    "cn": "剩余额度",
+    "en": "Rest quota"
+  },
+  {
+    "cn": "办理人姓名",
+    "en": "Name of transactor"
+  },
+  {
+    "cn": "办理人编码",
+    "en": "Transactor No."
+  },
+  {
+    "cn": "加入公司日期",
+    "en": "Date of joining company"
+  },
+  {
+    "cn": "加入集团日期",
+    "en": "Date of joining group"
+  },
+  {
+    "cn": "加班信息",
+    "en": "OT info"
+  },
+  {
+    "cn": "加班单",
+    "en": "OT application"
+  },
+  {
+    "cn": "加班单信息",
+    "en": "OT application info"
+  },
+  {
+    "cn": "加班单状态",
+    "en": "OT application status"
+  },
+  {
+    "cn": "加班原因",
+    "en": "Reason for OT"
+  },
+  {
+    "cn": "加班开始时间",
+    "en": "OT end time"
+  },
+  {
+    "cn": "加班时长",
+    "en": "OT duration"
+  },
+  {
+    "cn": "加班时间",
+    "en": "OT time"
+  },
+  {
+    "cn": "加班申请列表",
+    "en": "OT application list"
+  },
+  {
+    "cn": "加班类型",
+    "en": "OT type"
+  },
+  {
+    "cn": "加班结束时间",
+    "en": "OT start time"
+  },
+  {
+    "cn": "加班补偿方式",
+    "en": "OT compensation mode"
+  },
+  {
+    "cn": "加班起始值(分钟)",
+    "en": "OT initial value of minute"
+  },
+  {
+    "cn": "加班项目",
+    "en": "OT item"
+  },
+  {
+    "cn": "加班额度控制参数",
+    "en": "OT quota controlling parameter"
+  },
+  {
+    "cn": "加班额度管控中常用的参数设置，设置加班额度的管控类型，部门及个人额度调整比例，加班时效性控制等等",
+    "en": "Common parameter setting in OT quota controlling. Set up control and management types, department and personal quota adjustment ratio, OT timeliness control and so on"
+  },
+  {
+    "cn": "包含",
+    "en": "Include"
+  },
+  {
+    "cn": "匹配打卡记录",
+    "en": "Match punch-card record"
+  },
+  {
+    "cn": "单人出差单",
+    "en": "Single official business application"
+  },
+  {
+    "cn": "单人补签卡",
+    "en": "Single retroactive punch-card"
+  },
+  {
+    "cn": "单据状态",
+    "en": "Doc. status"
+  },
+  {
+    "cn": "单据编号",
+    "en": "Doc. No."
+  },
+  {
+    "cn": "占人头数",
+    "en": "Occupied No."
+  },
+  {
+    "cn": "历史记录",
+    "en": "Historical record"
+  },
+  {
+    "cn": "参加工作日期",
+    "en": "Date of joining work"
+  },
+  {
+    "cn": "参数",
+    "en": "Parameter"
+  },
+  {
+    "cn": "参考日期",
+    "en": "Reference Date"
+  },
+  {
+    "cn": "反审核",
+    "en": "Anti audit"
+  },
+  {
+    "cn": "取卡开始时数",
+    "en": "Start hours of punch-card"
+  },
+  {
+    "cn": "取卡结束时数",
+    "en": "end hours of punch-card scope"
+  },
+  {
+    "cn": "取卡范围开始时数",
+    "en": "Start hours of punch-card scope"
+  },
+  {
+    "cn": "取卡范围结束时数",
+    "en": "end hours of punch-card scope"
+  },
+  {
+    "cn": "取卡规则",
+    "en": "Punch-card rule"
+  },
+  {
+    "cn": "取卡规则列表",
+    "en": "List of punch-card rule"
+  },
+  {
+    "cn": "取消",
+    "en": "Cancel"
+  },
+  {
+    "cn": "可支持不同人员使用不同的轮班或排班规则。",
+    "en": "Support different personnel using different shift rules"
+  },
+  {
+    "cn": "可支持不同人员使用相同的轮班规则但不同的起始点。",
+    "en": "Support different personnel using same shift rules but with different initial point."
+  },
+  {
+    "cn": "可支持所选人员使用相同的轮班或排班规则。",
+    "en": "Support selected personnel using same shift rules"
+  },
+  {
+    "cn": "同意",
+    "en": "Agree"
+  },
+  {
+    "cn": "名称",
+    "en": "Name"
+  },
+  {
+    "cn": "后一天",
+    "en": "Next day"
+  },
+  {
+    "cn": "后台事务监控",
+    "en": "Monitor of backatage transaction"
+  },
+  {
+    "cn": "否",
+    "en": "No"
+  },
+  {
+    "cn": "启用",
+    "en": "enable"
+  },
+  {
+    "cn": "启用(默认)",
+    "en": "enable(default)"
+  },
+  {
+    "cn": "员工",
+    "en": "Employee"
+  },
+  {
+    "cn": "员工关系状态",
+    "en": "Employee relationship status"
+  },
+  {
+    "cn": "员工出差单的维护",
+    "en": "Maintain  official business application of employee"
+  },
+  {
+    "cn": "员工加班单维护",
+    "en": "Maintain OT application"
+  },
+  {
+    "cn": "员工和考勤组织汇总",
+    "en": "Employee and attendance Org summary"
+  },
+  {
+    "cn": "员工和行政组织汇总",
+    "en": "Employee and administrative org summary"
+  },
+  {
+    "cn": "员工姓名",
+    "en": "Name of employee"
+  },
+  {
+    "cn": "员工打卡记录的查询、导入",
+    "en": "Query and import employee punch-card records"
+  },
+  {
+    "cn": "员工排班列表查询",
+    "en": "Query of employee scheduling list"
+  },
+  {
+    "cn": "员工日考勤结果查询和管理",
+    "en": "Query and management of employee daily attendance result"
+  },
+  {
+    "cn": "员工汇总",
+    "en": "Employee summary"
+  },
+  {
+    "cn": "员工编码",
+    "en": "Employee No."
+  },
+  {
+    "cn": "员工考勤档案维护，维护员工对应的考勤编号",
+    "en": "Maintain employee attendance file and attendance No.."
+  },
+  {
+    "cn": "员工考勤结果汇总",
+    "en": "Employee attendance result summary"
+  },
+  {
+    "cn": "员工考勤综合查询，打卡、请假和出差等",
+    "en": "Comprehensive query, punch-card, asking for leave and official business of attendance"
+  },
+  {
+    "cn": "周期开始日期",
+    "en": "Cycle start date"
+  },
+  {
+    "cn": "周期类型",
+    "en": "Cycle type"
+  },
+  {
+    "cn": "周期结束日期",
+    "en": "Cycle end date"
+  },
+  {
+    "cn": "和",
+    "en": "And"
+  },
+  {
+    "cn": "固定加班",
+    "en": "Fixed OT"
+  },
+  {
+    "cn": "固定加班不计异常",
+    "en": "Fixed OT disregarding exception"
+  },
+  {
+    "cn": "固定项目",
+    "en": "Fixed item"
+  },
+  {
+    "cn": "图片",
+    "en": "Picture"
+  },
+  {
+    "cn": "基准日期",
+    "en": "Benchmark date"
+  },
+  {
+    "cn": "基本信息",
+    "en": "Basic info"
+  },
+  {
+    "cn": "增减额度",
+    "en": "Increase and decrease quota"
+  },
+  {
+    "cn": "备注",
+    "en": "Remark"
+  },
+  {
+    "cn": "外出公干",
+    "en": "Go out on business"
+  },
+  {
+    "cn": "多人出差单",
+    "en": "Multiply official business application"
+  },
+  {
+    "cn": "多人补签卡",
+    "en": "Multiply retroactive punch-card"
+  },
+  {
+    "cn": "大于",
+    "en": "Greater than"
+  },
+  {
+    "cn": "大于等于",
+    "en": "Equal or greater than"
+  },
+  {
+    "cn": "套打",
+    "en": "Print with template"
+  },
+  {
+    "cn": "姓名",
+    "en": "Name"
+  },
+  {
+    "cn": "字符",
+    "en": "Character"
+  },
+  {
+    "cn": "完成",
+    "en": "Complete"
+  },
+  {
+    "cn": "实习",
+    "en": "Intership"
+  },
+  {
+    "cn": "实数",
+    "en": "Real No."
+  },
+  {
+    "cn": "实际出勤天数",
+    "en": "Actual attendance days"
+  },
+  {
+    "cn": "实际加班小时数",
+    "en": "Actual OT hours"
+  },
+  {
+    "cn": "实际加班开始时间",
+    "en": "Actual start time of OT"
+  },
+  {
+    "cn": "实际加班结束时间",
+    "en": "Actual end time of OT"
+  },
+  {
+    "cn": "实际额度",
+    "en": "Actual quota"
+  },
+  {
+    "cn": "审批中单据",
+    "en": "Auditing Doc."
+  },
+  {
+    "cn": "审批人:",
+    "en": "Auditor:"
+  },
+  {
+    "cn": "审批意见:",
+    "en": "Audition opinion:"
+  },
+  {
+    "cn": "审批结果:",
+    "en": "Audition results:"
+  },
+  {
+    "cn": "审核",
+    "en": "Audit"
+  },
+  {
+    "cn": "审核意见",
+    "en": "Audition opinion"
+  },
+  {
+    "cn": "对由于忘记刷卡或外出公干等原因造成的未刷卡进行补卡，审核通过后会自动在员工打卡数据中增加记录",
+    "en": "Retroactive punch-card for employees who forget punch-card or go out for business. The records will be added automatically after approved."
+  },
+  {
+    "cn": "导入",
+    "en": "Import"
+  },
+  {
+    "cn": "导入摸板下载",
+    "en": "Download import template"
+  },
+  {
+    "cn": "导入数据",
+    "en": "Import data"
+  },
+  {
+    "cn": "导出选中",
+    "en": "Import selected"
+  },
+  {
+    "cn": "小于",
+    "en": "Less than"
+  },
+  {
+    "cn": "小于等于",
+    "en": "Equal or less than"
+  },
+  {
+    "cn": "展开",
+    "en": "Unfold"
+  },
+  {
+    "cn": "岗位变化",
+    "en": "Post changes"
+  },
+  {
+    "cn": "工作日",
+    "en": "Workday"
+  },
+  {
+    "cn": "工作日历",
+    "en": "Work calendar"
+  },
+  {
+    "cn": "工时项目",
+    "en": "Labor hour program"
+  },
+  {
+    "cn": "已失败",
+    "en": "Failed"
+  },
+  {
+    "cn": "已存在额度处理方式",
+    "en": "Existing quota process mode"
+  },
+  {
+    "cn": "已完成",
+    "en": "Completed"
+  },
+  {
+    "cn": "已审核的考勤结果",
+    "en": "Audited attendance result"
+  },
+  {
+    "cn": "已就绪",
+    "en": "Ready"
+  },
+  {
+    "cn": "已挂起",
+    "en": "Suspended"
+  },
+  {
+    "cn": "已接收",
+    "en": "Accepted"
+  },
+  {
+    "cn": "已撤消",
+    "en": "Revoked"
+  },
+  {
+    "cn": "已用额度",
+    "en": "Used quota"
+  },
+  {
+    "cn": "已计算",
+    "en": "Calculated"
+  },
+  {
+    "cn": "已转薪资",
+    "en": "Salary transferred"
+  },
+  {
+    "cn": "已选",
+    "en": "Selected"
+  },
+  {
+    "cn": "已选字段",
+    "en": "Selected field"
+  },
+  {
+    "cn": "已错过",
+    "en": "Missed"
+  },
+  {
+    "cn": "常用方案",
+    "en": "Common scheme"
+  },
+  {
+    "cn": "年假时长（天）",
+    "en": "Annual leave day(s)"
+  },
+  {
+    "cn": "年假次数",
+    "en": "Annual leave times"
+  },
+  {
+    "cn": "序号",
+    "en": "Serial No."
+  },
+  {
+    "cn": "应出勤天数",
+    "en": "Obligatory attendance days"
+  },
+  {
+    "cn": "应用",
+    "en": "Apply"
+  },
+  {
+    "cn": "延期日期",
+    "en": "Extension date"
+  },
+  {
+    "cn": "开始周期",
+    "en": "Start cycle"
+  },
+  {
+    "cn": "当天",
+    "en": "On the day"
+  },
+  {
+    "cn": "忘记打卡",
+    "en": "Forget punch card"
+  },
+  {
+    "cn": "忽略",
+    "en": "Ignore"
+  },
+  {
+    "cn": "总计",
+    "en": "Total"
+  },
+  {
+    "cn": "我创建的",
+    "en": "Created by myself"
+  },
+  {
+    "cn": "或",
+    "en": "Or"
+  },
+  {
+    "cn": "所有项目",
+    "en": "All program"
+  },
+  {
+    "cn": "手工分配",
+    "en": "Manual distribution"
+  },
+  {
+    "cn": "手工导入",
+    "en": "Manual import"
+  },
+  {
+    "cn": "手工提交",
+    "en": "Manual submission"
+  },
+  {
+    "cn": "打卡位置",
+    "en": "Punch-card place"
+  },
+  {
+    "cn": "打卡日期",
+    "en": "Punch-card date"
+  },
+  {
+    "cn": "打卡时间",
+    "en": "Punch-card time"
+  },
+  {
+    "cn": "打卡来源",
+    "en": "Punch-card source"
+  },
+  {
+    "cn": "打卡考勤",
+    "en": "Punch-card attendance checking"
+  },
+  {
+    "cn": "打卡记录",
+    "en": "Punch-card record"
+  },
+  {
+    "cn": "打卡记录列表",
+    "en": "Punch card record list"
+  },
+  {
+    "cn": "执行中",
+    "en": "On execution"
+  },
+  {
+    "cn": "批量补签",
+    "en": "Batch retroactive punch-card"
+  },
+  {
+    "cn": "批量赋值",
+    "en": "Batch assignment"
+  },
+  {
+    "cn": "报表名称",
+    "en": "Statement title"
+  },
+  {
+    "cn": "报表描述",
+    "en": "Statement description"
+  },
+  {
+    "cn": "按模板下载",
+    "en": "Download by template"
+  },
+  {
+    "cn": "按模板预览",
+    "en": "Preview by template"
+  },
+  {
+    "cn": "排序字段",
+    "en": "Sort field"
+  },
+  {
+    "cn": "排版设置",
+    "en": "Typographic Setting"
+  },
+  {
+    "cn": "排班列表",
+    "en": "Scheduling list"
+  },
+  {
+    "cn": "排班向导",
+    "en": "Scheduling guide"
+  },
+  {
+    "cn": "排班打卡点",
+    "en": "Scheduling punch-card time"
+  },
+  {
+    "cn": "排班时间修订",
+    "en": "Scheduling time revision"
+  },
+  {
+    "cn": "排班管理",
+    "en": "Scheduling arrangement"
+  },
+  {
+    "cn": "控制单元",
+    "en": "Control unit"
+  },
+  {
+    "cn": "描述",
+    "en": "Description"
+  },
+  {
+    "cn": "提交工作流",
+    "en": "Submit workflow"
+  },
+  {
+    "cn": "提交生效",
+    "en": "Submit into effect"
+  },
+  {
+    "cn": "操作",
+    "en": "Operate"
+  },
+  {
+    "cn": "收起",
+    "en": "Fold"
+  },
+  {
+    "cn": "数值",
+    "en": "Value"
+  },
+  {
+    "cn": "数据库同步",
+    "en": "Database synchronization"
+  },
+  {
+    "cn": "数据类型",
+    "en": "Data type"
+  },
+  {
+    "cn": "数据精度",
+    "en": "Data precision"
+  },
+  {
+    "cn": "数据长度",
+    "en": "Data length"
+  },
+  {
+    "cn": "整数",
+    "en": "Integer"
+  },
+  {
+    "cn": "文本",
+    "en": "Text"
+  },
+  {
+    "cn": "新增",
+    "en": "Add new"
+  },
+  {
+    "cn": "新增方案",
+    "en": "Add new scheme"
+  },
+  {
+    "cn": "方案名称",
+    "en": "Scheme title"
+  },
+  {
+    "cn": "无",
+    "en": "Null"
+  },
+  {
+    "cn": "无数",
+    "en": "Countless"
+  },
+  {
+    "cn": "无数据显示",
+    "en": "No data displays"
+  },
+  {
+    "cn": "无汇总项目展示",
+    "en": "No summary items to display"
+  },
+  {
+    "cn": "日历式排班",
+    "en": "Calandar shift"
+  },
+  {
+    "cn": "日常考勤",
+    "en": "Daily attendance"
+  },
+  {
+    "cn": "日期",
+    "en": "Date"
+  },
+  {
+    "cn": "日期类型",
+    "en": "Date type"
+  },
+  {
+    "cn": "早退分钟",
+    "en": "Leaving early minute(s)"
+  },
+  {
+    "cn": "早退次数",
+    "en": "Leaving early times"
+  },
+  {
+    "cn": "早退项目",
+    "en": "Leaving early item"
+  },
+  {
+    "cn": "时间:",
+    "en": "Time："
+  },
+  {
+    "cn": "旷工小时数",
+    "en": "Absenteeism hour(s)"
+  },
+  {
+    "cn": "旷工次数",
+    "en": "Absenteeism times"
+  },
+  {
+    "cn": "旷工起始值(分钟)",
+    "en": "Absenteeism initial minute(s)"
+  },
+  {
+    "cn": "旷工项目",
+    "en": "Absenteeism item"
+  },
+  {
+    "cn": "明细兼汇总计算",
+    "en": "Details and summary calculation"
+  },
+  {
+    "cn": "明细显示",
+    "en": "Details display"
+  },
+  {
+    "cn": "明细汇总显示",
+    "en": "Details summary display"
+  },
+  {
+    "cn": "明细计算项目",
+    "en": "Details calculation program"
+  },
+  {
+    "cn": "是",
+    "en": "Yes"
+  },
+  {
+    "cn": "是否内置",
+    "en": "Build in or not"
+  },
+  {
+    "cn": "是否在考勤日期生成休息日排班",
+    "en": "Generate weekend shift on attendance date"
+  },
+  {
+    "cn": "是否在职",
+    "en": "At post or not"
+  },
+  {
+    "cn": "是否打卡",
+    "en": "Punch card or not"
+  },
+  {
+    "cn": "是否显示",
+    "en": "Display or not"
+  },
+  {
+    "cn": "是否自动排班",
+    "en": "Shift automatically or not"
+  },
+  {
+    "cn": "是否重新取卡",
+    "en": "Repunch card or not"
+  },
+  {
+    "cn": "是否默认",
+    "en": "Default or not"
+  },
+  {
+    "cn": "显示顺序",
+    "en": "Display order"
+  },
+  {
+    "cn": "晚班",
+    "en": "Night shift"
+  },
+  {
+    "cn": "更多",
+    "en": "More"
+  },
+  {
+    "cn": "更新",
+    "en": "Update"
+  },
+  {
+    "cn": "最后修改时间",
+    "en": "Last modification time"
+  },
+  {
+    "cn": "最后修改者",
+    "en": "Last modifier"
+  },
+  {
+    "cn": "最多只能填充100条明细记录",
+    "en": "100 detailed records padded at most"
+  },
+  {
+    "cn": "最短取卡间隔(分钟)",
+    "en": "Shorted punch-card internal minutes"
+  },
+  {
+    "cn": "最近打卡点",
+    "en": "Last punch-card time"
+  },
+  {
+    "cn": "月标准工作天数(天)",
+    "en": "Monthly standard workday(s)"
+  },
+  {
+    "cn": "未完善档案",
+    "en": "Imperfect file"
+  },
+  {
+    "cn": "未建档案",
+    "en": "Not filing"
+  },
+  {
+    "cn": "未排班列表",
+    "en": "Non-shift list"
+  },
+  {
+    "cn": "未计算",
+    "en": "Not calculated"
+  },
+  {
+    "cn": "查看个人的加班额度，实时监控个人的加班情况",
+    "en": "View personal OT quota, and monitor OT status in real time"
+  },
+  {
+    "cn": "查看历史数据",
+    "en": "View historical data"
+  },
+  {
+    "cn": "查看后台事务",
+    "en": "View backstage transaction"
+  },
+  {
+    "cn": "查看父流程",
+    "en": "View parent process"
+  },
+  {
+    "cn": "查看部门的加班额度，实时监控部门的加班情况",
+    "en": "View departmental OT quota, and monitor OT status in real time"
+  },
+  {
+    "cn": "查询",
+    "en": "Query"
+  },
+  {
+    "cn": "查询方案",
+    "en": "Query scheme"
+  },
+  {
+    "cn": "查询条件",
+    "en": "Query condition"
+  },
+  {
+    "cn": "标准工时",
+    "en": "Standard labor time"
+  },
+  {
+    "cn": "标准额度",
+    "en": "Standard quota"
+  },
+  {
+    "cn": "根据过滤条件，生成统计分析报表，统计结果可导出",
+    "en": "Generate statement according to filter condition, and export result"
+  },
+  {
+    "cn": "检查报告下载",
+    "en": "Download examination report"
+  },
+  {
+    "cn": "模板名称",
+    "en": "Template title"
+  },
+  {
+    "cn": "模板描述",
+    "en": "Template description"
+  },
+  {
+    "cn": "模板管理",
+    "en": "Template management"
+  },
+  {
+    "cn": "模板设置指南",
+    "en": "Template setting guide"
+  },
+  {
+    "cn": "横向显示",
+    "en": "Landscape Mode"
+  },
+  {
+    "cn": "正常出勤",
+    "en": "Normal attendance"
+  },
+  {
+    "cn": "正常出勤不计异常",
+    "en": "Normal attendance disregarding exception"
+  },
+  {
+    "cn": "正式员工",
+    "en": "Regular employee"
+  },
+  {
+    "cn": "段内休息(分)",
+    "en": "Rest minutes in office hour"
+  },
+  {
+    "cn": "段次",
+    "en": "Segment"
+  },
+  {
+    "cn": "段间1",
+    "en": "Intersegment 1"
+  },
+  {
+    "cn": "段间取卡规则",
+    "en": "Intersegment punch-card rule"
+  },
+  {
+    "cn": "每周工作时数(小时)",
+    "en": "Work hour(s) every week"
+  },
+  {
+    "cn": "每天工作时数(小时)",
+    "en": "Work hour(s) every day"
+  },
+  {
+    "cn": "每段早退允许值(分钟)",
+    "en": "Permissive minute(s) of early leave in every segment"
+  },
+  {
+    "cn": "每段迟到允许值(分钟)",
+    "en": "Permissive minute(s) of arrival late in every segment"
+  },
+  {
+    "cn": "汇总显示",
+    "en": "Summary display"
+  },
+  {
+    "cn": "汇总计算项目",
+    "en": "Summarize calculation program"
+  },
+  {
+    "cn": "法定假日",
+    "en": "Legal holiday"
+  },
+  {
+    "cn": "活动属性",
+    "en": "Activity attribute"
+  },
+  {
+    "cn": "流程单据检查",
+    "en": "Process Doc. examination"
+  },
+  {
+    "cn": "流程属性",
+    "en": "Process attribute"
+  },
+  {
+    "cn": "浮动值(分)",
+    "en": "Floating minute(s)"
+  },
+  {
+    "cn": "浮动调整值(分)",
+    "en": "Floating adjusted minute(s)"
+  },
+  {
+    "cn": "添加条件",
+    "en": "Add condition"
+  },
+  {
+    "cn": "状态",
+    "en": "Status"
+  },
+  {
+    "cn": "班前无需加班单",
+    "en": "No OT application before work"
+  },
+  {
+    "cn": "班后无需加班单",
+    "en": "No OT application after work"
+  },
+  {
+    "cn": "班次",
+    "en": "Work shift"
+  },
+  {
+    "cn": "班次信息",
+    "en": "Work shift info"
+  },
+  {
+    "cn": "班次名称",
+    "en": "Work shift title"
+  },
+  {
+    "cn": "班次类型",
+    "en": "Work shift type"
+  },
+  {
+    "cn": "班次编码",
+    "en": "Work shift No."
+  },
+  {
+    "cn": "班次设置",
+    "en": "Work shift setting"
+  },
+  {
+    "cn": "班次设置列表",
+    "en": "Work shift setting list"
+  },
+  {
+    "cn": "生成",
+    "en": "Generate"
+  },
+  {
+    "cn": "生成假期额度",
+    "en": "Generate leave quota"
+  },
+  {
+    "cn": "生成额度",
+    "en": "Generate quota"
+  },
+  {
+    "cn": "生效日期",
+    "en": "Effective date"
+  },
+  {
+    "cn": "用工关系状态",
+    "en": "Employment relationship status"
+  },
+  {
+    "cn": "用户自定义",
+    "en": "User-defined"
+  },
+  {
+    "cn": "申请人",
+    "en": "Applicant"
+  },
+  {
+    "cn": "申请加班小时数",
+    "en": "OT application hour"
+  },
+  {
+    "cn": "申请日期",
+    "en": "Application date"
+  },
+  {
+    "cn": "病假时长（天）",
+    "en": "Sick leave day(s)"
+  },
+  {
+    "cn": "病假次数",
+    "en": "Sick leave times"
+  },
+  {
+    "cn": "目的地",
+    "en": "Destination"
+  },
+  {
+    "cn": "目的地点",
+    "en": "Destination"
+  },
+  {
+    "cn": "禁用",
+    "en": "Disable"
+  },
+  {
+    "cn": "离职当天是否计算考勤",
+    "en": "Calculate attendance on dimission day or not"
+  },
+  {
+    "cn": "移动签到",
+    "en": "Movible sign-in"
+  },
+  {
+    "cn": "移动签到审核",
+    "en": "Movible sign-in audition"
+  },
+  {
+    "cn": "移动签到打卡记录的审核，审核通过后自动进入员工打卡记录",
+    "en": "Audition for movible punch-card record, the records will be added automatically after approved"
+  },
+  {
+    "cn": "移动签到记录列表",
+    "en": "Movible sign-in record list"
+  },
+  {
+    "cn": "第1步. 上传数据文件",
+    "en": "Step1: Upload data files"
+  },
+  {
+    "cn": "第2步. 校验数据有效性",
+    "en": "Step2: Verify data validity"
+  },
+  {
+    "cn": "第3步. 导入数据",
+    "en": "Step3: Import data"
+  },
+  {
+    "cn": "第一段上班时间",
+    "en": "1st stage of office hour"
+  },
+  {
+    "cn": "第一段下班时间",
+    "en": "1st stage of off hour"
+  },
+  {
+    "cn": "第三段上班时间",
+    "en": "3rd stage of office hour"
+  },
+  {
+    "cn": "第三段下班时间",
+    "en": "3rd stage of off hour"
+  },
+  {
+    "cn": "第二段上班时间",
+    "en": "2nd stage of office hour"
+  },
+  {
+    "cn": "第二段下班时间",
+    "en": "2nd stage of off hour"
+  },
+  {
+    "cn": "等于",
+    "en": "Equal to"
+  },
+  {
+    "cn": "等待中",
+    "en": "Waiting"
+  },
+  {
+    "cn": "签到地点",
+    "en": "Sign-in place"
+  },
+  {
+    "cn": "签到日期",
+    "en": "Sign-in date"
+  },
+  {
+    "cn": "签到时间",
+    "en": "Sign-in time"
+  },
+  {
+    "cn": "签卡",
+    "en": "Sign-in card"
+  },
+  {
+    "cn": "简称",
+    "en": "Short title"
+  },
+  {
+    "cn": "系统内置",
+    "en": "System build-in"
+  },
+  {
+    "cn": "纵向显示",
+    "en": "Portrait Mode"
+  },
+  {
+    "cn": "组织",
+    "en": "Org"
+  },
+  {
+    "cn": "组织修订",
+    "en": "Org revision"
+  },
+  {
+    "cn": "组织变化",
+    "en": "Org changes"
+  },
+  {
+    "cn": "组织名称",
+    "en": "Org title"
+  },
+  {
+    "cn": "组织填充",
+    "en": "Org padding"
+  },
+  {
+    "cn": "组织编码",
+    "en": "Org No."
+  },
+  {
+    "cn": "组织范围",
+    "en": "Org scope"
+  },
+  {
+    "cn": "组织长名称",
+    "en": "Long Org title"
+  },
+  {
+    "cn": "统计分析报表",
+    "en": "Statistic analysis statement"
+  },
+  {
+    "cn": "编码",
+    "en": "No."
+  },
+  {
+    "cn": "编辑",
+    "en": "Edit"
+  },
+  {
+    "cn": "缺卡时间点",
+    "en": "Card absence time point"
+  },
+  {
+    "cn": "缺卡检查",
+    "en": "Card absence examination"
+  },
+  {
+    "cn": "缺卡次数",
+    "en": "Card absence times"
+  },
+  {
+    "cn": "考勤",
+    "en": "Attendance"
+  },
+  {
+    "cn": "考勤业务设置",
+    "en": "Attendance business setting"
+  },
+  {
+    "cn": "考勤制度",
+    "en": "Attendance checking system"
+  },
+  {
+    "cn": "考勤制度下对应的参数、工作日历和取卡规则设置",
+    "en": "Set up corresponding parameter, work calendar and punch-card rule"
+  },
+  {
+    "cn": "考勤制度列表",
+    "en": "List of attendance checking system"
+  },
+  {
+    "cn": "考勤周期",
+    "en": "Attendance checking cycle"
+  },
+  {
+    "cn": "考勤岗位",
+    "en": "Attendance checking post"
+  },
+  {
+    "cn": "考勤开始日期",
+    "en": "Attendance start date"
+  },
+  {
+    "cn": "考勤报表",
+    "en": "Attendance statement"
+  },
+  {
+    "cn": "考勤日期",
+    "en": "Attendance date"
+  },
+  {
+    "cn": "考勤明细表",
+    "en": "Attendance detailed statement"
+  },
+  {
+    "cn": "考勤明细表和考勤汇总表项目设置，及参数设置",
+    "en": "Item and parameter setting of attendance detailed and summary statement"
+  },
+  {
+    "cn": "考勤机",
+    "en": "Attendance punch machine"
+  },
+  {
+    "cn": "考勤档案",
+    "en": "Attendance file"
+  },
+  {
+    "cn": "考勤档案列表",
+    "en": "Attendance file list"
+  },
+  {
+    "cn": "考勤汇总表",
+    "en": "Attendance summary statement"
+  },
+  {
+    "cn": "考勤管控",
+    "en": "Attendance control and management"
+  },
+  {
+    "cn": "考勤组",
+    "en": "Attendance checking group"
+  },
+  {
+    "cn": "考勤组列表",
+    "en": "Attendance checking group list"
+  },
+  {
+    "cn": "考勤组织",
+    "en": "Attendance checking Org"
+  },
+  {
+    "cn": "考勤组织修订",
+    "en": "Attendance checking Org revision"
+  },
+  {
+    "cn": "考勤结束日期",
+    "en": "Attendance end date"
+  },
+  {
+    "cn": "考勤结果明细",
+    "en": "Attendance result details"
+  },
+  {
+    "cn": "考勤结果汇总",
+    "en": "Attendance result summary"
+  },
+  {
+    "cn": "考勤统计分析报表",
+    "en": "Attendance statistic and analysis statement"
+  },
+  {
+    "cn": "考勤编号",
+    "en": "Attendance No."
+  },
+  {
+    "cn": "考勤计算",
+    "en": "Attendane calculation"
+  },
+  {
+    "cn": "考勤项目",
+    "en": "Attendance item"
+  },
+  {
+    "cn": "考勤项目分类",
+    "en": "Attendance items classification"
+  },
+  {
+    "cn": "考勤项目名称",
+    "en": "Attendance item title"
+  },
+  {
+    "cn": "考勤项目编码",
+    "en": "Attendance item No."
+  },
+  {
+    "cn": "职位",
+    "en": "Position"
+  },
+  {
+    "cn": "自动生成",
+    "en": "Generate automatically"
+  },
+  {
+    "cn": "自定义排班：列表式排班和日历式排班都可以改变当天的排班",
+    "en": "User-defined scheduling: Both list and calendar scheduling can be changed on the day"
+  },
+  {
+    "cn": "薪资周期",
+    "en": "Salary cycle"
+  },
+  {
+    "cn": "薪酬项目分类",
+    "en": "Salary item classification"
+  },
+  {
+    "cn": "行政岗位",
+    "en": "Administrative post"
+  },
+  {
+    "cn": "行政组织",
+    "en": "Administrative Org"
+  },
+  {
+    "cn": "补偿方式",
+    "en": "Compensation mode"
+  },
+  {
+    "cn": "补卡",
+    "en": "Retroactive punch-card"
+  },
+  {
+    "cn": "补卡次数",
+    "en": "Retroactive punch-card times"
+  },
+  {
+    "cn": "补卡记录",
+    "en": "Retroactive punch-card record"
+  },
+  {
+    "cn": "补签卡",
+    "en": "Retroactive punch-card"
+  },
+  {
+    "cn": "补签卡信息",
+    "en": "Retroactive punch-card info"
+  },
+  {
+    "cn": "补签卡列表",
+    "en": "Retroactive punch-card list"
+  },
+  {
+    "cn": "补签卡原因",
+    "en": "Reason for retroactive punch-card"
+  },
+  {
+    "cn": "补签卡时间点",
+    "en": "Retroactive punch-card time point"
+  },
+  {
+    "cn": "补签卡类型",
+    "en": "Retroactive punch-card type"
+  },
+  {
+    "cn": "补签时间点",
+    "en": "Retroactive punch-card time point"
+  },
+  {
+    "cn": "补签次数控制",
+    "en": "Limitation of retroactive punch-card times"
+  },
+  {
+    "cn": "计加班费OT1小时数",
+    "en": "OT pay hour(s) OT1"
+  },
+  {
+    "cn": "计加班费OT2小时数",
+    "en": "OT pay hour(s) OT2"
+  },
+  {
+    "cn": "计加班费OT3小时数",
+    "en": "OT pay hour(s) OT3"
+  },
+  {
+    "cn": "计算考勤结果",
+    "en": "Calculate attendance result"
+  },
+  {
+    "cn": "计算选中行",
+    "en": "Calculate selected line"
+  },
+  {
+    "cn": "设定轮班排班规则是为自定义排班做准备",
+    "en": "Mainly for making preparation for usage-defined work shift"
+  },
+  {
+    "cn": "设置",
+    "en": "Setting"
+  },
+  {
+    "cn": "设置个人加班额度管控的方案，用于个人额度的初始化和生成个人的加班额度",
+    "en": "Set up personal OT quota scheme, used for personal quota initialization and generating personal OT quota"
+  },
+  {
+    "cn": "设置取卡的时间范围和取卡规则",
+    "en": "Set up time horizon and rules"
+  },
+  {
+    "cn": "设置时间",
+    "en": "Set up time"
+  },
+  {
+    "cn": "设置部门加班额度管控的方案，用于部门额度的初始化和生成部门的加班额度",
+    "en": "Set up departmental OT quota scheme, used for personal quota initialization and generating departmental OT quota"
+  },
+  {
+    "cn": "试用员工",
+    "en": "Employee under probation"
+  },
+  {
+    "cn": "该段最早卡",
+    "en": "Nearest card in this segment"
+  },
+  {
+    "cn": "该段最晚卡",
+    "en": "Latest card in this segment"
+  },
+  {
+    "cn": "说明",
+    "en": "Explanation"
+  },
+  {
+    "cn": "请假单",
+    "en": "Leave application"
+  },
+  {
+    "cn": "请假单状态",
+    "en": "Leave application status"
+  },
+  {
+    "cn": "请假时长",
+    "en": "Leave duration"
+  },
+  {
+    "cn": "请假时长（天）",
+    "en": "Leave day(s)"
+  },
+  {
+    "cn": "请假时间",
+    "en": "Leave time"
+  },
+  {
+    "cn": "请假次数",
+    "en": "Leave times"
+  },
+  {
+    "cn": "请假类型",
+    "en": "Leave type"
+  },
+  {
+    "cn": "请选择匹配时间区间",
+    "en": "Please select matched time interval"
+  },
+  {
+    "cn": "读取中…",
+    "en": "Loading…"
+  },
+  {
+    "cn": "调休OT1小时数",
+    "en": "Compensational leave hour(s) OT1"
+  },
+  {
+    "cn": "调休OT2小时数",
+    "en": "Compensational leave hour(s) OT2"
+  },
+  {
+    "cn": "调休OT3小时数",
+    "en": "Compensational leave hour(s) OT3"
+  },
+  {
+    "cn": "调入时间",
+    "en": "Call-in time"
+  },
+  {
+    "cn": "调入组织",
+    "en": "Call-in Org"
+  },
+  {
+    "cn": "调班",
+    "en": "Shift change"
+  },
+  {
+    "cn": "调班单",
+    "en": "Shift change application"
+  },
+  {
+    "cn": "跳转",
+    "en": "Skip"
+  },
+  {
+    "cn": "转正日期",
+    "en": "Pass probation date"
+  },
+  {
+    "cn": "转薪资",
+    "en": "Transfer salary"
+  },
+  {
+    "cn": "轮班排班信息",
+    "en": "Work shift info"
+  },
+  {
+    "cn": "轮班规则",
+    "en": "Work shift rule"
+  },
+  {
+    "cn": "轮班规则列表",
+    "en": "Work shift rules list"
+  },
+  {
+    "cn": "轮班规则新增",
+    "en": "Add new work shift rule"
+  },
+  {
+    "cn": "辞职",
+    "en": "Resignation"
+  },
+  {
+    "cn": "连续新增",
+    "en": "Add successively"
+  },
+  {
+    "cn": "迟到分钟",
+    "en": "Late arrival miniute"
+  },
+  {
+    "cn": "迟到次数",
+    "en": "Late arrival times"
+  },
+  {
+    "cn": "迟到项目",
+    "en": "Late arrival item"
+  },
+  {
+    "cn": "适合的排班场景为所选员工使用相同轮班或排班规则。",
+    "en": "Fit for selected employee using same shift rules."
+  },
+  {
+    "cn": "适用的排班场景为所选员工使用相同或不同的轮班或排班规则。",
+    "en": "Fit for selected employee using different rules."
+  },
+  {
+    "cn": "选择人员",
+    "en": "Select personnel"
+  },
+  {
+    "cn": "选择排班方式",
+    "en": "Select shift mode"
+  },
+  {
+    "cn": "选择模板",
+    "en": "Select template"
+  },
+  {
+    "cn": "通过走工作流审批的方式调整个人加班额度，支持批量申请",
+    "en": "Adjust personal OT quota through workflow approval. Batch application is available"
+  },
+  {
+    "cn": "通过走工作流审批的方式调整部门加班额度",
+    "en": "Adjust departmental OT quota through workflow approval"
+  },
+  {
+    "cn": "逻辑",
+    "en": "Logic"
+  },
+  {
+    "cn": "部门加班额度",
+    "en": "Departmental OT quota"
+  },
+  {
+    "cn": "部门加班额度方案",
+    "en": "Departmental OT quota scheme"
+  },
+  {
+    "cn": "部门加班额度调整申请",
+    "en": "Application of departmental OT quota adjustment"
+  },
+  {
+    "cn": "重新计算",
+    "en": "Recalculate"
+  },
+  {
+    "cn": "重新调度",
+    "en": "reschedule"
+  },
+  {
+    "cn": "销假单",
+    "en": "Leave clearance application"
+  },
+  {
+    "cn": "错误日志",
+    "en": "Error log"
+  },
+  {
+    "cn": "项目名称",
+    "en": "Program title"
+  },
+  {
+    "cn": "项目类型",
+    "en": "Item type"
+  },
+  {
+    "cn": "项目类型",
+    "en": "Program type"
+  },
+  {
+    "cn": "项目范围",
+    "en": "Program scope"
+  },
+  {
+    "cn": "顺序",
+    "en": "Order"
+  },
+  {
+    "cn": "额度信息",
+    "en": "Quota info"
+  },
+  {
+    "cn": "高级查询",
+    "en": "Advanced query"
+  },
+  {
+    "cn": "高级选项",
+    "en": "Advanced option"
+  },
+  {
+    "cn": "默认方案",
+    "en": "Default scheme"
+  },
+  {
+    "cn": "默认班次",
+    "en": "Default work shift"
+  },
+
+{
+    "cn": "女",
+    "en": "Female"
+  },
+
+
+
+
+
+    {
+    "cn": "1. 上传文件不能修改模板文件的格式",
+    "en": "1. The imported Doc. can not modify format of template Doc.."
+  },
+  {
+    "cn": "2. 支持上传文件格式为xlsx的excel文件",
+    "en": "2. Xlsx format of excel Doc. is available."
+  },
+  {
+    "cn": "3. 使用场景：",
+    "en": "3. Usage scenario:"
+  },
+  {
+    "cn": "上传数据文件",
+    "en": "Upload data files"
+  },
+  {
+    "cn": "上传附件",
+    "en": "Upload attachment"
+  },
+  {
+    "cn": "上午",
+    "en": "Morning"
+  },
+  {
+    "cn": "上午上班时间",
+    "en": "Office hours in the morning"
+  },
+  {
+    "cn": "上午下班时间",
+    "en": "Off hours in the morning"
+  },
+  {
+    "cn": "下一步",
+    "en": "Next step"
+  },
+  {
+    "cn": "下午",
+    "en": "Afternoon"
+  },
+  {
+    "cn": "下午上班时间",
+    "en": "Office hours in the afternoon"
+  },
+  {
+    "cn": "下午下班时间",
+    "en": "Off hours in the afternoon"
+  },
+  {
+    "cn": "下载列表字段",
+    "en": "Download list field"
+  },
+  {
+    "cn": "下载导入模板",
+    "en": "Download import template"
+  },
+  {
+    "cn": "不包含",
+    "en": "exclude"
+  },
+  {
+    "cn": "不等于",
+    "en": "Unequal to"
+  },
+  {
+    "cn": "主页",
+    "en": "Homepage"
+  },
+  {
+    "cn": "人工成本项目",
+    "en": "Manual cost item"
+  },
+  {
+    "cn": "仅显示主要任职",
+    "en": "Display main position only"
+  },
+  {
+    "cn": "休息日调休比率",
+    "en": "Weekend compensational ratio"
+  },
+  {
+    "cn": "保存",
+    "en": "Save"
+  },
+  {
+    "cn": "保存为方案",
+    "en": "Save as scheme"
+  },
+  {
+    "cn": "保存为查询方案",
+    "en": "Save as query scheme"
+  },
+  {
+    "cn": "修改导入",
+    "en": "Modified import"
+  },
+  {
+    "cn": "值类型",
+    "en": "Value type"
+  },
+  {
+    "cn": "假期业务设置",
+    "en": "Leave business setting"
+  },
+  {
+    "cn": "假期制度",
+    "en": "Leave system"
+  },
+  {
+    "cn": "假期制度(成都婚假)",
+    "en": "Leave system(Marriage leave in Chengdu)"
+  },
+  {
+    "cn": "假期制度定义",
+    "en": "Leave system definition"
+  },
+  {
+    "cn": "假期制度定义列表",
+    "en": "Leave system definition list"
+  },
+  {
+    "cn": "假期单位",
+    "en": "Leave unit"
+  },
+  {
+    "cn": "假期报表",
+    "en": "Leave statement"
+  },
+  {
+    "cn": "假期档案",
+    "en": "Leave file"
+  },
+  {
+    "cn": "假期汇总表",
+    "en": "Leave summary statement"
+  },
+  {
+    "cn": "假期类型",
+    "en": "Leave type"
+  },
+  {
+    "cn": "假期类型显示菜单",
+    "en": "Display menu of leave type"
+  },
+  {
+    "cn": "假期额度",
+    "en": "Leave quota"
+  },
+  {
+    "cn": "假期额度修改导入说明",
+    "en": "Explanation of modified import of leave quota"
+  },
+  {
+    "cn": "假期额度列表",
+    "en": "Leave quota list"
+  },
+  {
+    "cn": "假期额度新增导入说明",
+    "en": "Explanation: Newly import of leave quota"
+  },
+  {
+    "cn": "允许请/销假时修改请假长度",
+    "en": "All modifying leave length when applying for leave or clearing leave"
+  },
+  {
+    "cn": "允许请假次数",
+    "en": "Permitted leave times"
+  },
+  {
+    "cn": "入职日期",
+    "en": "Entry date"
+  },
+  {
+    "cn": "入职满一年",
+    "en": "Entry over a year"
+  },
+  {
+    "cn": "全部",
+    "en": "All"
+  },
+  {
+    "cn": "全部导出",
+    "en": "Import all"
+  },
+  {
+    "cn": "关闭",
+    "en": "Close"
+  },
+  {
+    "cn": "其他",
+    "en": "Others"
+  },
+  {
+    "cn": "其他设置",
+    "en": "Other settings"
+  },
+  {
+    "cn": "冻结前",
+    "en": "Before frozon"
+  },
+  {
+    "cn": "列表字段选择",
+    "en": "Field list selection"
+  },
+  {
+    "cn": "创建",
+    "en": "Create"
+  },
+  {
+    "cn": "创建时间",
+    "en": "Creation time"
+  },
+  {
+    "cn": "创建者",
+    "en": "Creator"
+  },
+  {
+    "cn": "初始化导入",
+    "en": "Initialized import"
+  },
+  {
+    "cn": "删除",
+    "en": "Delete"
+  },
+  {
+    "cn": "刷新",
+    "en": "Refresh"
+  },
+  {
+    "cn": "剩余额度",
+    "en": "Rest quota"
+  },
+  {
+    "cn": "剩余额度 = 实际额度 - 已用额度 - 上期透支额度;",
+    "en": "Rest quota =Actual quota - used quota - overdrawn quota in last cycle;"
+  },
+  {
+    "cn": "加入公司日期",
+    "en": "Date of joining company"
+  },
+  {
+    "cn": "加入集团日期",
+    "en": "Date of joining group"
+  },
+  {
+    "cn": "包含",
+    "en": "Include"
+  },
+  {
+    "cn": "包括公休日",
+    "en": "Include public holiday"
+  },
+  {
+    "cn": "包括法定假日",
+    "en": "Include legal holiday"
+  },
+  {
+    "cn": "单人请假单",
+    "en": "Single leave application"
+  },
+  {
+    "cn": "单位",
+    "en": "Unit"
+  },
+  {
+    "cn": "单位时长",
+    "en": "Unit length"
+  },
+  {
+    "cn": "单位额度",
+    "en": "Unit quota"
+  },
+  {
+    "cn": "单据信息",
+    "en": "Doc. info"
+  },
+  {
+    "cn": "单据编号",
+    "en": "Doc. No."
+  },
+  {
+    "cn": "历史记录",
+    "en": "Historical record"
+  },
+  {
+    "cn": "反审批",
+    "en": "Anti approval"
+  },
+  {
+    "cn": "反审核",
+    "en": "Anti audit"
+  },
+  {
+    "cn": "取值方式",
+    "en": "Dereferencing method"
+  },
+  {
+    "cn": "取消",
+    "en": "Cancel"
+  },
+  {
+    "cn": "名称",
+    "en": "Name"
+  },
+  {
+    "cn": "向上取整",
+    "en": "Round up to an integer"
+  },
+  {
+    "cn": "向下取整",
+    "en": "Round down to an integer"
+  },
+  {
+    "cn": "否",
+    "en": "No"
+  },
+  {
+    "cn": "启动周期",
+    "en": "Startup cycle"
+  },
+  {
+    "cn": "启用",
+    "en": "Valid"
+  },
+  {
+    "cn": "启用(默认)",
+    "en": "Valid(default)"
+  },
+  {
+    "cn": "员工",
+    "en": "Employee"
+  },
+  {
+    "cn": "员工假期档案",
+    "en": "Employee leave file"
+  },
+  {
+    "cn": "员工假期档案列表",
+    "en": "Employee leave file list"
+  },
+  {
+    "cn": "员工假期档案维护，可维护员工对应的假期制度，可查询员工假期额度",
+    "en": "Employee leave file maintenance. Able to maintain corresponding leave system and inquire leave quota"
+  },
+  {
+    "cn": "员工假期汇总查询",
+    "en": "Employee leave summary inquiry"
+  },
+  {
+    "cn": "员工假期额度计算和日常维护，如：编辑实际额度、延期日期等",
+    "en": "Employee leave quota calculation and daily maintenance, such as: editing actual quota, extension date and so on."
+  },
+  {
+    "cn": "员工姓名",
+    "en": "Name of employee"
+  },
+  {
+    "cn": "员工编码",
+    "en": "Employee No."
+  },
+  {
+    "cn": "员工范围",
+    "en": "Employee scope"
+  },
+  {
+    "cn": "周期开始日期",
+    "en": "Start date of cycle"
+  },
+  {
+    "cn": "周期类型",
+    "en": "Cycle type"
+  },
+  {
+    "cn": "周期结束日期",
+    "en": "End date of cycle"
+  },
+  {
+    "cn": "周期选择",
+    "en": "Cycle selected"
+  },
+  {
+    "cn": "周期长度",
+    "en": "Cycle length"
+  },
+  {
+    "cn": "和",
+    "en": "And"
+  },
+  {
+    "cn": "四舍五入",
+    "en": "Round off"
+  },
+  {
+    "cn": "固定值",
+    "en": "Fixed value"
+  },
+  {
+    "cn": "固定日期",
+    "en": "Fixed date"
+  },
+  {
+    "cn": "固定项目",
+    "en": "Fixed item"
+  },
+  {
+    "cn": "基准方式",
+    "en": "Benchmark mode"
+  },
+  {
+    "cn": "基本信息",
+    "en": "Basic info"
+  },
+  {
+    "cn": "增减额度",
+    "en": "Increase and decrease quota"
+  },
+  {
+    "cn": "备注",
+    "en": "Remark"
+  },
+  {
+    "cn": "外籍（10天年假）",
+    "en": "Foreign nationality(10-day annual leave)"
+  },
+  {
+    "cn": "外籍（10天年假限期调休）",
+    "en": "Foreign nationality(Time limit compensational leave for 10-day annual leave)"
+  },
+  {
+    "cn": "外籍（15天年假）",
+    "en": "Foreign nationality(15-day annual leave)"
+  },
+  {
+    "cn": "外籍（20天年假）",
+    "en": "Foreign nationality(20-day annual leave)"
+  },
+  {
+    "cn": "外籍（5天年假限期调休）",
+    "en": "Foreign nationality(Time limit compensational leave for 5-day annual leave)"
+  },
+  {
+    "cn": "多人请假单",
+    "en": "Multiple leave application"
+  },
+  {
+    "cn": "大于",
+    "en": "Greater than"
+  },
+  {
+    "cn": "大于等于",
+    "en": "Equal or greater than"
+  },
+  {
+    "cn": "天",
+    "en": "Day"
+  },
+  {
+    "cn": "套打",
+    "en": "Print with template"
+  },
+  {
+    "cn": "姓名",
+    "en": "Name"
+  },
+  {
+    "cn": "字符",
+    "en": "Character"
+  },
+  {
+    "cn": "完成",
+    "en": "Complete"
+  },
+  {
+    "cn": "实际开始时间",
+    "en": "Actual start time"
+  },
+  {
+    "cn": "实际请假长度",
+    "en": "Actual leave length"
+  },
+  {
+    "cn": "实际额度",
+    "en": "Actual quota"
+  },
+  {
+    "cn": "审批不通过",
+    "en": "Approval failed"
+  },
+  {
+    "cn": "审批中",
+    "en": "Under approval"
+  },
+  {
+    "cn": "审批人",
+    "en": "Approver"
+  },
+  {
+    "cn": "审批通过",
+    "en": "Approved"
+  },
+  {
+    "cn": "审核",
+    "en": "Audit"
+  },
+  {
+    "cn": "对列表中所有的记录进行延期",
+    "en": "Delay all the records in the list"
+  },
+  {
+    "cn": "对列表中选中的记录进行延期",
+    "en": "Delay selected records in the list"
+  },
+  {
+    "cn": "对员工病假、事假、年假等假期数据记录与监控",
+    "en": "Record and monitor employee sick leave, personal leave, annual leave and other leave data."
+  },
+  {
+    "cn": "对审核通过的请假单进行销假申请，审核通过后相应修改假期额度信息",
+    "en": "Apply for leave clearance  as to approved leave application, and modify leave quota info after approved."
+  },
+  {
+    "cn": "导入",
+    "en": "Import"
+  },
+  {
+    "cn": "导入后: 实际额度  = 标准额度  + 增减额度",
+    "en": "After import: Actual quota= standard quota + increase and decrease quota;"
+  },
+  {
+    "cn": "导入摸板下载",
+    "en": "Download import template"
+  },
+  {
+    "cn": "导入数据",
+    "en": "Import data"
+  },
+  {
+    "cn": "导出选中",
+    "en": "Import selected"
+  },
+  {
+    "cn": "小于",
+    "en": "Less than"
+  },
+  {
+    "cn": "小于等于",
+    "en": "Equal or less than"
+  },
+  {
+    "cn": "岗位",
+    "en": "Post"
+  },
+  {
+    "cn": "工作日调休比率",
+    "en": "Workday compensational ratio"
+  },
+  {
+    "cn": "已存在额度处理方式",
+    "en": "Existing quota process mode"
+  },
+  {
+    "cn": "已选",
+    "en": "Selected"
+  },
+  {
+    "cn": "已选字段",
+    "en": "Selected field"
+  },
+  {
+    "cn": "常用方案",
+    "en": "Common scheme"
+  },
+  {
+    "cn": "年",
+    "en": "Year"
+  },
+  {
+    "cn": "年假（10天）",
+    "en": "Annual leave(10 days)"
+  },
+  {
+    "cn": "年假（15天）",
+    "en": "Annual leave(15 days)"
+  },
+  {
+    "cn": "年假（20天）",
+    "en": "Annual leave(20 days)"
+  },
+  {
+    "cn": "年假（5天）",
+    "en": "Annual leave(5 days)"
+  },
+  {
+    "cn": "应用",
+    "en": "Apply"
+  },
+  {
+    "cn": "废弃",
+    "en": "Abandon"
+  },
+  {
+    "cn": "延期日期",
+    "en": "Extenison date"
+  },
+  {
+    "cn": "延期时长",
+    "en": "Extension duration"
+  },
+  {
+    "cn": "延期时长单位",
+    "en": "Extension duration unit"
+  },
+  {
+    "cn": "延长日期",
+    "en": "Extension date"
+  },
+  {
+    "cn": "延长日期单位",
+    "en": "Extension date unit"
+  },
+  {
+    "cn": "忽略",
+    "en": "Ignore"
+  },
+  {
+    "cn": "总计",
+    "en": "Total"
+  },
+  {
+    "cn": "成都婚假",
+    "en": "Marriage leave in Chengdu"
+  },
+  {
+    "cn": "或",
+    "en": "Or"
+  },
+  {
+    "cn": "所属行政组织",
+    "en": "Administrative Org"
+  },
+  {
+    "cn": "批量延期",
+    "en": "Batch extension"
+  },
+  {
+    "cn": "批量赋值",
+    "en": "Batch assignment"
+  },
+  {
+    "cn": "按下面的条件进行延期",
+    "en": "Delay according to the following conditions"
+  },
+  {
+    "cn": "按月数",
+    "en": "Monthly"
+  },
+  {
+    "cn": "按模板下载",
+    "en": "Download by template"
+  },
+  {
+    "cn": "按模板预览",
+    "en": "Preview by template"
+  },
+  {
+    "cn": "排序字段",
+    "en": "Sort field"
+  },
+  {
+    "cn": "控制单元",
+    "en": "Control unit"
+  },
+  {
+    "cn": "控制生成额度",
+    "en": "Control generated quota"
+  },
+  {
+    "cn": "控制请假单位时长",
+    "en": "Control leave unit duration"
+  },
+  {
+    "cn": "描述",
+    "en": "Description"
+  },
+  {
+    "cn": "提交工作流",
+    "en": "Submit workflow"
+  },
+  {
+    "cn": "提交生效",
+    "en": "Submit into effect"
+  },
+  {
+    "cn": "操作",
+    "en": "Operate"
+  },
+  {
+    "cn": "数值",
+    "en": "Value"
+  },
+  {
+    "cn": "数据类型",
+    "en": "Date type"
+  },
+  {
+    "cn": "数据精度",
+    "en": "Data precision"
+  },
+  {
+    "cn": "数据长度",
+    "en": "Data length"
+  },
+  {
+    "cn": "新增",
+    "en": "Add new"
+  },
+  {
+    "cn": "新增导入",
+    "en": "Newly impoty"
+  },
+  {
+    "cn": "新增导入的额度项目有标准额度,增减额度,已用额度和上期透支额度;",
+    "en": "Quota items of newly import include standard quota, increase and decrease quota, used quota, and overdrawn quota in last cycle;"
+  },
+  {
+    "cn": "新增方案",
+    "en": "Add new scheme"
+  },
+  {
+    "cn": "方案名称",
+    "en": "Scheme name"
+  },
+  {
+    "cn": "无",
+    "en": "Null"
+  },
+  {
+    "cn": "无数",
+    "en": "Countless"
+  },
+  {
+    "cn": "无数据显示",
+    "en": "No data displays"
+  },
+  {
+    "cn": "日",
+    "en": "Day"
+  },
+  {
+    "cn": "日常假期管理",
+    "en": "Daily leave management"
+  },
+  {
+    "cn": "是",
+    "en": "Yes"
+  },
+  {
+    "cn": "是否允许修改额度",
+    "en": "Allowing modifying quota or not"
+  },
+  {
+    "cn": "是否允许补请假",
+    "en": "Allow making up leave application or not"
+  },
+  {
+    "cn": "是否允许超额请假",
+    "en": "Allow applying for leave above the quota or not"
+  },
+  {
+    "cn": "是否允许销假",
+    "en": "Allow leave clearance or not"
+  },
+  {
+    "cn": "是否内置",
+    "en": "Build in or not"
+  },
+  {
+    "cn": "是否启动半天假",
+    "en": "Start up half-day leave or not"
+  },
+  {
+    "cn": "是否控制假期额度",
+    "en": "Allow controlling leave quota or not"
+  },
+  {
+    "cn": "是否系统预置",
+    "en": "System Preferences or not"
+  },
+  {
+    "cn": "是否需要附件",
+    "en": "Require attachment or not"
+  },
+  {
+    "cn": "是否默认",
+    "en": "Default or not"
+  },
+  {
+    "cn": "普通婚假",
+    "en": "Ordinary marriage leave"
+  },
+  {
+    "cn": "普通婚假正常调休",
+    "en": "Normal compensational leave for odinary marriage leave"
+  },
+  {
+    "cn": "普通婚假限期调休",
+    "en": "Time limit compensational leave for odinary marriage leave"
+  },
+  {
+    "cn": "更多",
+    "en": "More"
+  },
+  {
+    "cn": "更新",
+    "en": "Update"
+  },
+  {
+    "cn": "更新所有人延期日期(权限范围内)",
+    "en": "Update all the extension date( within the authority)"
+  },
+  {
+    "cn": "更新指定人延期日期",
+    "en": "Update the specific extension date"
+  },
+  {
+    "cn": "最后修改时间",
+    "en": "Last modification time"
+  },
+  {
+    "cn": "最后修改者",
+    "en": "Last modifier"
+  },
+  {
+    "cn": "最多只能填充100条明细记录",
+    "en": "100 detailed records padded at most"
+  },
+  {
+    "cn": "月",
+    "en": "Month"
+  },
+  {
+    "cn": "未完善档案",
+    "en": "Imperfect file"
+  },
+  {
+    "cn": "未审批",
+    "en": "Not approved"
+  },
+  {
+    "cn": "未建档案",
+    "en": "Not filing"
+  },
+  {
+    "cn": "查看更多请假记录>>",
+    "en": "View more leave records>>"
+  },
+  {
+    "cn": "查询",
+    "en": "Query"
+  },
+  {
+    "cn": "查询方案",
+    "en": "Query scheme"
+  },
+  {
+    "cn": "查询条件",
+    "en": "Query condition"
+  },
+  {
+    "cn": "标准额度",
+    "en": "Standard quota"
+  },
+  {
+    "cn": "检查报告下载",
+    "en": "Download examination report"
+  },
+  {
+    "cn": "模板名称",
+    "en": "Template name"
+  },
+  {
+    "cn": "模板描述",
+    "en": "Template description"
+  },
+  {
+    "cn": "模板管理",
+    "en": "Template management"
+  },
+  {
+    "cn": "模板设置指南",
+    "en": "Template setting guide"
+  },
+  {
+    "cn": "法定节假日比率",
+    "en": "Legal holiday leave"
+  },
+  {
+    "cn": "添加条件",
+    "en": "Add condition"
+  },
+  {
+    "cn": "温馨提示",
+    "en": "Tips"
+  },
+  {
+    "cn": "状态",
+    "en": "Status"
+  },
+  {
+    "cn": "生成",
+    "en": "Generate"
+  },
+  {
+    "cn": "生成假期额度",
+    "en": "Generate leave quota"
+  },
+  {
+    "cn": "生成额度",
+    "en": "Generate quota"
+  },
+  {
+    "cn": "生效日期",
+    "en": "Effective date"
+  },
+  {
+    "cn": "申请人",
+    "en": "Applicant"
+  },
+  {
+    "cn": "申请日期",
+    "en": "Application date"
+  },
+  {
+    "cn": "相关信息",
+    "en": "Relevant info"
+  },
+  {
+    "cn": "禁用",
+    "en": "Diable"
+  },
+  {
+    "cn": "第1步. 上传数据文件",
+    "en": "Step1: Upload data files"
+  },
+  {
+    "cn": "第2步. 校验数据有效性",
+    "en": "Step2: Verify data validity"
+  },
+  {
+    "cn": "第3步. 导入数据",
+    "en": "Step3: Import data"
+  },
+  {
+    "cn": "等于",
+    "en": "Equal to"
+  },
+  {
+    "cn": "简称",
+    "en": "Short title"
+  },
+  {
+    "cn": "精确匹配周期",
+    "en": "Exactly match the cycle"
+  },
+  {
+    "cn": "系统预置",
+    "en": "System Preferences"
+  },
+  {
+    "cn": "累计额度最大值",
+    "en": "Maximum of accumulated quota"
+  },
+  {
+    "cn": "组织",
+    "en": "Org"
+  },
+  {
+    "cn": "组织名称",
+    "en": "Org title"
+  },
+  {
+    "cn": "组织填充",
+    "en": "Org padding"
+  },
+  {
+    "cn": "组织编码",
+    "en": "Org No."
+  },
+  {
+    "cn": "组织范围",
+    "en": "Org scope"
+  },
+  {
+    "cn": "组织长名称",
+    "en": "Long title of Org"
+  },
+  {
+    "cn": "维护假期制度下对应的假期类型，及其对应的相关参数设置",
+    "en": "Maintain corresponding leave types and relevant parameter under leave system."
+  },
+  {
+    "cn": "编码",
+    "en": "No."
+  },
+  {
+    "cn": "编辑",
+    "en": "Edit"
+  },
+  {
+    "cn": "考勤周期",
+    "en": "Attendance cycle"
+  },
+  {
+    "cn": "自然季度",
+    "en": "Calendar quarter"
+  },
+  {
+    "cn": "自然年",
+    "en": "Calendar year"
+  },
+  {
+    "cn": "自然月",
+    "en": "Calendar month"
+  },
+  {
+    "cn": "若员工该假期类型导入周期内没有生成过假期额度,可以通过新增导入来生成;",
+    "en": "Newly import can be used when there is no leave quota generated within import cycle of an employee's leave types;"
+  },
+  {
+    "cn": "范围",
+    "en": "Scope"
+  },
+  {
+    "cn": "薪酬项目分类",
+    "en": "Salary item classification"
+  },
+  {
+    "cn": "行政组织",
+    "en": "Administrative Org"
+  },
+  {
+    "cn": "补请假期限",
+    "en": "Deadline of making up for leave application"
+  },
+  {
+    "cn": "规则详情",
+    "en": "Regulation details"
+  },
+  {
+    "cn": "设置",
+    "en": "Setting"
+  },
+  {
+    "cn": "设置用于假期计算时，计算假期额度的规则",
+    "en": "Set up leave quota regulation for leave calculation"
+  },
+  {
+    "cn": "试用期满",
+    "en": "After probation"
+  },
+  {
+    "cn": "说明",
+    "en": "Explanation"
+  },
+  {
+    "cn": "说明：调休明细列表，只显示数据。",
+    "en": "Explanation: Display data only for detailed statement list."
+  },
+  {
+    "cn": "请假事由",
+    "en": "Reason for leave"
+  },
+  {
+    "cn": "请假信息",
+    "en": "Leave info"
+  },
+  {
+    "cn": "请假单",
+    "en": "Leave application"
+  },
+  {
+    "cn": "请假单位",
+    "en": "Leave unit"
+  },
+  {
+    "cn": "请假单信息",
+    "en": "Leave application info"
+  },
+  {
+    "cn": "请假单编号",
+    "en": "Leave application No."
+  },
+  {
+    "cn": "请假开始时间",
+    "en": "Leave start time"
+  },
+  {
+    "cn": "请假时长",
+    "en": "Leave duration"
+  },
+  {
+    "cn": "请假申请日期",
+    "en": "Leave application date"
+  },
+  {
+    "cn": "请假结束时间",
+    "en": "Leave end time"
+  },
+  {
+    "cn": "请假记录",
+    "en": "Leave record"
+  },
+  {
+    "cn": "请假说明",
+    "en": "Leave explanation"
+  },
+  {
+    "cn": "请假长度",
+    "en": "Leave length"
+  },
+  {
+    "cn": "读取中…",
+    "en": "Loading…"
+  },
+  {
+    "cn": "调休加班小时转调休假的规则设置",
+    "en": "Set up regulation of compensating OT hours with compensational leave"
+  },
+  {
+    "cn": "调休明细",
+    "en": "Compensation details"
+  },
+  {
+    "cn": "调休明细表",
+    "en": "Detailed statement of compensational leave"
+  },
+  {
+    "cn": "调休规则",
+    "en": "Compensational regulation"
+  },
+  {
+    "cn": "调休规则列表",
+    "en": "Regulation list of compensational leave"
+  },
+  {
+    "cn": "超出额度下期扣减",
+    "en": "Deduct excess quotas from next cycle"
+  },
+  {
+    "cn": "超额请假是否必须上传",
+    "en": "Require uploading excess leave or not"
+  },
+  {
+    "cn": "转正日期",
+    "en": "Pass probation date"
+  },
+  {
+    "cn": "连续新增",
+    "en": "Add successively"
+  },
+  {
+    "cn": "选择模板",
+    "en": "Select template"
+  },
+  {
+    "cn": "销假",
+    "en": "Leave clearance"
+  },
+  {
+    "cn": "销假单",
+    "en": "Leave clearance application"
+  },
+  {
+    "cn": "销假单信息",
+    "en": "Leave clearance application info"
+  },
+  {
+    "cn": "销假期限",
+    "en": "Deadline for Leave clearance"
+  },
+  {
+    "cn": "销假说明",
+    "en": "Explanation of Leave clearance"
+  },
+  {
+    "cn": "附件",
+    "en": "Attachment"
+  },
+  {
+    "cn": "雇佣日期",
+    "en": "Employment date"
+  },
+  {
+    "cn": "项目类型",
+    "en": "Program type"
+  },
+  {
+    "cn": "项目范围",
+    "en": "Program scope"
+  },
+  {
+    "cn": "顺序",
+    "en": "Order"
+  },
+  {
+    "cn": "额度(H)",
+    "en": "Quota(H)"
+  },
+  {
+    "cn": "额度列表",
+    "en": "Quota list"
+  },
+  {
+    "cn": "额度规则",
+    "en": "Quota regulation"
+  },
+  {
+    "cn": "额度规则列表",
+    "en": "Quota regulation list"
+  },
+  {
+    "cn": "首年生效日期",
+    "en": "Effective date of 1st year"
+  },
+  {
+    "cn": "高级查询",
+    "en": "Advanced query"
+  },
+  {
+    "cn": "高级选项",
+    "en": "Advanced option"
+  },
+  {
+    "cn": "默认方案",
+    "en": "Default scheme"
+  },
+
+
+
+
+
+
+    {
+    "cn": "且",
+    "en": "and"
+  },
+  {
+    "cn": "事务类别",
+    "en": "Affair type"
+  },
+  {
+    "cn": "入职日期",
+    "en": "Entry date"
+  },
+  {
+    "cn": "离职日期",
+    "en": "Dimission date"
+  },
+  {
+    "cn": "离退休日期",
+    "en": "Retire date"
+  },
+  {
+    "cn": "转正日期",
+    "en": "Pass probation date"
+  },
+  {
+    "cn": "1、选择数据范围",
+    "en": "1. Select the scope of data"
+  },
+  {
+    "cn": "1. 先对需要离职人员进行离职处理，再上传离职证据",
+    "en": "1. Upload dimission evidence when dimission process is completed."
+  },
+  {
+    "cn": "1. 引入引出照片匹配依据为员工编码或者姓名，引入照片必须以对应员工编码或者姓名命名",
+    "en": "1. Import and export pictures based on employee No. or name, and the picture imported must be named by employee No. or name."
+  },
+  {
+    "cn": "2、设置批维护字段",
+    "en": "2. Set up maintenance fields in batches"
+  },
+  {
+    "cn": "2、选择维护方式",
+    "en": "2. Select a method of maintenance"
+  },
+  {
+    "cn": "2. 导入离职证据匹配依据为员工编码，离职证据文件必须以对应员工编码命名",
+    "en": "2. The dimission evidence Doc. must be named accordingly by employee No. which is the basis of import."
+  },
+  {
+    "cn": "2. 支持引入照片格式为jpg、png、bmp的zip格式压缩文件包，推荐像素100*120px",
+    "en": "2. Zip format compressed file of jpg, png, bmp. 100*120px is recommended"
+  },
+  {
+    "cn": "3、设置批维护字段",
+    "en": "3. Set up maintenance fields in batches"
+  },
+  {
+    "cn": "3. 支持文件格式为word、excel的zip格式压缩文件包",
+    "en": "3. Zip format compressed files of word and excel are available."
+  },
+  {
+    "cn": "excel导入",
+    "en": "Import from excel"
+  },
+  {
+    "cn": "HR组织",
+    "en": "HR department"
+  },
+  {
+    "cn": "一个月内到期",
+    "en": "Expire in one month"
+  },
+  {
+    "cn": "一般",
+    "en": "Ordinary"
+  },
+  {
+    "cn": "三个月到期",
+    "en": "Expire in three month"
+  },
+  {
+    "cn": "上传数据文件",
+    "en": "Upload data files"
+  },
+  {
+    "cn": "上传附近",
+    "en": "Upload"
+  },
+  {
+    "cn": "上海",
+    "en": "Shanghai"
+  },
+  {
+    "cn": "上海外地农村户口",
+    "en": "Shanghai nonlocal rural residence registration"
+  },
+  {
+    "cn": "上海必益教育信息咨询有限公司",
+    "en": "SHBE"
+  },
+  {
+    "cn": "上海必益教育信息咨询有限公司北京分公司",
+    "en": "SHBE Beijing Branch"
+  },
+  {
+    "cn": "上海必益教育信息咨询有限公司成都分公司",
+    "en": "SHBE Chengdu Branch"
+  },
+  {
+    "cn": "上海本地及外地城镇",
+    "en": "Shanghai native and nonlocal town"
+  },
+  {
+    "cn": "上海静安区必益教育培训中心",
+    "en": "SHTE"
+  },
+  {
+    "cn": "上级变动原因",
+    "en": "Reason for superior alteration"
+  },
+  {
+    "cn": "上级变动类型",
+    "en": "Superior alteration type"
+  },
+  {
+    "cn": "上级姓名",
+    "en": "Name of superior"
+  },
+  {
+    "cn": "上级岗位",
+    "en": "Superior post"
+  },
+  {
+    "cn": "下属人数",
+    "en": "Subordinate employee No.s"
+  },
+  {
+    "cn": "下属人数：",
+    "en": "Subordinate No.:"
+  },
+  {
+    "cn": "下岗",
+    "en": "Lay off"
+  },
+  {
+    "cn": "不通过",
+    "en": "Fail"
+  },
+  {
+    "cn": "与本人关系",
+    "en": "Relationship with principle"
+  },
+  {
+    "cn": "专业",
+    "en": "Major"
+  },
+  {
+    "cn": "专业：",
+    "en": "Major:"
+  },
+  {
+    "cn": "业务名称",
+    "en": "Name of business"
+  },
+  {
+    "cn": "业务编码",
+    "en": "Business No."
+  },
+  {
+    "cn": "丧偶",
+    "en": "Widowed"
+  },
+  {
+    "cn": "个人发展",
+    "en": "Individual development"
+  },
+  {
+    "cn": "个人固定额",
+    "en": "Personal fixed amount"
+  },
+  {
+    "cn": "个人基数",
+    "en": "Personal base"
+  },
+  {
+    "cn": "个人性质",
+    "en": "Personal character"
+  },
+  {
+    "cn": "个人缴纳比例%",
+    "en": "Individual contribution"
+  },
+  {
+    "cn": "个人缴费基数上限",
+    "en": "Upper limit of personal payment base"
+  },
+  {
+    "cn": "个人缴费基数下限",
+    "en": "Lower limit of personal payment base"
+  },
+  {
+    "cn": "中国",
+    "en": "China"
+  },
+  {
+    "cn": "中文名",
+    "en": "Chinese name"
+  },
+  {
+    "cn": "临时工",
+    "en": "Part-time employee"
+  },
+  {
+    "cn": "主要任职",
+    "en": "Main position"
+  },
+  {
+    "cn": "主要责任",
+    "en": "Main responsibility"
+  },
+  {
+    "cn": "乙方（员工）信息",
+    "en": "2nd party(employee) info"
+  },
+  {
+    "cn": "乙方地址",
+    "en": "Address of 2nd party"
+  },
+  {
+    "cn": "乙方姓名",
+    "en": "Name of 2nd party"
+  },
+  {
+    "cn": "事务类型",
+    "en": "Affair types"
+  },
+  {
+    "cn": "云之家帐号",
+    "en": "Kingdee cloud account"
+  },
+  {
+    "cn": "产品线",
+    "en": "Product line"
+  },
+  {
+    "cn": "人事报表",
+    "en": "Personnel reports"
+  },
+  {
+    "cn": "人员预入职",
+    "en": "Personnel pre-entry"
+  },
+  {
+    "cn": "仅显示主要任职",
+    "en": "Display main position only"
+  },
+  {
+    "cn": "仅显示主要任职",
+    "en": "Display the main position only"
+  },
+  {
+    "cn": "仅显示最高学历",
+    "en": "Display highest education only"
+  },
+  {
+    "cn": "今天",
+    "en": "Today"
+  },
+  {
+    "cn": "以完成一定工作任务为期限",
+    "en": "A period to complete the prescribed work"
+  },
+  {
+    "cn": "任务:",
+    "en": "Assignment:"
+  },
+  {
+    "cn": "任职信息",
+    "en": "Post info"
+  },
+  {
+    "cn": "任职岗位：",
+    "en": "Post:"
+  },
+  {
+    "cn": "任职岗位名称",
+    "en": "Name of position"
+  },
+  {
+    "cn": "任职类型",
+    "en": "Position type"
+  },
+  {
+    "cn": "任职组织名称",
+    "en": "Name of tenure Org"
+  },
+  {
+    "cn": "任职资格",
+    "en": "Qualification"
+  },
+  {
+    "cn": "任职部门",
+    "en": "Department"
+  },
+  {
+    "cn": "任职部门：",
+    "en": "Department:"
+  },
+  {
+    "cn": "任职部门名称",
+    "en": "Name of tenure department"
+  },
+  {
+    "cn": "企业任职经历",
+    "en": "Inner-enterprise position experience"
+  },
+  {
+    "cn": "企业性质",
+    "en": "Enterprise character"
+  },
+  {
+    "cn": "企业性质：",
+    "en": "Nature of enterprise:"
+  },
+  {
+    "cn": "住房公积金账号",
+    "en": "Housing provident fund account"
+  },
+  {
+    "cn": "作废时间",
+    "en": "Invalid time"
+  },
+  {
+    "cn": "保存",
+    "en": "Save"
+  },
+  {
+    "cn": "保存为方案",
+    "en": "Save as solution"
+  },
+  {
+    "cn": "保存为查询方案",
+    "en": "Save as query scheme"
+  },
+  {
+    "cn": "信息分类",
+    "en": "info classification"
+  },
+  {
+    "cn": "信息变更记录",
+    "en": "info altering records"
+  },
+  {
+    "cn": "修改前",
+    "en": "Before modification"
+  },
+  {
+    "cn": "修改后",
+    "en": "After modification"
+  },
+  {
+    "cn": "修订",
+    "en": "Revise"
+  },
+  {
+    "cn": "借调",
+    "en": "secondment"
+  },
+  {
+    "cn": "借调经历",
+    "en": "secondment experience"
+  },
+  {
+    "cn": "借调调入",
+    "en": "secondment"
+  },
+  {
+    "cn": "借调调入分配导入",
+    "en": "secondment transfer-in distribution import"
+  },
+  {
+    "cn": "借调调出导入",
+    "en": "secondment assign-out import"
+  },
+  {
+    "cn": "借调调回",
+    "en": "secondment recall"
+  },
+  {
+    "cn": "借调调回_不回原岗",
+    "en": "secondment recall not to original post"
+  },
+  {
+    "cn": "借调调回_回原岗",
+    "en": "secondment recall to original post"
+  },
+  {
+    "cn": "借调调回不回原岗导入",
+    "en": "secondment recall not to original post import"
+  },
+  {
+    "cn": "借调调回原岗导入",
+    "en": "secondment recall to original post import"
+  },
+  {
+    "cn": "停薪留职",
+    "en": "Suspension from duty without pay"
+  },
+  {
+    "cn": "健康状况",
+    "en": "Health status"
+  },
+  {
+    "cn": "入学时间",
+    "en": "Admission date"
+  },
+  {
+    "cn": "入学时间：",
+    "en": "Time of enrollment:"
+  },
+  {
+    "cn": "入离职信息",
+    "en": "Infor of enter and dimission"
+  },
+  {
+    "cn": "入职",
+    "en": "Entry"
+  },
+  {
+    "cn": "入职事务信息",
+    "en": "Entry affair info"
+  },
+  {
+    "cn": "入职人员信息",
+    "en": "Entry personnel info"
+  },
+  {
+    "cn": "入职前的预入职人员信息管理，HR人员批量导入和维护预入职人员",
+    "en": "Personnel info management before on board, including batch import and maintenance by HR"
+  },
+  {
+    "cn": "入职员工",
+    "en": "Entry employee"
+  },
+  {
+    "cn": "入职日期",
+    "en": "Entry date"
+  },
+  {
+    "cn": "入职来源",
+    "en": "Entry source"
+  },
+  {
+    "cn": "入职状态",
+    "en": "Entry status"
+  },
+  {
+    "cn": "入错职调整",
+    "en": "Incorrect entry adjustment"
+  },
+  {
+    "cn": "全部",
+    "en": "All"
+  },
+  {
+    "cn": "公司开除",
+    "en": "Dimissal"
+  },
+  {
+    "cn": "公司淘汰",
+    "en": "Elimination"
+  },
+  {
+    "cn": "公开招聘应届中等专业学校毕业生",
+    "en": "Open recruitment of scondary specialized school graduates"
+  },
+  {
+    "cn": "公开招聘应届高等学校毕业生",
+    "en": "Open recruitment of University and college graduates"
+  },
+  {
+    "cn": "公开招聘的其他人员",
+    "en": "Open recruitment of other personnels"
+  },
+  {
+    "cn": "关键员工",
+    "en": "Key personnel"
+  },
+  {
+    "cn": "关闭",
+    "en": "Close"
+  },
+  {
+    "cn": "其他",
+    "en": "Other"
+  },
+  {
+    "cn": "其他信息",
+    "en": "Other infor."
+  },
+  {
+    "cn": "其他合同",
+    "en": "Other contracts"
+  },
+  {
+    "cn": "其他账号",
+    "en": "Other accounts"
+  },
+  {
+    "cn": "其它",
+    "en": "Others"
+  },
+  {
+    "cn": "兼职任职",
+    "en": "Part time"
+  },
+  {
+    "cn": "内部返聘",
+    "en": "Internal reemployment"
+  },
+  {
+    "cn": "再入职",
+    "en": "Re-entry"
+  },
+  {
+    "cn": "再婚",
+    "en": "Remarried"
+  },
+  {
+    "cn": "军转干部安置",
+    "en": "Demobilized army cadres settlement"
+  },
+  {
+    "cn": "农民",
+    "en": "Peasant"
+  },
+  {
+    "cn": "冻结列",
+    "en": "Frozen columns"
+  },
+  {
+    "cn": "出国",
+    "en": "Abroad"
+  },
+  {
+    "cn": "出生地",
+    "en": "Birth place"
+  },
+  {
+    "cn": "出生日期",
+    "en": "Birth date"
+  },
+  {
+    "cn": "分录",
+    "en": "Journal entry"
+  },
+  {
+    "cn": "分管领导",
+    "en": "Leader in charge"
+  },
+  {
+    "cn": "列表所有员工",
+    "en": "All staff in the list"
+  },
+  {
+    "cn": "列表所有员工数据范围为:",
+    "en": "Scope of all employees' data in the list:"
+  },
+  {
+    "cn": "创建",
+    "en": "Create"
+  },
+  {
+    "cn": "创建入职单",
+    "en": "Create entry Doc."
+  },
+  {
+    "cn": "创建时间",
+    "en": "Creation time"
+  },
+  {
+    "cn": "创建离职单",
+    "en": "Create dimission Doc."
+  },
+  {
+    "cn": "创建者",
+    "en": "Creator"
+  },
+  {
+    "cn": "创建调动单",
+    "en": "Create transfer Doc."
+  },
+  {
+    "cn": "创建转正单",
+    "en": "Create pass probation Doc."
+  },
+  {
+    "cn": "创建返聘单",
+    "en": "Create reemployment Doc."
+  },
+  {
+    "cn": "创建返聘终止单",
+    "en": "Create reemployment termination Doc."
+  },
+  {
+    "cn": "创建退休单",
+    "en": "Create retire Doc."
+  },
+  {
+    "cn": "删除人员",
+    "en": "Delete personnel"
+  },
+  {
+    "cn": "删除合同",
+    "en": "Delete contract"
+  },
+  {
+    "cn": "删除员工",
+    "en": "Delete employee"
+  },
+  {
+    "cn": "制单人",
+    "en": "Doc. maker"
+  },
+  {
+    "cn": "制单日期",
+    "en": "Doc. making date"
+  },
+  {
+    "cn": "办公电话",
+    "en": "Office phone"
+  },
+  {
+    "cn": "加入公司日期",
+    "en": "Date of joining the company"
+  },
+  {
+    "cn": "加入集团日期",
+    "en": "Date of joining enterprise group"
+  },
+  {
+    "cn": "加入黑名单",
+    "en": "Add to blacklist"
+  },
+  {
+    "cn": "加拿大",
+    "en": "Canada"
+  },
+  {
+    "cn": "劳务派遣",
+    "en": "Labor despatch"
+  },
+  {
+    "cn": "劳动合同",
+    "en": "Labor contract"
+  },
+  {
+    "cn": "劳动合同主体",
+    "en": "Labor contract subject"
+  },
+  {
+    "cn": "劳动合同主体",
+    "en": "Subject of labor contract"
+  },
+  {
+    "cn": "劳动合同信息",
+    "en": "Labor contract info"
+  },
+  {
+    "cn": "劳动合同新签",
+    "en": "Newly signed labor contract"
+  },
+  {
+    "cn": "包含下级",
+    "en": "Include the subordinate"
+  },
+  {
+    "cn": "北京分公司",
+    "en": "Beijing Branch"
+  },
+  {
+    "cn": "北京及外地城镇户口",
+    "en": "Beijing native and nonlocal town"
+  },
+  {
+    "cn": "北京通用",
+    "en": "Beijing universal residence registration"
+  },
+  {
+    "cn": "协议",
+    "en": "Agreement"
+  },
+  {
+    "cn": "单位人数",
+    "en": "No. of employee"
+  },
+  {
+    "cn": "单位人数：",
+    "en": "No. of unit employee:"
+  },
+  {
+    "cn": "单位名称",
+    "en": "Unit name"
+  },
+  {
+    "cn": "单位名称：",
+    "en": "Name of Unit:"
+  },
+  {
+    "cn": "单位固定额",
+    "en": "Unit fixed amount"
+  },
+  {
+    "cn": "单位地址",
+    "en": "Unit address"
+  },
+  {
+    "cn": "单位地址：",
+    "en": "Unit address:"
+  },
+  {
+    "cn": "单位基数",
+    "en": "Unit base"
+  },
+  {
+    "cn": "单位缴纳比例%",
+    "en": "Unit contribution"
+  },
+  {
+    "cn": "单位缴费基数上限",
+    "en": "Upper limit of unit payment base"
+  },
+  {
+    "cn": "单位缴费基数下限",
+    "en": "Lower limit of unit payment base"
+  },
+  {
+    "cn": "单位联系电话",
+    "en": "Unit contact"
+  },
+  {
+    "cn": "单据信息",
+    "en": "Doc. info"
+  },
+  {
+    "cn": "单据编号",
+    "en": "Doc. No."
+  },
+  {
+    "cn": "占编",
+    "en": "On establishment"
+  },
+  {
+    "cn": "历史合同",
+    "en": "Historical contract"
+  },
+  {
+    "cn": "原岗位",
+    "en": "Original post"
+  },
+  {
+    "cn": "原用工状态",
+    "en": "Original employment status"
+  },
+  {
+    "cn": "原组织",
+    "en": "Original Org"
+  },
+  {
+    "cn": "原组织全名称",
+    "en": "Full name of orginal Org"
+  },
+  {
+    "cn": "原职位",
+    "en": "Original position"
+  },
+  {
+    "cn": "原职等",
+    "en": "Original grade"
+  },
+  {
+    "cn": "参保地区",
+    "en": "Insured area"
+  },
+  {
+    "cn": "参保日期",
+    "en": "Insured date"
+  },
+  {
+    "cn": "参保组织",
+    "en": "Insured Org"
+  },
+  {
+    "cn": "参保规则",
+    "en": "Insured regulation"
+  },
+  {
+    "cn": "参加工作日期",
+    "en": "Date of attending job"
+  },
+  {
+    "cn": "反审批",
+    "en": "Revise"
+  },
+  {
+    "cn": "取消",
+    "en": "Cancel"
+  },
+  {
+    "cn": "变动原因",
+    "en": "Reason for alteration"
+  },
+  {
+    "cn": "变动操作",
+    "en": "Alteration operation"
+  },
+  {
+    "cn": "变动日期",
+    "en": "Alteration type"
+  },
+  {
+    "cn": "变动类型",
+    "en": "Alteration type"
+  },
+  {
+    "cn": "变更",
+    "en": "Alteration"
+  },
+  {
+    "cn": "变更人",
+    "en": "Altering autority"
+  },
+  {
+    "cn": "变更合同信息",
+    "en": "Contract alteration info"
+  },
+  {
+    "cn": "变更工作流跟踪",
+    "en": "Alteration workflow trace"
+  },
+  {
+    "cn": "变更日期",
+    "en": "Altering date"
+  },
+  {
+    "cn": "可查询单个员工的企业内全生命周期的所有任职历史；可查询指定时间范围内各种变动类型、变动操作的员工任职信息",
+    "en": "Query history within employees' tenure, available for kinds of variation within specific time"
+  },
+  {
+    "cn": "可统一维护和查看员工个人信息、任职经历、教育经历、标签等信息",
+    "en": "Maintain and check employee personal info, caree and education experience, label and so on."
+  },
+  {
+    "cn": "合同信息",
+    "en": "Contract info"
+  },
+  {
+    "cn": "合同初始化导入",
+    "en": "Contract initialization import"
+  },
+  {
+    "cn": "合同期限(年)",
+    "en": "Contract term(year)"
+  },
+  {
+    "cn": "合同期限类型",
+    "en": "Type of contract term"
+  },
+  {
+    "cn": "合同模板",
+    "en": "Contract template"
+  },
+  {
+    "cn": "合同状态",
+    "en": "Contract state"
+  },
+  {
+    "cn": "合同生效日期",
+    "en": "Effective date of contract"
+  },
+  {
+    "cn": "合同签订状态",
+    "en": "Contract signing state"
+  },
+  {
+    "cn": "合同类别",
+    "en": "Contract category"
+  },
+  {
+    "cn": "合同终止",
+    "en": "Termination of contract"
+  },
+  {
+    "cn": "合同终止日期",
+    "en": "Expiration date of contract"
+  },
+  {
+    "cn": "合同编号",
+    "en": "Contract No."
+  },
+  {
+    "cn": "合同追溯",
+    "en": "Contract retrospective"
+  },
+  {
+    "cn": "同意",
+    "en": "Agree"
+  },
+  {
+    "cn": "名称",
+    "en": "Name"
+  },
+  {
+    "cn": "否",
+    "en": "No"
+  },
+  {
+    "cn": "启智慧育（上海）商务咨询有限公司",
+    "en": "SHQZHY"
+  },
+  {
+    "cn": "启用",
+    "en": "Valid"
+  },
+  {
+    "cn": "员工",
+    "en": "Employee"
+  },
+  {
+    "cn": "员工：",
+    "en": "Employee:"
+  },
+  {
+    "cn": "员工任职变动查询",
+    "en": "Personnel changes query"
+  },
+  {
+    "cn": "员工信息",
+    "en": "Employee info"
+  },
+  {
+    "cn": "员工信息初始化",
+    "en": "Employee info initialization"
+  },
+  {
+    "cn": "员工信息变更审核",
+    "en": "Alteration and audition of employee info"
+  },
+  {
+    "cn": "员工信息导入",
+    "en": "Employee info import"
+  },
+  {
+    "cn": "员工信息批量导入",
+    "en": "Batch import of Employee info"
+  },
+  {
+    "cn": "员工信息批量维护",
+    "en": "Employee info Batch maintenance of Employee info"
+  },
+  {
+    "cn": "员工信息查询与维护",
+    "en": "Query and maintenance of employee info"
+  },
+  {
+    "cn": "员工信息管理",
+    "en": "Employee info management"
+  },
+  {
+    "cn": "员工信息维护",
+    "en": "Employee info maintenance"
+  },
+  {
+    "cn": "员工信息维护导入",
+    "en": "Maintenance and import of employee infor."
+  },
+  {
+    "cn": "员工入职",
+    "en": "Employee entry"
+  },
+  {
+    "cn": "员工入职，由HR人员批量处理员工入职或录用分配。入职后更新员工任职信息，且可批量套打录用通知单",
+    "en": "Batch processing of employees' entry, recruitment, and distribution for HR; update position info;  chromatography printing Recruitment notice"
+  },
+  {
+    "cn": "员工其他合同信息的管理",
+    "en": "Management of other contracts"
+  },
+  {
+    "cn": "员工劳动合同处理，可批量处理新签、续签、变更、终止、解除等合同业务",
+    "en": "Batch processing of contracts for new signing, renewing, alteration and termination"
+  },
+  {
+    "cn": "员工变动",
+    "en": "Employee alteration"
+  },
+  {
+    "cn": "员工变动导入",
+    "en": "Employee alteration import"
+  },
+  {
+    "cn": "员工变动管理",
+    "en": "Employee alteration management"
+  },
+  {
+    "cn": "员工合同",
+    "en": "Labor contract"
+  },
+  {
+    "cn": "员工合同追溯",
+    "en": "Employee contract retrospect"
+  },
+  {
+    "cn": "员工姓名",
+    "en": "Name of employee"
+  },
+  {
+    "cn": "员工教育经历",
+    "en": "Employee education experience"
+  },
+  {
+    "cn": "员工明细查询",
+    "en": "Employee details query"
+  },
+  {
+    "cn": "员工照片引入引出说明",
+    "en": "Introduction of employee pictures' import and export"
+  },
+  {
+    "cn": "员工社保档案",
+    "en": "Employee social security archive"
+  },
+  {
+    "cn": "员工离职",
+    "en": "Employee dimission"
+  },
+  {
+    "cn": "员工离职，由HR人员批量处理或导入离职信息，离职后更新员工任职信息更新为离职员工，且可批量套打离职证明、承诺告知书等",
+    "en": "Batch processing or import dimission info; chromatography printing severance Doc.ation and commitment notification"
+  },
+  {
+    "cn": "员工离职前的预离职信息管理，由HR人员批量维护或导入预离人员信息，预离职信是后续员工离职处理的重要参考信息",
+    "en": "Batch processing or import info of pre-dimission employee"
+  },
+  {
+    "cn": "员工管理",
+    "en": "Employee management"
+  },
+  {
+    "cn": "员工编码",
+    "en": "Employee No."
+  },
+  {
+    "cn": "员工调动",
+    "en": "Employee transfer"
+  },
+  {
+    "cn": "员工转正",
+    "en": "Employee pass probation"
+  },
+  {
+    "cn": "员工转正，由HR人员批量处理和导入员工转正，转正后更新员工任职信息。转正后可邮件发送员工转正通知至员工本人及管理人员",
+    "en": "Batch processing and import of employees' pass probation; update position info; mail employee and manager after pass probation"
+  },
+  {
+    "cn": "员工退休及返聘",
+    "en": "Employee retirement and reemployment"
+  },
+  {
+    "cn": "员工预离职",
+    "en": "Employee pre-dimission"
+  },
+  {
+    "cn": "周期类型：",
+    "en": "Period type:"
+  },
+  {
+    "cn": "商人",
+    "en": "Businessman"
+  },
+  {
+    "cn": "回族",
+    "en": "Hui nationality"
+  },
+  {
+    "cn": "固定期限",
+    "en": "Fixed term"
+  },
+  {
+    "cn": "固定期限已续签2次",
+    "en": "Renew for two times in fixed term"
+  },
+  {
+    "cn": "国籍",
+    "en": "Country"
+  },
+  {
+    "cn": "培训信息",
+    "en": "Training info"
+  },
+  {
+    "cn": "培训内容",
+    "en": "Training contents"
+  },
+  {
+    "cn": "培训学校",
+    "en": "Training school"
+  },
+  {
+    "cn": "培训记录",
+    "en": "Training records"
+  },
+  {
+    "cn": "培训课时",
+    "en": "Course hours"
+  },
+  {
+    "cn": "培训课程",
+    "en": "Training courses"
+  },
+  {
+    "cn": "基于员工所有信息的日常查询，查询结果可导出",
+    "en": "Daily queries. The results can be imported."
+  },
+  {
+    "cn": "基数生效日期",
+    "en": "Cardinality effective date"
+  },
+  {
+    "cn": "壮族",
+    "en": "Zhuang nationality"
+  },
+  {
+    "cn": "处理员工退休及返聘",
+    "en": "Process retirement and reemployment"
+  },
+  {
+    "cn": "备注",
+    "en": "Remark"
+  },
+  {
+    "cn": "备注：",
+    "en": "Remark:"
+  },
+  {
+    "cn": "外地农村户口",
+    "en": "Nonlocal rural registered residence"
+  },
+  {
+    "cn": "外部返聘",
+    "en": "External reemployment"
+  },
+  {
+    "cn": "失效状态",
+    "en": "Failure state"
+  },
+  {
+    "cn": "套打",
+    "en": "Chromatography printing"
+  },
+  {
+    "cn": "女",
+    "en": "Female"
+  },
+  {
+    "cn": "姓名",
+    "en": "Name"
+  },
+  {
+    "cn": "婚姻状况",
+    "en": "Marital status"
+  },
+  {
+    "cn": "字段：",
+    "en": "Fields:"
+  },
+  {
+    "cn": "学位",
+    "en": "Degree"
+  },
+  {
+    "cn": "学位：",
+    "en": "Degree:"
+  },
+  {
+    "cn": "学位授予单位",
+    "en": "Degree awarded Org"
+  },
+  {
+    "cn": "学位授予国家",
+    "en": "Degree awarded nation"
+  },
+  {
+    "cn": "学制（年）",
+    "en": "Education system(year)"
+  },
+  {
+    "cn": "学制（年）：",
+    "en": "Educational system(year):"
+  },
+  {
+    "cn": "学历",
+    "en": "Degree"
+  },
+  {
+    "cn": "学历/学位",
+    "en": "Education/Degree"
+  },
+  {
+    "cn": "学历：",
+    "en": "Education:"
+  },
+  {
+    "cn": "学历名称",
+    "en": "Name of education"
+  },
+  {
+    "cn": "学历形式",
+    "en": "Education form"
+  },
+  {
+    "cn": "学历形式：",
+    "en": "Education form:"
+  },
+  {
+    "cn": "学历证号",
+    "en": "Academic certificate No."
+  },
+  {
+    "cn": "学历证号：",
+    "en": "Academic certificate No.:"
+  },
+  {
+    "cn": "学校/专业",
+    "en": "University/Speciality"
+  },
+  {
+    "cn": "学校招聘",
+    "en": "Campus recruitment"
+  },
+  {
+    "cn": "学生",
+    "en": "Student"
+  },
+  {
+    "cn": "实习",
+    "en": "Intership"
+  },
+  {
+    "cn": "实习人员",
+    "en": "Trainee"
+  },
+  {
+    "cn": "实习终止",
+    "en": "Intership termination"
+  },
+  {
+    "cn": "实习转正、试用",
+    "en": "Intership pass probation or on probation"
+  },
+  {
+    "cn": "实验学校",
+    "en": "Experimental school"
+  },
+  {
+    "cn": "审批人",
+    "en": "Approver"
+  },
+  {
+    "cn": "审批人:",
+    "en": "Approver:"
+  },
+  {
+    "cn": "审批意见",
+    "en": "Approval opinion"
+  },
+  {
+    "cn": "审批意见:",
+    "en": "Approval opinion:"
+  },
+  {
+    "cn": "审批日期",
+    "en": "Approval date"
+  },
+  {
+    "cn": "审批结果:",
+    "en": "Approval results:"
+  },
+  {
+    "cn": "审核",
+    "en": "Audit"
+  },
+  {
+    "cn": "审核中(默认)",
+    "en": "Being auditing(default)"
+  },
+  {
+    "cn": "客户名称",
+    "en": "Name of client"
+  },
+  {
+    "cn": "家庭住址",
+    "en": "Home address"
+  },
+  {
+    "cn": "家庭原因",
+    "en": "Reason for family"
+  },
+  {
+    "cn": "家庭电话",
+    "en": "Home phone"
+  },
+  {
+    "cn": "对员工自助维护的个人档案信息中部分受控信息进行审核确认，审核通过才会正式生效",
+    "en": "Audition and confirmation about partial controlled info of employee self maintenance info, whick take effect after appovered."
+  },
+  {
+    "cn": "导入合同",
+    "en": "Import contract"
+  },
+  {
+    "cn": "导入模板下载",
+    "en": "Import template download"
+  },
+  {
+    "cn": "导出",
+    "en": "Export"
+  },
+  {
+    "cn": "导出全部",
+    "en": "Export all"
+  },
+  {
+    "cn": "导出字段",
+    "en": "Export fields"
+  },
+  {
+    "cn": "导出数据",
+    "en": "Export data"
+  },
+  {
+    "cn": "导出模板设置",
+    "en": "Export template setting"
+  },
+  {
+    "cn": "导出选中",
+    "en": "Export selected"
+  },
+  {
+    "cn": "岗位",
+    "en": "Post"
+  },
+  {
+    "cn": "岗位信息",
+    "en": "Post info"
+  },
+  {
+    "cn": "岗位名称",
+    "en": "Name of post"
+  },
+  {
+    "cn": "岗位状态",
+    "en": "Post status"
+  },
+  {
+    "cn": "岗位类别",
+    "en": "Post type"
+  },
+  {
+    "cn": "岗位编制",
+    "en": "Post authorized strength"
+  },
+  {
+    "cn": "岗位编码",
+    "en": "Post No."
+  },
+  {
+    "cn": "工人",
+    "en": "Worker"
+  },
+  {
+    "cn": "工作单位",
+    "en": "Work unit"
+  },
+  {
+    "cn": "工作描述",
+    "en": "Job description"
+  },
+  {
+    "cn": "工作描述：",
+    "en": "Work description:"
+  },
+  {
+    "cn": "工作流入职",
+    "en": "Workflow entry"
+  },
+  {
+    "cn": "工作流变更",
+    "en": "Workflow alteration"
+  },
+  {
+    "cn": "工作流新签",
+    "en": "Workflow new signing"
+  },
+  {
+    "cn": "工作流离职",
+    "en": "Workflow dimission"
+  },
+  {
+    "cn": "工作流离退休",
+    "en": "Workflow retire"
+  },
+  {
+    "cn": "工作流终止",
+    "en": "Workflow termination"
+  },
+  {
+    "cn": "工作流续签",
+    "en": "Workflow renewal"
+  },
+  {
+    "cn": "工作流解除",
+    "en": "Workflow discharge"
+  },
+  {
+    "cn": "工作流调动",
+    "en": "Workflow transfer"
+  },
+  {
+    "cn": "工作流转正",
+    "en": "Workflow pass probation"
+  },
+  {
+    "cn": "工作流返聘及终止",
+    "en": "Workflow reemployment and termination"
+  },
+  {
+    "cn": "工作环境",
+    "en": "Work environment"
+  },
+  {
+    "cn": "已入职",
+    "en": "On board"
+  },
+  {
+    "cn": "已到期未签",
+    "en": "Expire but not signed"
+  },
+  {
+    "cn": "已婚",
+    "en": "Married"
+  },
+  {
+    "cn": "已提交",
+    "en": "Summited"
+  },
+  {
+    "cn": "已终止",
+    "en": "Terminated"
+  },
+  {
+    "cn": "已解除",
+    "en": "Discharged"
+  },
+  {
+    "cn": "已选",
+    "en": "Selected"
+  },
+  {
+    "cn": "已选字段",
+    "en": "Selected field"
+  },
+  {
+    "cn": "布依族",
+    "en": "Bouyei nationality"
+  },
+  {
+    "cn": "常州",
+    "en": "Changzhou"
+  },
+  {
+    "cn": "常州市必益教育有限公司",
+    "en": "CZBE"
+  },
+  {
+    "cn": "常州市武进区牛津国际公学培训学校",
+    "en": "CZOIC Training"
+  },
+  {
+    "cn": "常州市武进区牛津国际公学实验学校",
+    "en": "CZOIC Primary"
+  },
+  {
+    "cn": "常州市武进区牛津国际公学幼儿园",
+    "en": "CZOIC KG"
+  },
+  {
+    "cn": "常州必益教育",
+    "en": "Changzhou BE Education"
+  },
+  {
+    "cn": "常用方案",
+    "en": "Common solution"
+  },
+  {
+    "cn": "干部",
+    "en": "Cadre"
+  },
+  {
+    "cn": "平调",
+    "en": "Lateral move"
+  },
+  {
+    "cn": "年资信息",
+    "en": "Seniority info"
+  },
+  {
+    "cn": "年龄",
+    "en": "Age"
+  },
+  {
+    "cn": "幼儿园",
+    "en": "Kingdergarten"
+  },
+  {
+    "cn": "应届中等专业学校毕业生",
+    "en": "secondary specialized school graduates"
+  },
+  {
+    "cn": "应届高等学校毕业生",
+    "en": "University and college graduates"
+  },
+  {
+    "cn": "应用",
+    "en": "Apply"
+  },
+  {
+    "cn": "开始日期",
+    "en": "Start date"
+  },
+  {
+    "cn": "开始日期：",
+    "en": "Start date:"
+  },
+  {
+    "cn": "引入  请选择上传照片文件",
+    "en": "Import(Please select picture doc.)"
+  },
+  {
+    "cn": "引出  引出列表界面所有员工照片",
+    "en": "Export(Export pictures of all employees in the list interface)"
+  },
+  {
+    "cn": "引出  引出组织范围照片",
+    "en": "Export(export pictures for scope of Org"
+  },
+  {
+    "cn": "当天入职",
+    "en": "Entry on the day"
+  },
+  {
+    "cn": "当天离职",
+    "en": "Dimiss on the day"
+  },
+  {
+    "cn": "当天离退休人员",
+    "en": "Retire personnel on the day"
+  },
+  {
+    "cn": "当天调动",
+    "en": "Transfer on the day"
+  },
+  {
+    "cn": "当天转正",
+    "en": "Pass probation on the day"
+  },
+  {
+    "cn": "当天预离职",
+    "en": "Pre-dimission on the day"
+  },
+  {
+    "cn": "录用分配",
+    "en": "Employment and distribution"
+  },
+  {
+    "cn": "彝族",
+    "en": "Yi nationality"
+  },
+  {
+    "cn": "待分配借调人员",
+    "en": "secondment personnel to be distributed"
+  },
+  {
+    "cn": "待分配员工",
+    "en": "Undistributed employee"
+  },
+  {
+    "cn": "待岗",
+    "en": "Wait for assignment"
+  },
+  {
+    "cn": "微信账号",
+    "en": "Wechat"
+  },
+  {
+    "cn": "德国",
+    "en": "Germany"
+  },
+  {
+    "cn": "必录字段",
+    "en": "Required recorded fields"
+  },
+  {
+    "cn": "快速新增",
+    "en": "Fast add"
+  },
+  {
+    "cn": "性别",
+    "en": "Gender"
+  },
+  {
+    "cn": "成都",
+    "en": "Chengdu"
+  },
+  {
+    "cn": "成都分公司",
+    "en": "Chengdu Branch"
+  },
+  {
+    "cn": "成都及外地城镇户口",
+    "en": "Chengdu native and nonlocal town"
+  },
+  {
+    "cn": "成都外地农村户口",
+    "en": "Chengdu nonlocal rural residence registration"
+  },
+  {
+    "cn": "户口所在地",
+    "en": "Registered permanent address"
+  },
+  {
+    "cn": "户口类型",
+    "en": "Residence registration type"
+  },
+  {
+    "cn": "户籍类型",
+    "en": "Household register type"
+  },
+  {
+    "cn": "所属岗位",
+    "en": "Post"
+  },
+  {
+    "cn": "所属组织",
+    "en": "Org"
+  },
+  {
+    "cn": "所属行业",
+    "en": "Industry"
+  },
+  {
+    "cn": "所属行业：",
+    "en": "Industry:"
+  },
+  {
+    "cn": "所属行政组织",
+    "en": "Administrative Org"
+  },
+  {
+    "cn": "所属领域",
+    "en": "Field"
+  },
+  {
+    "cn": "手机号码",
+    "en": "Telephone"
+  },
+  {
+    "cn": "打印员工履历",
+    "en": "Print employee resumes"
+  },
+  {
+    "cn": "打印履历",
+    "en": "Print resume"
+  },
+  {
+    "cn": "批量修订转正日期",
+    "en": "Batch modify pass probation data"
+  },
+  {
+    "cn": "批量变更",
+    "en": "Batch alteration"
+  },
+  {
+    "cn": "批量录用分配",
+    "en": "Batch employment and distribution"
+  },
+  {
+    "cn": "批量新签",
+    "en": "Batch new signing"
+  },
+  {
+    "cn": "批量离职",
+    "en": "Batch dimission"
+  },
+  {
+    "cn": "批量终止",
+    "en": "Batch termination"
+  },
+  {
+    "cn": "批量续签",
+    "en": "Batch renewal"
+  },
+  {
+    "cn": "批量维护",
+    "en": "Batch maintenance"
+  },
+  {
+    "cn": "批量解除",
+    "en": "Batch discharge"
+  },
+  {
+    "cn": "批量转正",
+    "en": "Batch pass probation"
+  },
+  {
+    "cn": "批量辞退",
+    "en": "Batch discharge"
+  },
+  {
+    "cn": "批量退休",
+    "en": "Batch retire"
+  },
+  {
+    "cn": "技能信息",
+    "en": "Skill info"
+  },
+  {
+    "cn": "技能名称",
+    "en": "Name of skill"
+  },
+  {
+    "cn": "技能名称：",
+    "en": "Name of skill:"
+  },
+  {
+    "cn": "技能描述",
+    "en": "Skill description"
+  },
+  {
+    "cn": "技能描述：",
+    "en": "Skill description:"
+  },
+  {
+    "cn": "护照号",
+    "en": "Passport No."
+  },
+  {
+    "cn": "护照号码",
+    "en": "Passport No."
+  },
+  {
+    "cn": "报表名称",
+    "en": "Name of statement"
+  },
+  {
+    "cn": "报表描述",
+    "en": "Statement description"
+  },
+  {
+    "cn": "担任职位",
+    "en": "Position"
+  },
+  {
+    "cn": "担任职位：",
+    "en": "Position:"
+  },
+  {
+    "cn": "担任角色",
+    "en": "Role"
+  },
+  {
+    "cn": "招聘来源",
+    "en": "Recruitment source"
+  },
+  {
+    "cn": "授课开始日期",
+    "en": "Start date of course"
+  },
+  {
+    "cn": "授课结束日期",
+    "en": "End date of course"
+  },
+  {
+    "cn": "排序字段",
+    "en": "Sort field"
+  },
+  {
+    "cn": "控制单元",
+    "en": "Controlling unit"
+  },
+  {
+    "cn": "描述",
+    "en": "Description"
+  },
+  {
+    "cn": "提交工作流",
+    "en": "Submit workflow"
+  },
+  {
+    "cn": "提交时间",
+    "en": "Submission time"
+  },
+  {
+    "cn": "提交生效",
+    "en": "Submission into effect"
+  },
+  {
+    "cn": "提出离职日期",
+    "en": "Put forward dimission date"
+  },
+  {
+    "cn": "撤回",
+    "en": "Withdraw"
+  },
+  {
+    "cn": "撤销",
+    "en": "Cancel"
+  },
+  {
+    "cn": "撤销离职",
+    "en": "Revoke dimission"
+  },
+  {
+    "cn": "撤销调动/借调调出(回)",
+    "en": "Revoke transfer/2ndment assign-out or recall"
+  },
+  {
+    "cn": "撤销转正",
+    "en": "Revoke pass probation"
+  },
+  {
+    "cn": "撤销返聘",
+    "en": "Revoke reemployment"
+  },
+  {
+    "cn": "撤销返聘终止",
+    "en": "Revoke reemployment termination"
+  },
+  {
+    "cn": "撤销退休",
+    "en": "Revoke retire"
+  },
+  {
+    "cn": "操作",
+    "en": "Operate"
+  },
+  {
+    "cn": "操作：",
+    "en": "Operation:"
+  },
+  {
+    "cn": "政治面貌",
+    "en": "Political status"
+  },
+  {
+    "cn": "教育信息",
+    "en": "Education info"
+  },
+  {
+    "cn": "教育经历",
+    "en": "Education experience"
+  },
+  {
+    "cn": "新值：",
+    "en": "New value:"
+  },
+  {
+    "cn": "新加坡",
+    "en": "Singpore"
+  },
+  {
+    "cn": "新增",
+    "en": "Add"
+  },
+  {
+    "cn": "新增方案",
+    "en": "Add new scheme"
+  },
+  {
+    "cn": "新建方案",
+    "en": "Create new scheme"
+  },
+  {
+    "cn": "新浪微博",
+    "en": "Sina microblog"
+  },
+  {
+    "cn": "新签",
+    "en": "New signing"
+  },
+  {
+    "cn": "新签工作流跟踪",
+    "en": "New signing workflow trace"
+  },
+  {
+    "cn": "新西兰",
+    "en": "New Zealand"
+  },
+  {
+    "cn": "无",
+    "en": "Null"
+  },
+  {
+    "cn": "无固定期限",
+    "en": "Non-fixed term"
+  },
+  {
+    "cn": "无数据",
+    "en": "No data"
+  },
+  {
+    "cn": "无数据显示",
+    "en": "No data"
+  },
+  {
+    "cn": "日本",
+    "en": "Japan"
+  },
+  {
+    "cn": "时间:",
+    "en": "Time:"
+  },
+  {
+    "cn": "是",
+    "en": "Yes"
+  },
+  {
+    "cn": "是否借调",
+    "en": "secondment or not"
+  },
+  {
+    "cn": "是否入职",
+    "en": "On board or not"
+  },
+  {
+    "cn": "是否全勤",
+    "en": "Full attendence or not"
+  },
+  {
+    "cn": "是否内置",
+    "en": "Build-in or not"
+  },
+  {
+    "cn": "是否占编",
+    "en": "On establishment or not"
+  },
+  {
+    "cn": "是否叶子节点",
+    "en": "Leaf node or not"
+  },
+  {
+    "cn": "是否放弃",
+    "en": "Abandon or not"
+  },
+  {
+    "cn": "是否预置变动类型",
+    "en": "Pre-set alteration type or not"
+  },
+  {
+    "cn": "显示名称",
+    "en": "Display name"
+  },
+  {
+    "cn": "晋升",
+    "en": "promotion"
+  },
+  {
+    "cn": "更多",
+    "en": "More"
+  },
+  {
+    "cn": "最后修改时间",
+    "en": "Last modification time"
+  },
+  {
+    "cn": "最后修改者",
+    "en": "Last modifier"
+  },
+  {
+    "cn": "最高学位",
+    "en": "Highest degree"
+  },
+  {
+    "cn": "最高学位：",
+    "en": "Highest degree:"
+  },
+  {
+    "cn": "最高学历",
+    "en": "Highest education"
+  },
+  {
+    "cn": "最高学历：",
+    "en": "Highest education:"
+  },
+  {
+    "cn": "最高职等",
+    "en": "Highest grade"
+  },
+  {
+    "cn": "月基本工资",
+    "en": "Monthly Basic Salary"
+  },
+  {
+    "cn": "月基本工资：",
+    "en": "Monthly Basic Salary:"
+  },
+  {
+    "cn": "有生理缺陷",
+    "en": "Handicapped"
+  },
+  {
+    "cn": "朝鲜族",
+    "en": "Korean nationality"
+  },
+  {
+    "cn": "未入职",
+    "en": "Not on board"
+  },
+  {
+    "cn": "未婚",
+    "en": "Single"
+  },
+  {
+    "cn": "未知",
+    "en": "Unknown"
+  },
+  {
+    "cn": "未签",
+    "en": "Not signed"
+  },
+  {
+    "cn": "未签订合同",
+    "en": "Not signed"
+  },
+  {
+    "cn": "查看信息变更记录",
+    "en": "View info altering records"
+  },
+  {
+    "cn": "查看黑名单",
+    "en": "View blacklist"
+  },
+  {
+    "cn": "查询",
+    "en": "Query"
+  },
+  {
+    "cn": "查询方案",
+    "en": "Query scheme"
+  },
+  {
+    "cn": "查询结果",
+    "en": "Results for query"
+  },
+  {
+    "cn": "标准合同",
+    "en": "Standard contract"
+  },
+  {
+    "cn": "标签业务类型",
+    "en": "Type of tag business"
+  },
+  {
+    "cn": "标签对象类型",
+    "en": "Type of tag object"
+  },
+  {
+    "cn": "标签库",
+    "en": "Tag library"
+  },
+  {
+    "cn": "根据过滤条件，生成统计分析报表，统计结果可导出",
+    "en": "Create Statistical analysis report and import results"
+  },
+  {
+    "cn": "检查报告下载",
+    "en": "Inspection report download"
+  },
+  {
+    "cn": "正式员工",
+    "en": "Regular employee"
+  },
+  {
+    "cn": "正式工",
+    "en": "Regular employee"
+  },
+  {
+    "cn": "残废",
+    "en": "Disabled"
+  },
+  {
+    "cn": "毕业学校",
+    "en": "Graduate university"
+  },
+  {
+    "cn": "毕业学校：",
+    "en": "School of graduation:"
+  },
+  {
+    "cn": "毕业时间",
+    "en": "Graduate time"
+  },
+  {
+    "cn": "毕业时间：",
+    "en": "Time of graduation:"
+  },
+  {
+    "cn": "毕业类型",
+    "en": "Graduate type"
+  },
+  {
+    "cn": "毕业类型：",
+    "en": "Type of graduation:"
+  },
+  {
+    "cn": "民族",
+    "en": "Nation"
+  },
+  {
+    "cn": "汇报岗位",
+    "en": "Reported post"
+  },
+  {
+    "cn": "汇报岗位：",
+    "en": "Reported post:"
+  },
+  {
+    "cn": "汉族",
+    "en": "Han nationality"
+  },
+  {
+    "cn": "法人单位",
+    "en": "Legal entity"
+  },
+  {
+    "cn": "法人单位信息",
+    "en": "Legal entity info"
+  },
+  {
+    "cn": "法国",
+    "en": "France"
+  },
+  {
+    "cn": "活动",
+    "en": "Activity"
+  },
+  {
+    "cn": "流出",
+    "en": "Outflow"
+  },
+  {
+    "cn": "流程图",
+    "en": "Flow chart"
+  },
+  {
+    "cn": "流程跟踪",
+    "en": "Process trace"
+  },
+  {
+    "cn": "深圳",
+    "en": "Shenzhen"
+  },
+  {
+    "cn": "深圳必益教育咨询有限公司",
+    "en": "SZBE"
+  },
+  {
+    "cn": "深圳本地",
+    "en": "Shenzhen native"
+  },
+  {
+    "cn": "深圳本地户口",
+    "en": "Shenzhen native residence registration"
+  },
+  {
+    "cn": "添加条件",
+    "en": "Add condition"
+  },
+  {
+    "cn": "清除预离职信息",
+    "en": "Clean pre-dimission info"
+  },
+  {
+    "cn": "源合同",
+    "en": "Original contract"
+  },
+  {
+    "cn": "满10年司龄",
+    "en": "Over 10 work years"
+  },
+  {
+    "cn": "澳大利亚",
+    "en": "Australia"
+  },
+  {
+    "cn": "照片引入引出",
+    "en": "Import and emport of pictures"
+  },
+  {
+    "cn": "熟悉程度",
+    "en": "Familiarity degree"
+  },
+  {
+    "cn": "父节点",
+    "en": "Father node"
+  },
+  {
+    "cn": "状态",
+    "en": "Status"
+  },
+  {
+    "cn": "状态(默认)",
+    "en": "Status(default)"
+  },
+  {
+    "cn": "现任岗位",
+    "en": "Current post"
+  },
+  {
+    "cn": "现任职位",
+    "en": "Current position"
+  },
+  {
+    "cn": "现任职等",
+    "en": "Current grade"
+  },
+  {
+    "cn": "现任部门",
+    "en": "Current department"
+  },
+  {
+    "cn": "现居住地",
+    "en": "Current residence"
+  },
+  {
+    "cn": "现行合同",
+    "en": "Current contract"
+  },
+  {
+    "cn": "理由",
+    "en": "Reason"
+  },
+  {
+    "cn": "生效",
+    "en": "Effect"
+  },
+  {
+    "cn": "生效日期",
+    "en": "Effective date"
+  },
+  {
+    "cn": "用工关系",
+    "en": "Employment relationship"
+  },
+  {
+    "cn": "用工关系状态",
+    "en": "Employment relationship status"
+  },
+  {
+    "cn": "用工关系类型",
+    "en": "Employment relationship type"
+  },
+  {
+    "cn": "用户状态",
+    "en": "User status"
+  },
+  {
+    "cn": "由HR人员批量处理员工调动，调动类型包括组织内、跨组织调动、长短期借调等。支持调出岗位待定的跨组织调动业务",
+    "en": "Batch processing employees' transfer, including intra-Org, inter-Org, secondment in short or long term"
+  },
+  {
+    "cn": "甲方单位",
+    "en": "Unit of 1st party"
+  },
+  {
+    "cn": "甲方单位代表人",
+    "en": "Unit representative of 1st party"
+  },
+  {
+    "cn": "甲方地址",
+    "en": "Address of 1st party"
+  },
+  {
+    "cn": "电子邮件",
+    "en": "E-mail"
+  },
+  {
+    "cn": "电话",
+    "en": "Telephone"
+  },
+  {
+    "cn": "电话/邮箱",
+    "en": "Phone/email"
+  },
+  {
+    "cn": "男",
+    "en": "Male"
+  },
+  {
+    "cn": "目前没有记录",
+    "en": "No record"
+  },
+  {
+    "cn": "目标岗位",
+    "en": "Aimed post"
+  },
+  {
+    "cn": "目标用工状态",
+    "en": "Aimed employment status"
+  },
+  {
+    "cn": "目标组织",
+    "en": "Aimed Org"
+  },
+  {
+    "cn": "目标组织全名称",
+    "en": "Full name of aimed Org"
+  },
+  {
+    "cn": "直接入职",
+    "en": "Direct entry"
+  },
+  {
+    "cn": "直接离职",
+    "en": "Direct dimission"
+  },
+  {
+    "cn": "直接转正",
+    "en": "Direct pass probation"
+  },
+  {
+    "cn": "直接退休",
+    "en": "Direct retire"
+  },
+  {
+    "cn": "直接预入职",
+    "en": "Direct pre-entry"
+  },
+  {
+    "cn": "相关信息",
+    "en": "Relevant info"
+  },
+  {
+    "cn": "相对变动类型",
+    "en": "Relative alteration type"
+  },
+  {
+    "cn": "确认",
+    "en": "Confirm"
+  },
+  {
+    "cn": "确认提交",
+    "en": "Confirm and submit"
+  },
+  {
+    "cn": "社会关系",
+    "en": "Social relationship"
+  },
+  {
+    "cn": "社会工作经历",
+    "en": "Social work experience:"
+  },
+  {
+    "cn": "社会招聘",
+    "en": "Social recruitment"
+  },
+  {
+    "cn": "社保公积金",
+    "en": "Social security and provident fund"
+  },
+  {
+    "cn": "社保账号",
+    "en": "Social security account"
+  },
+  {
+    "cn": "社员",
+    "en": "Cooperative member"
+  },
+  {
+    "cn": "离婚",
+    "en": "Divorced"
+  },
+  {
+    "cn": "离职",
+    "en": "Dimission"
+  },
+  {
+    "cn": "离职（只交公积金不交社保）",
+    "en": "Dimission(Only pay for provident fund)"
+  },
+  {
+    "cn": "离职事务信息",
+    "en": "Dimission affair info"
+  },
+  {
+    "cn": "离职人员信息",
+    "en": "Dimission personnel info"
+  },
+  {
+    "cn": "离职原因",
+    "en": "Reason for dimission"
+  },
+  {
+    "cn": "离职原因：",
+    "en": "Reason for dimission:"
+  },
+  {
+    "cn": "离职员工",
+    "en": "Separated employee"
+  },
+  {
+    "cn": "离职员工编码",
+    "en": "Dimission employee No."
+  },
+  {
+    "cn": "离职日期",
+    "en": "Dimission date"
+  },
+  {
+    "cn": "离职生效日期",
+    "en": "Dimission effective date"
+  },
+  {
+    "cn": "离职申请",
+    "en": "Dimission application"
+  },
+  {
+    "cn": "离职证据导入",
+    "en": "Dimission evidence import"
+  },
+  {
+    "cn": "离职证据导入向导",
+    "en": "Guide fro dimission evidence import"
+  },
+  {
+    "cn": "离职证据批量上传：",
+    "en": "Batch uploading dimission evidence"
+  },
+  {
+    "cn": "离退休",
+    "en": "Retirement"
+  },
+  {
+    "cn": "离退休事务信息",
+    "en": "Retire affair info"
+  },
+  {
+    "cn": "离退休人员信息",
+    "en": "Retire personnel info"
+  },
+  {
+    "cn": "离退休原因",
+    "en": "Reason for retire"
+  },
+  {
+    "cn": "离退休员工",
+    "en": "Retire employee"
+  },
+  {
+    "cn": "离退休员工编码",
+    "en": "Retire employee No."
+  },
+  {
+    "cn": "离退休日期",
+    "en": "Retire date"
+  },
+  {
+    "cn": "离退休流程跟踪",
+    "en": "Retire process trace"
+  },
+  {
+    "cn": "离退休生效日期",
+    "en": "Retire effective date"
+  },
+  {
+    "cn": "离退休申请",
+    "en": "Retire application"
+  },
+  {
+    "cn": "第1步. 上传数据文件",
+    "en": "Step one: upload data files"
+  },
+  {
+    "cn": "第2步. 校验数据有效性",
+    "en": "Step two: verify data validity"
+  },
+  {
+    "cn": "第3步. 导入数据",
+    "en": "Step data: import data"
+  },
+  {
+    "cn": "等级",
+    "en": "Classification"
+  },
+  {
+    "cn": "签定原因",
+    "en": "Reason for signing"
+  },
+  {
+    "cn": "签订原因",
+    "en": "Reason for signing"
+  },
+  {
+    "cn": "签订日期",
+    "en": "Signing date"
+  },
+  {
+    "cn": "简称",
+    "en": "Short title"
+  },
+  {
+    "cn": "籍贯",
+    "en": "Native place"
+  },
+  {
+    "cn": "系统上线前的员工信息导入，如上线后遗漏员工的补充录入或导入",
+    "en": "Employee info import before system online, such as post-record and import of amission employees after online"
+  },
+  {
+    "cn": "系统自动生成",
+    "en": "Automatic created by system"
+  },
+  {
+    "cn": "紧急联系人",
+    "en": "Emergency contact"
+  },
+  {
+    "cn": "级次",
+    "en": "Level"
+  },
+  {
+    "cn": "组织",
+    "en": "Department"
+  },
+  {
+    "cn": "组织信息",
+    "en": "Department info"
+  },
+  {
+    "cn": "组织全名称",
+    "en": "Full name of Org"
+  },
+  {
+    "cn": "组织内调动",
+    "en": "Intra-Orgal transfer"
+  },
+  {
+    "cn": "组织名称",
+    "en": "Name of Org"
+  },
+  {
+    "cn": "组织调整",
+    "en": "Org adjustment"
+  },
+  {
+    "cn": "组织长名称",
+    "en": "Long name of Org"
+  },
+  {
+    "cn": "终止",
+    "en": "Termination"
+  },
+  {
+    "cn": "终止原因",
+    "en": "Reason for termination"
+  },
+  {
+    "cn": "终止合同信息",
+    "en": "Contract termination info"
+  },
+  {
+    "cn": "终止工作流跟踪",
+    "en": "Termination workflow trace"
+  },
+  {
+    "cn": "终止日期",
+    "en": "Termination date"
+  },
+  {
+    "cn": "结束日期",
+    "en": "End date"
+  },
+  {
+    "cn": "结束日期：",
+    "en": "End date:"
+  },
+  {
+    "cn": "统计分析报表",
+    "en": "Statistical analysis report"
+  },
+  {
+    "cn": "绩效信息",
+    "en": "Performance info"
+  },
+  {
+    "cn": "续签",
+    "en": "Renewal"
+  },
+  {
+    "cn": "续签合同信息",
+    "en": "Contract renewal info"
+  },
+  {
+    "cn": "续签工作流跟踪",
+    "en": "Renewal workflow trace"
+  },
+  {
+    "cn": "维吾尔族",
+    "en": "Uyghur nationality"
+  },
+  {
+    "cn": "维护方式:",
+    "en": "Methods of maintenance:"
+  },
+  {
+    "cn": "维护方式选择 修订 ，会对所维护的员工信息集直接进行修改，覆盖之前的信息，修订前的信息将不会被记录。",
+    "en": "Maintenance method selection: revision (Modify directly, cover info before. The info before revision will not be recorded.)"
+  },
+  {
+    "cn": "维护方式选择 变更 ，会对所维护的员工信息集生成一条新的信息记录，变更前的信息将会被记录，可以查询。不保存历史的信息集即使选择变更的方式，也不会保存历史记录。",
+    "en": "Maintenance method selection: alteration (Generate new info record. info before alteration will be recorded and be able to query. The history records will not be saved for the info set with no saved history even if selecting alteration."
+  },
+  {
+    "cn": "维护模板",
+    "en": "Manintain template"
+  },
+  {
+    "cn": "编码",
+    "en": "No."
+  },
+  {
+    "cn": "编辑",
+    "en": "Edit"
+  },
+  {
+    "cn": "美国",
+    "en": "U.S.A."
+  },
+  {
+    "cn": "考核周期名称：",
+    "en": "Name of appraisal period:"
+  },
+  {
+    "cn": "考核年度：",
+    "en": "Appraisal year:"
+  },
+  {
+    "cn": "考核成绩",
+    "en": "Appraisal achievement"
+  },
+  {
+    "cn": "考核成绩：",
+    "en": "Appraisal achievement:"
+  },
+  {
+    "cn": "考核等级：",
+    "en": "Appraisal grade:"
+  },
+  {
+    "cn": "考核类型：",
+    "en": "Appraisal type:"
+  },
+  {
+    "cn": "职业信息",
+    "en": "Occupational info"
+  },
+  {
+    "cn": "职位",
+    "en": "Position"
+  },
+  {
+    "cn": "职位子类",
+    "en": "Position subclass"
+  },
+  {
+    "cn": "职位族",
+    "en": "Position race"
+  },
+  {
+    "cn": "职位类",
+    "en": "Position category"
+  },
+  {
+    "cn": "职员",
+    "en": "Office clerk"
+  },
+  {
+    "cn": "职层",
+    "en": "Position layer"
+  },
+  {
+    "cn": "职等",
+    "en": "Grade"
+  },
+  {
+    "cn": "职等信息",
+    "en": "Grade info"
+  },
+  {
+    "cn": "职等名称",
+    "en": "Name of grade"
+  },
+  {
+    "cn": "职等编码",
+    "en": "Grade No."
+  },
+  {
+    "cn": "联系方式",
+    "en": "Contact"
+  },
+  {
+    "cn": "联系电话",
+    "en": "Contact"
+  },
+  {
+    "cn": "至今",
+    "en": "Up to now"
+  },
+  {
+    "cn": "良好",
+    "en": "Good"
+  },
+  {
+    "cn": "苗族",
+    "en": "Miao nationality"
+  },
+  {
+    "cn": "若要更改数据范围，请返回列表重新设置查询条件。",
+    "en": "Please return to the list to reset query condition if altering data scope."
+  },
+  {
+    "cn": "英国",
+    "en": "U.K."
+  },
+  {
+    "cn": "蒙古族",
+    "en": "Mongol nationality"
+  },
+  {
+    "cn": "薪酬福利",
+    "en": "Compensation and benefit"
+  },
+  {
+    "cn": "藏族",
+    "en": "Tibetan nationality"
+  },
+  {
+    "cn": "血型",
+    "en": "Blood type"
+  },
+  {
+    "cn": "解聘",
+    "en": "Dimissal"
+  },
+  {
+    "cn": "解除",
+    "en": "Discharge"
+  },
+  {
+    "cn": "解除原因",
+    "en": "Reason for discharge"
+  },
+  {
+    "cn": "解除工作流跟踪",
+    "en": "Discharge workflow trace"
+  },
+  {
+    "cn": "解除日期",
+    "en": "Discharge date"
+  },
+  {
+    "cn": "设为默认方案",
+    "en": "Set up as default solution"
+  },
+  {
+    "cn": "设置其他选项",
+    "en": "Set other options"
+  },
+  {
+    "cn": "证书名称",
+    "en": "Name of certificate"
+  },
+  {
+    "cn": "证明人",
+    "en": "Certifier"
+  },
+  {
+    "cn": "证明人：",
+    "en": "Certifier:"
+  },
+  {
+    "cn": "证明人电话",
+    "en": "Certifier phone"
+  },
+  {
+    "cn": "证明人电话：",
+    "en": "Telephone of certifier:"
+  },
+  {
+    "cn": "试用员工",
+    "en": "Probation employee"
+  },
+  {
+    "cn": "试用期(月)",
+    "en": "Probation month(s)"
+  },
+  {
+    "cn": "试用期（月）",
+    "en": "Probation month(s)"
+  },
+  {
+    "cn": "试用期开始日期",
+    "en": "Start date of probation"
+  },
+  {
+    "cn": "试用期结束日期",
+    "en": "End date of probation"
+  },
+  {
+    "cn": "语言能力",
+    "en": "Language competence"
+  },
+  {
+    "cn": "说明：",
+    "en": "Explanation:"
+  },
+  {
+    "cn": "请输入",
+    "en": "Please put in"
+  },
+  {
+    "cn": "请输入理由",
+    "en": "Please put in reasons"
+  },
+  {
+    "cn": "请选择所需要的操作",
+    "en": "Select operation"
+  },
+  {
+    "cn": "读卡",
+    "en": "Read the card"
+  },
+  {
+    "cn": "课程费用",
+    "en": "Course cost"
+  },
+  {
+    "cn": "调入",
+    "en": "Transfer to"
+  },
+  {
+    "cn": "调入员工分配",
+    "en": "Transfer-in employee distribution"
+  },
+  {
+    "cn": "调入员工分配导入",
+    "en": "Transfer-in employee distribution import"
+  },
+  {
+    "cn": "调出员工查看",
+    "en": "View assign-out employees"
+  },
+  {
+    "cn": "调出未分配员工",
+    "en": "Assign-out unallotted employee"
+  },
+  {
+    "cn": "调动",
+    "en": "Transfer"
+  },
+  {
+    "cn": "调动/借调调出",
+    "en": "Transfer/secoment assign-out"
+  },
+  {
+    "cn": "调动事务信息",
+    "en": "Transfer affair info"
+  },
+  {
+    "cn": "调动人员信息",
+    "en": "Transfer personnel info"
+  },
+  {
+    "cn": "调动原因",
+    "en": "Reason for transfer"
+  },
+  {
+    "cn": "调动后岗位",
+    "en": "Transferred post"
+  },
+  {
+    "cn": "调动后职位",
+    "en": "Transferred position"
+  },
+  {
+    "cn": "调动后职等",
+    "en": "Transferred grade"
+  },
+  {
+    "cn": "调动后部门",
+    "en": "Transferred department"
+  },
+  {
+    "cn": "调动员工",
+    "en": "Transferred employee"
+  },
+  {
+    "cn": "调动员工编码",
+    "en": "Transfer personnel No."
+  },
+  {
+    "cn": "调动对比信息",
+    "en": "Transfer comparison info"
+  },
+  {
+    "cn": "调动导入",
+    "en": "Transfer import"
+  },
+  {
+    "cn": "调动岗位名称",
+    "en": "Name of transfer post"
+  },
+  {
+    "cn": "调动生效日期",
+    "en": "Transfer effective date"
+  },
+  {
+    "cn": "调动组织名称",
+    "en": "Name of transfer Org"
+  },
+  {
+    "cn": "调动调入",
+    "en": "Transfer"
+  },
+  {
+    "cn": "调动调出",
+    "en": "Transfer out"
+  },
+  {
+    "cn": "调整时间",
+    "en": "Adjust time"
+  },
+  {
+    "cn": "负责人岗位",
+    "en": "Director post"
+  },
+  {
+    "cn": "跨组织借调调出导入",
+    "en": "Inter-Org secondment assign-out import"
+  },
+  {
+    "cn": "跨组织借调调回",
+    "en": "Inter-Org secondment recall"
+  },
+  {
+    "cn": "跨组织借调调回不回原岗导入",
+    "en": "Inter-Org secondment recall not to original post import"
+  },
+  {
+    "cn": "跨组织借调调回原岗导入",
+    "en": "Inter-Org secondment recall to original post import"
+  },
+  {
+    "cn": "跨组织调入员工分配",
+    "en": "Inter-Org call-in employee distribution"
+  },
+  {
+    "cn": "跨组织调动",
+    "en": "Inter-Org transfer"
+  },
+  {
+    "cn": "跨组织调动/借调调出",
+    "en": "Inter-Org transfer/2ndment assign-out"
+  },
+  {
+    "cn": "跨组织调动导入",
+    "en": "Inter-Org transfer import"
+  },
+  {
+    "cn": "跨组织调动调出",
+    "en": "Inter-Org transfer out"
+  },
+  {
+    "cn": "身份证，护照至少输入一项",
+    "en": "ID. Or passport No."
+  },
+  {
+    "cn": "身份证号",
+    "en": "ID. No."
+  },
+  {
+    "cn": "身份证地址",
+    "en": "ID card address"
+  },
+  {
+    "cn": "身份证开始日期",
+    "en": "Start date of ID. Card"
+  },
+  {
+    "cn": "身份证截止日期",
+    "en": "Exspiration date of ID. Card"
+  },
+  {
+    "cn": "身份证有效期开始",
+    "en": "Start effect time of ID card"
+  },
+  {
+    "cn": "身份证有效期结束",
+    "en": "Expiration date of ID card"
+  },
+  {
+    "cn": "身份证签发机关",
+    "en": "ID. Card issuing authority"
+  },
+  {
+    "cn": "身高(cm)",
+    "en": "Height(cm)"
+  },
+  {
+    "cn": "转不在岗",
+    "en": "Transfer to not on duty"
+  },
+  {
+    "cn": "转在岗",
+    "en": "Transfer to on duty"
+  },
+  {
+    "cn": "转正",
+    "en": "Pass probation"
+  },
+  {
+    "cn": "转正员工",
+    "en": "Pass probation employee"
+  },
+  {
+    "cn": "转正日期",
+    "en": "Pass probation date"
+  },
+  {
+    "cn": "转正申请",
+    "en": "Pass probation application"
+  },
+  {
+    "cn": "较弱",
+    "en": "Week"
+  },
+  {
+    "cn": "输入新的数据：",
+    "en": "Put in new data:"
+  },
+  {
+    "cn": "辞职",
+    "en": "Resignation"
+  },
+  {
+    "cn": "辞职原因",
+    "en": "Reason for resignation"
+  },
+  {
+    "cn": "辞退",
+    "en": "Discharge"
+  },
+  {
+    "cn": "辞退原因",
+    "en": "Reason for discharge"
+  },
+  {
+    "cn": "辞退导入",
+    "en": "Import discharge"
+  },
+  {
+    "cn": "返聘",
+    "en": "Reemployment after retirement"
+  },
+  {
+    "cn": "返聘事务信息",
+    "en": "Reemployment affair info"
+  },
+  {
+    "cn": "返聘人员信息",
+    "en": "Reemployment personnel info"
+  },
+  {
+    "cn": "返聘原因",
+    "en": "Reason for reemployment"
+  },
+  {
+    "cn": "返聘员工",
+    "en": "Reemployment employee"
+  },
+  {
+    "cn": "返聘处理",
+    "en": "Reemployment process"
+  },
+  {
+    "cn": "返聘流程跟踪",
+    "en": "Reemployment process trace"
+  },
+  {
+    "cn": "返聘生效日期",
+    "en": "Reemployment effective date"
+  },
+  {
+    "cn": "返聘终止",
+    "en": "Reemployment termination"
+  },
+  {
+    "cn": "返聘终止人员信息",
+    "en": "Reemployment termination personnel info"
+  },
+  {
+    "cn": "返聘终止原因",
+    "en": "Reason for reemployment termination"
+  },
+  {
+    "cn": "返聘终止员工",
+    "en": "Reemployment termination employee"
+  },
+  {
+    "cn": "返聘终止员工事务信息",
+    "en": "Reemployment termination affair info"
+  },
+  {
+    "cn": "返聘终止员工编码",
+    "en": "Reemployment termination employee No."
+  },
+  {
+    "cn": "返聘终止流程跟踪",
+    "en": "Reemployment termination process trace"
+  },
+  {
+    "cn": "返聘终止生效日期",
+    "en": "Reemployment termination effective date"
+  },
+  {
+    "cn": "返聘解聘员工",
+    "en": "Reemployment dimission employee"
+  },
+  {
+    "cn": "连续新增",
+    "en": "Add continuously"
+  },
+  {
+    "cn": "连续签订",
+    "en": "Continuous signing"
+  },
+  {
+    "cn": "连续签订次数",
+    "en": "Times for continuous signing"
+  },
+  {
+    "cn": "退休",
+    "en": "Retire"
+  },
+  {
+    "cn": "退休及返聘",
+    "en": "Retirement and Reemployment"
+  },
+  {
+    "cn": "选中员工",
+    "en": "Select employee"
+  },
+  {
+    "cn": "选择批维护字段：",
+    "en": "Select maintenance fields in batches:"
+  },
+  {
+    "cn": "选择模板",
+    "en": "Select template"
+  },
+  {
+    "cn": "通信/家庭地址",
+    "en": "Correspondence/Home address"
+  },
+  {
+    "cn": "通信地址",
+    "en": "Correspondence Address"
+  },
+  {
+    "cn": "通过",
+    "en": "Pass"
+  },
+  {
+    "cn": "邮政编码",
+    "en": "PostNo."
+  },
+  {
+    "cn": "重置查询",
+    "en": "Re-set query"
+  },
+  {
+    "cn": "长期病假",
+    "en": "Sick leave for long term"
+  },
+  {
+    "cn": "长编码",
+    "en": "Long No."
+  },
+  {
+    "cn": "附件",
+    "en": "Attachment"
+  },
+  {
+    "cn": "降职",
+    "en": "Demotion"
+  },
+  {
+    "cn": "险种名称",
+    "en": "Name of insurance classifications"
+  },
+  {
+    "cn": "雇佣入职",
+    "en": "Employment orientation"
+  },
+  {
+    "cn": "需要签订合同",
+    "en": "In need of signing"
+  },
+  {
+    "cn": "非深圳户口",
+    "en": "Non-shenzhen residence registration"
+  },
+  {
+    "cn": "面试日期",
+    "en": "Interview date"
+  },
+  {
+    "cn": "革命军人",
+    "en": "Revolutionary armyman"
+  },
+  {
+    "cn": "项目描述",
+    "en": "Project description"
+  },
+  {
+    "cn": "项目经历",
+    "en": "Program experience"
+  },
+  {
+    "cn": "顺序",
+    "en": "Sequence"
+  },
+  {
+    "cn": "顺序号",
+    "en": "Sequence No."
+  },
+  {
+    "cn": "顺序码",
+    "en": "Sequence No."
+  },
+  {
+    "cn": "预入职",
+    "en": "Pre-entry"
+  },
+  {
+    "cn": "预入职人员历史",
+    "en": "History of pre-entry personnel"
+  },
+  {
+    "cn": "预入职人员新增导入",
+    "en": "Import of new pre-entry personnel"
+  },
+  {
+    "cn": "预入职人员维护导入",
+    "en": "Import of pre-entry personnel maintenance"
+  },
+  {
+    "cn": "预入职历史",
+    "en": "Pre-entry history"
+  },
+  {
+    "cn": "预入职岗位",
+    "en": "Pre-entry post"
+  },
+  {
+    "cn": "预入职日期",
+    "en": "Pre-entry date"
+  },
+  {
+    "cn": "预离职",
+    "en": "Pre-dimission"
+  },
+  {
+    "cn": "预离职原因",
+    "en": "Reason for pre-dimission"
+  },
+  {
+    "cn": "预离职员工",
+    "en": "Pre-separated employee"
+  },
+  {
+    "cn": "预离职日期",
+    "en": "Pre-dimission date"
+  },
+  {
+    "cn": "预离职状态",
+    "en": "Pre-dimission status"
+  },
+  {
+    "cn": "预计借调调回日期",
+    "en": "Expected 2ndment recall date"
+  },
+  {
+    "cn": "领域",
+    "en": "Field"
+  },
+  {
+    "cn": "高级查询",
+    "en": "Advanced query"
+  },
+  {
+    "cn": "黑名单处理",
+    "en": "Blacklist disposal"
+  },
+  {
+    "cn": "默认方案",
+    "en": "Default scheme"
+  },
+  {
+    "cn": "主页",
+    "en": "Homepage"
+  }
+
+]
+

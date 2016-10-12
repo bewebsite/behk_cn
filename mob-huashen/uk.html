@@ -1,0 +1,397 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+		<style>
+			.other-box {
+				height: 44px;
+				line-height: 44px;
+				text-align: center;
+				font-size: 2.4rem;
+				color: #ED6D00;
+				font-weight: bold;
+				border-bottom: 1px solid #CECECE;
+			}
+			.other-box a {
+				height: 100%;
+				line-height: 44px;
+				text-decoration: none;
+			}
+			
+			.studyAbroad-box ul {
+				list-style: none;
+			}
+			.studyAbroad-box ul li {
+				border-bottom: 1px solid #CECECE;
+			}
+			.studyAbroad-box ul li:last-child {
+				border-bottom: 0;
+			}
+			.studyAbroad-box .title-box {
+				padding: 10px 0;
+			}
+			.studyAbroad-box .title-box span {
+				font-weight: bold;
+				font-size: 2.4rem;
+			}
+			.studyAbroad-box .content-box {
+				margin: 0;
+				font-size: 1.4rem;
+				text-indent: 2.8rem;
+			}
+			.feature-list {}
+			.feature-list li {
+				margin-bottom: 1rem;
+				background: #ECECEC;
+				position: relative;
+				border: 0!important;
+			}
+			.feature-list li > .icon-head {
+				height: 34px;
+				width: 34px;
+				line-height: 34px;
+				display: block;
+				font-size: 2.8rem;
+				color: #fff;
+				text-align: center;
+				position: absolute;
+				top: 0;
+				left: 0;
+				background: #ED6D00;
+			}
+			.feature-list li > .icon-head i {
+				position: absolute;
+				right: -10px;
+				top: 8px;
+				font-size: 18px;
+				color: #ED6D00;
+			}
+			.feature-list li > p {
+				font-size: 1.2rem;
+				height: 34px;
+				line-height: 34px;
+				padding-left: 5rem;
+				margin: 0;
+				overflow: hidden;
+				color: #000;
+			}
+			
+			.case-list li {
+				padding: 10px 0;
+				border-bottom: 1px solid #CECECE;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+			}
+			.case-list li > .img-icon {
+				padding: 0 1rem;
+				flex: 0 1 auto;
+				align-self: auto;
+			}
+			.case-list li > .img-icon img {
+				width: 6rem;
+				height: 6rem;
+			}
+			.case-list li > .info-list {
+				flex: 1 1 auto;
+				align-self: auto;
+			}
+			.case-list li > .info-list p {
+				font-size: 1.4rem;
+				margin: 0.2rem 0;
+			}
+			
+			.studyAbroad-box .nav-tabs {
+				border: 0;
+			}
+			.studyAbroad-box .nav-tabs li {
+				border: 0;
+				padding: 0 1rem;
+				position: relative;
+			}
+			.studyAbroad-box .nav-tabs li > a {
+				border: 0;
+				margin: 0;
+				padding: 0;
+			}
+			.studyAbroad-box .nav-tabs li.active > a {
+				border: 0;
+			}
+			.studyAbroad-box .nav-tabs li .grade {
+				width: 5.5rem;
+				height: 5.5rem;
+				display: block;
+				background-size: 100% 100%;
+			}
+			.studyAbroad-box .nav-tabs li > a p {
+				margin: 0;
+				text-align: center;
+			}
+			.studyAbroad-box .nav-tabs li > a .horn {
+				height: 2.5rem;
+				font-size: 2.5rem;
+				position: absolute;
+				top: auto;
+				bottom: -2.3rem;
+				left: 50%;
+				margin-left: -1.25rem;  
+				color: #efeff4;
+				display: none;
+			}
+			.studyAbroad-box .nav-tabs li.active > a .horn {
+				display: block;
+			}
+			.studyAbroad-box .middleSchool {
+				background: url(img/middleSchool_off.png);
+			}
+			.studyAbroad-box .active .middleSchool {
+				background: url(img/middleSchool.png);
+			}
+			.studyAbroad-box .undergraduate {
+				background: url(img/undergraduate_off.png);
+			}
+			.studyAbroad-box .active .undergraduate {
+				background: url(img/undergraduate.png);
+			}
+			.studyAbroad-box .graduateStudent {
+				background: url(img/graduateStudent_off.png);
+			}
+			.studyAbroad-box .active .graduateStudent {
+				background: url(img/graduateStudent.png);
+			} 
+			
+			.studyAbroad-box .tab-content {
+				background: #efeff4;
+				padding: 1rem;
+			}
+			.studyAbroad-box .tab-content .text-doc {
+				margin-bottom: 2rem;
+			}
+			.studyAbroad-box .tab-content .text-doc p {
+				margin: 0;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<div class="drop">
+				<a id="topMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#" class="mui-icon glyphicon glyphicon-menu-hamburger mui-pull-left" style="color: #fff;"></a>
+				<ul class="dropdown-menu" aria-labelledby="topMenu">
+				    <li><a href="http://m.huashen-edu.com">首页</a></li>
+				    <li><a href="http://m.huashen-edu.com/usa.html">美国留学</a></li>
+				    <li><a href="http://m.huashen-edu.com/ca.html">加拿大留学</a></li>
+				    <li><a href="http://m.huashen-edu.com/au.html">澳洲留学</a></li>
+				    <li><a href="http://m.huashen-edu.com/uk.html">英国留学</a></li>
+				    <li><a href="http://m.huashen-edu.com/jp.html">日本留学</a></li>
+				    <li><a href="http://m.huashen-edu.com/other.html">其他国家</a></li>
+			  	</ul>
+			</div>
+			
+			
+			<a href="tel:4008806559" class="mui-icon glyphicon glyphicon-earphone mui-pull-right" style="color: #fff;"></a>
+			<h1 class="mui-title">
+				<img class="app-logo" src="img/logo.png"/>
+			</h1>
+		</header>
+		<div class="mui-content">
+			<div class="container other-box bg-white">
+				<a href="#" class="mui-pull-left glyphicon glyphicon-menu-left"></a>
+				英国留学
+			</div>
+			
+			<div class="container studyAbroad-box bg-white">
+				<div class="title-box">
+					<span>华申英国中心</span>
+				</div>
+				<p class="content-box">
+					由具有海外经历和十多年专业经验的英国留学顾问专家组组成，代理上百所英国著名的私立、公立高中和大学院校，在英国伦敦设有办事处，为客户提供权威而专业的服务。
+				</p>
+				<p class="content-box">
+					拥有一支高学历、多年专业从事英国留学服务的精英团队，曾为众多学生申请到英国名牌大学，已经申请到全额政府奖学金。擅长引导和启发学生，制定具个人特色且能发挥学生特长的英国留学计划。
+				</p>
+				<p class="content-box mgb15">
+					良好的专业服务口碑使得全国各地慕名而来的学生家长络绎不绝，至今成功签证率达到100%。
+				</p>
+			</div>
+			
+			<div class="container studyAbroad-box bg-white mgt15">
+				<div class="title-box">
+					<span>英国留学服务特色</span>
+				</div>
+				<ul class="feature-list">
+					<li>
+						<span class="icon-head">1<i class="glyphicon glyphicon-play"></i></span>
+						<p>免费提供英国院校信息与英国留学专业咨询</p>
+					</li>
+					<li>
+						<span class="icon-head">2<i class="glyphicon glyphicon-play"></i></span>
+						<p>资深英国留学专家个案分析，量身定制留学方案</p>
+					</li>
+					<li>
+						<span class="icon-head">3<i class="glyphicon glyphicon-play"></i></span>
+						<p>全程协助学生准备英国留学申请文件</p>
+					</li>
+					<li>
+						<span class="icon-head">4<i class="glyphicon glyphicon-play"></i></span>
+						<p>全方位安排学生英国留学住宿接机事宜</p>
+					</li>
+					<li>
+						<span class="icon-head">5<i class="glyphicon glyphicon-play"></i></span>
+						<p>对学生进行英国留学行前全面培训</p>
+					</li>
+					<li>
+						<span class="icon-head">6<i class="glyphicon glyphicon-play"></i></span>
+						<p>提供家长探亲、学生续签等后续申请服务</p>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="container studyAbroad-box bg-white mgt15">
+				<div class="title-box">
+					<span>成功案例</span>
+				</div>
+				<ul class="case-list">
+					<li>
+						<div class="img-icon">
+							<img src="img/school/Caterham School.jpg" width="122" height="122" />						</div>
+						<div class="info-list">
+							<p>杨同学</p>
+							<p>录取学校：Caterham School</p>
+						</div>
+					</li>
+					<li>
+						<div class="img-icon">
+							<img src="img/school/University of Cambridge.jpg" width="122" height="122" />						</div>
+						<div class="info-list">
+							<p>Jenny</p>
+							<p>录取学校：University of Cambridge</p>
+						</div>
+					</li>
+					<li>
+						<div class="img-icon">
+							<img src="img/school/University of Cambridge.jpg" width="122" height="122" />						</div>
+						<div class="info-list">
+							<p>Ver和Lucy</p>
+							<p>录取学校：University of Cambridge</p>
+						</div>
+					</li>
+					<li>
+						<div class="img-icon">
+							<img src="img/school/University College London.jpg" width="150" height="150" />						</div>
+						<div class="info-list">
+							<p>任同学</p>
+							<p>University College London</p>
+						</div>
+					</li>
+					<li>
+						<div class="img-icon">
+							<img src="img/school/St Joseph's College.jpg" width="122" height="122" />						</div>
+						<div class="info-list">
+							<p>Helen</p>
+							<p>录取学校：St Joseph's College</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="container school-icon-list studyAbroad-box bg-white mgt15 pdb15">
+				<div class="title-box">
+					<span>我要申请</span>
+				</div>
+				<ul class="nav nav-tabs">
+					<li class="active">
+						<a href="#middleSchool" data-toggle="tab">
+			   				<i class="grade middleSchool"></i>
+							<p>中学</p>
+							<i class="horn glyphicon glyphicon-triangle-top"></i>
+						</a>
+				   	</li>
+				   	<li>
+				   		<a href="#undergraduate" data-toggle="tab">
+					   		<i class="grade undergraduate"></i>
+							<p>本科</p>
+							<i class="horn glyphicon glyphicon-triangle-top"></i>
+						</a>
+				   	</li>
+				   	<li>
+				   		<a href="#graduateStudent" data-toggle="tab">
+					   		<i class="grade graduateStudent"></i>
+							<p>研究生</p>
+							<i class="horn glyphicon glyphicon-triangle-top"></i>
+						</a>
+				   	</li>
+				</ul>
+				<div class="tab-content mgt15">
+				   	<div class="tab-pane fade in active" id="middleSchool">
+				    	<div class="text-doc">
+				    		<p>学习成绩：学习成绩优良</p>
+					    	<p>语言成绩：（针对初中升高中学生）只需参加学校入学考，不需要雅思成绩</p>
+							<p>资金支持：学费加生活费私立学校 40-60万人民币/年</p>
+				    	</div>
+				    	<button class="form-control btn-ltn">点击预约</button>
+				   	</div>
+				   	<div class="tab-pane fade" id="undergraduate">
+				   		<div class="text-doc">
+				    		<p>学习成绩：高中平均成绩优良</p>
+					    	<p>直录雅思6.0-6.5，预科雅思4.5-5.5分</p>
+							<p>资金支持：学费加生活费30-40万人民币/年</p>
+				    	</div>
+				    	<button class="form-control btn-ltn">点击预约</button>
+				   	</div>
+				   	<div class="tab-pane fade" id="graduateStudent">
+				   		<div class="text-doc">
+				    		<p>大学本科平均成绩优良</p>
+					    	<p>语言要求：直录雅思6.5-7.5 预科雅思 5-5.5分</p>
+							<p>资金支持：学费加生活费30万人民币左右/年</p>
+				    	</div>
+				    	<button class="form-control btn-ltn">点击预约</button>
+				   	</div>
+				</div>
+			</div>
+			
+			<div class="container subscribe-box bg-white mgt15">
+				<p class="title">我要预约</p>
+				<span class="text-ps">注：请遵守国家法规，自觉使用文明用语。</span>
+				<input type="text" placeholder="您的姓名" class="form-control" />
+				<input type="text" placeholder="联络手机" class="form-control" />
+				<input type="text" placeholder="电子邮箱" class="form-control" />
+				<div class="row show-grid">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-md-6 pdg-right-5">
+						<input type="text" placeholder="申请国家" class="form-control" />
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-md-6 pdg-left-5">
+						<input type="text" placeholder="申请人学历" class="form-control" />
+					</div>
+				</div>
+				<button class="form-control btn-ltn">点击完成预约</button>
+			</div>
+			
+			<div class="container page-foot bg-white">
+				<div class="title-box text-center">
+					<span style="font-size: 1.8rem;"><a href="http://www.huashen-edu.com">查看电脑版完整网站</a></span>
+				</div>
+				<div class="row show-grid">
+					<div class="col-xs-12 col-sm-12 col-md-12">Copyright &copy;2015-2020 华申留学网 All rights reserved by huashen-edu.com</div>
+				</div>
+				<div class="row show-grid">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-md-6">电话:400-880-6559 021-62076559</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 text-right">E-mail:office@huashen-edu.com</div>
+				</div>
+				<div class="row show-grid">
+					<div class="col-xs-8 col-sm-8 col-md-8">地址:上海市延安西路1088号长峰中心13楼(200052)</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 text-right">沪ICP备06031763号-5</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="js/jquery-1.10.2.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+	
+</html>

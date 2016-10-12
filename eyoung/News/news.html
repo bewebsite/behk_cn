@@ -1,0 +1,15 @@
+﻿<div class="itemLabel" id="id_{id}">
+        <div class="num" id="reorder_{id}">1</div>
+        <a href="javascript:void(0);" onclick="showOr(this);" class="upHidden" v="{id}">收起</a>
+        <a class="del" href="javascript:void(0);" onclick="Delete(this)" v="{id}">删除</a>
+        <p class="tit" id="name_{id}"></p>
+    <div class="con">
+        <div class="list"><em>排序：</em><input type="text" class="text" style="width:50px" name="sort_{id}" value="0" onblur="CheckSort(this)" /><span style="color:Red;"> 越大越靠前</span></div>
+        <div class="list"><em>章节标题：</em><input type="text" class="text" style="width:500px" name="title_{id}" id="title_{id}" /></div>
+        <div class="list"><em>章节图片：</em><input name="file_{id}" onchange="CheckImage(this)" class="text-h" style="width: 500px;" type="file" /><span style="color:Red">最大宽度：640px</span></div>
+        <div class="list"><em>图片说明：</em><input type="text" class="text" style="width:500px" name="image_{id}" /></div>
+        <div class="list"><em>参考连接：</em><input type="text" class="text" style="width:500px" name="link_{id}" /></div>
+        <div class="list"><em>详细内容：</em><textarea name="intor_{id}" style="width:800px;height:100px;" class="text" cols="20" rows="2"></textarea></div>
+        <div class="list"><em>备注信息：</em><textarea name="remarks_{id}" style="width:800px; height:100px;" class="text" cols="20" rows="2"></textarea></div>
+    </div>
+</div>

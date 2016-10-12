@@ -1,0 +1,147 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Temps_List.aspx.cs" Inherits="_eyoung_Temp_Temps_List" %>
+
+<%@ Register Src="../ascx/header.ascx" TagName="nav" TagPrefix="uc1" %>
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+    <title>产品模版列表</title>
+    <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="../css/common.css" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script src="../js/default.js" type="text/javascript"></script>
+</head>
+<body>
+    <form runat="server" id="from1">
+    <uc1:nav ID="nav1" runat="server" />
+    <div class="mainWrap">
+        <div class="smail-nav">
+            所在位置：<a href="/eyoung/">首页</a> <em class="fenge">»</em> <span class="lab">产品模版列表<em>(共<%=AllCount %>条记录)</em></span>
+        </div>
+        <div class="mainContent">
+            <!--内容部分 S-->
+            <div class="bar clearfix">
+                <a class="iconButton" href="Temps_Add.aspx" id="info_add" runat="server"><span class="addIcon">
+                    &nbsp;</span>添加 </a>
+            </div>
+            <div>
+                <table class="list" id="listTable">
+                    <tbody>
+                        <tr>
+                            <th class="check">
+                                <input type="checkbox" id="selectAll" onclick="select_all(this);" />
+                            </th>
+                            <th>
+                                <span>版本</span>
+                            </th>
+                            <th>
+                                <span>伪静态名称</span>
+                            </th>
+                            <th>
+                                <span>产品中文名</span>
+                            </th>
+                            <th>
+                                <span>相关留学国家</span>
+                            </th>
+                            <th>
+                                <span>必益相关业务</span>
+                            </th>
+                            <th>
+                                <span>适用城市</span>
+                            </th>
+                            <th>
+                                <span>适用学习阶段</span>
+                            </th>
+                            <th>
+                                <span>适用人群年龄</span>
+                            </th>
+                            <th>
+                                <span>适用人群</span>
+                            </th>
+                            <th>
+                                <span>操作</span>
+                            </th>
+                        </tr>
+                        <asp:Repeater ID="rpList" runat="server">
+                            <ItemTemplate>
+                                <tr>
+                                    <td>
+                                        <input name="ids" type="checkbox" value="<%# Eval("ID") %>" />
+                                    </td>
+                                    <td>
+                                        <%# Eval("Lan").ToString()=="1"?"中文":"英文" %>
+                                    </td>
+                                    <td>
+                                        <a href="<%#Eval("Lan").ToString()=="1"?"":"http://en.be.co" %>/temp/<%#Eval("HtmlName") %>.html" target="_blank">
+                                            <%# Eval("HtmlName") %></a>
+                                    </td>
+                                    <td>
+                                        <a href="/temp/<%#Eval("HtmlName") %>.html" target="_blank">
+                                            <%# Eval("CNName") %></a>
+                                    </td>
+                                    <td>
+                                        <%# GetName(Eval("CountryId"),1) %>
+                                    </td>
+                                    <td>
+                                        <%# GetName(Eval("BusinessId"),3)%>
+                                    </td>
+                                    <td>
+                                        <%# GetName(Eval("CityId"),2)%>
+                                    </td>
+                                    <td>
+                                        <%# GetName(Eval("LevelsId"),4)%>
+                                    </td>
+                                    <td>
+                                        <%# GetName(Eval("CategoriesId"),5)%>
+                                    </td>
+                                    <td>
+                                        <%# Eval("StarYear") %>
+                                        -
+                                        <%# Eval("EndYear") %>
+                                        岁
+                                    </td>
+                                    <td>
+                                        <a href="Temps_Add.aspx?id=<%# Eval("ID") %>">编辑</a>
+                                    </td>
+                                </tr>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </tbody>
+                </table>
+            </div>
+            <div class="bar footer-bar clearfix">
+                <div class="fl">
+                    <asp:Button ID="But_Delete" runat="server" Text="删除" CssClass="button" OnClientClick="return check_post('确定要删除吗？');"
+                        OnClick="But_Delete_Click" />
+                    <asp:Button ID="But_Excel" runat="server" Text="导出Excel" CssClass="button" OnClick="But_Excel_Click" />
+                </div>
+                <div class="fr">
+                    <asp:DropDownList runat="server" ID="drpPage" onchange="search()">
+                        <asp:ListItem Value="">每页显示</asp:ListItem>
+                        <asp:ListItem Value="30">30</asp:ListItem>
+                        <asp:ListItem Value="50">50</asp:ListItem>
+                        <asp:ListItem Value="100">100</asp:ListItem>
+                        <asp:ListItem Value="150">150</asp:ListItem>
+                        <asp:ListItem Value="200">200</asp:ListItem>
+                    </asp:DropDownList>
+                    <My:AspNetPager class="pages" PageSize="20" UrlPaging="true" runat="server" ID="pgServer"
+                        FirstPageText="首页" LastPageText="尾页" NextPageText="下一页" PrevPageText="上一页">
+                    </My:AspNetPager>
+                </div>
+            </div>
+            <!--内容部分 E-->
+        </div>
+    </div>
+    <script type="text/javascript">
+        function checkproductnum(i) {
+            var reg1 = /^\d+$/;
+            var value = $(i).val().trim();
+            if (isNaN(value) || reg1.test(value) == false) {
+                $(i).val("1");
+            }
+        }
+    </script>
+    </form>
+</body>
+</html>
+<!-- 上海弈扬文化传播有限公司版权所有，违者必究。http://www.eyoung.net 开发时间：2015-10-19 09:52:45 -->

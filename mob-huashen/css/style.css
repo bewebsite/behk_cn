@@ -1,0 +1,131 @@
+html {
+    font-size: 62.5%;
+}
+.ui-page-login,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: "宋体"!important;
+	font-size: 1.4rem!important;
+}
+body .form-control {
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	-ms-border-radius: 0;
+}
+body ul,body ol,body li,body p{
+	padding: 0;
+	margin: 0;
+	color: #000;
+	list-style: none;
+}
+.mui-content{height: 100%;}
+
+.page-foot {
+	border-top: 3px solid #ED6D00;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 1rem;
+    color: #8f8f94;
+}
+.show-grid {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.show-grid [class ^="col-"] {
+	padding-left: 0;
+	padding-right: 0;
+}
+.show-grid .pdg-left-5 {
+	padding-left: 5px;
+}
+.show-grid .pdg-right-5 {
+	padding-right: 5px;
+}
+.bg-white {
+	background: white;
+}
+.mgt15 {
+	margin-top: 15px;
+}
+.mgb15 {
+	margin-bottom: 15px!important;
+}
+.pdb15 {
+	padding-bottom: 15px;
+}
+.lineb {
+	border-bottom: 1px solid #bbb;
+}
+
+header.mui-bar {
+	height: 4.6rem;
+	background: #ED6D00;
+}
+header .mui-title {
+	color: #fff;
+}
+header .app-logo {
+	width: 2.8rem;
+	/*height: 4.0rem;*/
+}
+header a,header a:hover,header a:focus,header a:active,header a:invalid {
+	text-decoration: none;
+}
+.glyphicon {
+	color: #ED6D00;
+}
+
+/*提交申请*/
+.subscribe-box .title {
+	margin: 1rem 0 0 0;
+	font-size: 2.4rem;
+	color: #ED6D00;
+    font-weight: bold;
+}
+.subscribe-box .text-ps {
+	font-size: 1rem;
+	color: #CECECE;
+}
+.subscribe-box .form-control {
+	margin: 5px 0;
+}
+.subscribe-box button,
+button.btn-ltn {
+	background: #ED6D00;
+	color: #fff;
+	font-weight: bold;
+	outline: none;
+	border: 0;
+	height: 4rem;
+	font-size: 2rem!important;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+}
+div[class ^="title-"] {
+	color: #ED6D00;
+}
+
+a.anchor-point {
+	text-decoration: none;			
+}
+a.anchor-point,
+a.anchor-point:hover,
+a.anchor-point:focus,
+a.anchor-point:active,
+a.anchor-point:invalid {
+	text-decoration: none;
+}
+
+@media (min-width: 768px){
+	.container {
+	    width: auto!important;
+	}
+}

@@ -1,0 +1,99 @@
+﻿
+[{"report_name":  "01 Active/InActive学员数",
+  "report_sql" :  "select X.ActStudent, Y.InActStudent from (select 'T' as ID, Count(student.id) as ActStudent from student where student.id in (select distinct student_id from classSchedule where classSchedule.status <> '2' and classSchedule.scheduleddate <= date_add(curdate(), INTERVAL 30 DAY) and classSchedule.scheduleddate >= date_sub(curdate(), INTERVAL 30 DAY))) X left join (select 'T' as ID, Count(student.id) as InActStudent from student where student.id not in (select distinct student_id from classSchedule where classSchedule.status <> '2' and classSchedule.scheduleddate <= date_add(curdate(), INTERVAL 30 DAY) and classSchedule.scheduleddate >= date_sub(curdate(), INTERVAL 30 DAY)) and student.id not in (select X.Studentid from (select studentid, sum(amount)*2 as TotalHours, sum(consumedclass) as Used1 from contract group by studentid) X left join (select student_id, sum(consumption_student_contract.consumedclass) as Used2 from consumption_student_contract left join consumption_student on consumption_student_id = consumption_student.id where consumption_student_contract.contract_id is null group by student_id) Y on X.studentid = Y.student_id where X.totalhours-x.used1-if(isnull(Y.used2), 0, Y.used2)= 0)) Y on X.ID = Y.ID",
+  "view_user"  : ["Id_user_admin", "Id_user00000133", "Id_user00000165", "Id_user00000009", "Id_user00000147", "Id_user00000218", "Id_user00000006", "Id_user00000148", "Id_user00000205"],
+  "param"	   :  "0"
+}, 
+
+ {"report_name":  "02 各校区的Active/Inactive学员数",
+  "report_sql" :  "select city.name as City, X.ActStuNo, Y.InActStuNo from city left join (select city_id, count(student.id) as InActStuNo from student where student.id not in (select distinct student_id from classSchedule where classSchedule.status <>'2' and classSchedule.scheduleddate <=date_add(curdate(),INTERVAL 30 DAY) and classSchedule.scheduleddate >= date_sub(curdate(),INTERVAL 30 DAY)) and student.id not in (select X.Studentid from (select studentid, sum(amount)*2 as TotalHours, sum(consumedclass) as Used1 from contract group by studentid) X left join (select student_id, sum(consumption_student_contract.consumedclass) as Used2 from consumption_student_contract left join consumption_student on consumption_student_id = consumption_student.id where consumption_student_contract.contract_id is null group by student_id) Y on X.studentid = Y.student_id where X.totalhours-x.used1-if(isnull(Y.used2), 0, Y.used2)= 0) group by city_id) Y on city.id = Y.city_id left join (select city_id, count(student.id) as ActStuNo from student where student.id in (select distinct student_id from classSchedule where classSchedule.status <>'2' and classSchedule.scheduleddate <=date_add(curdate(),INTERVAL 30 DAY) and classSchedule.scheduleddate >= date_sub(curdate(),INTERVAL 30 DAY)) group by city_id ) X on X.city_id = city.id",
+  "view_user"  : ["Id_user_admin", "Id_user00000133", "Id_user00000165", "Id_user00000009", "Id_user00000147", "Id_user00000218", "Id_user00000006", "Id_user00000148", "Id_user00000205"],
+  "param"	   :  "0"
+},
+
+ {"report_name":  "03 各校区的active学员列表",
+  "report_sql" :  "select city.Name as City,student.Englishname, student.Chinesename from student left join city on student.city_id = city.id where student.id in (select distinct student_id from classSchedule where classSchedule.status <> '2' and classSchedule.scheduleddate <= date_add(curdate(), INTERVAL 30 DAY) and classSchedule.scheduleddate >= date_sub(curdate(), INTERVAL 30 DAY)) order by city.name",
+  "view_user"  : ["Id_user_admin", "Id_user00000133", "Id_user00000165", "Id_user00000009", "Id_user00000147", "Id_user00000218", "Id_user00000006", "Id_user00000148", "Id_user00000205"],
+  "param"	   :  "0"
+},
+
+ {"report_name":  "04 SA所带Active学员数",
+  "report_sql" :  "select user.englishName as SA ,Count(distinct student.id) as ActStuNo from student left join user on student.tutorId = user.id left join classSchedule on classSchedule.student_id = student.id where classSchedule.status <> '2' and classSchedule.scheduleddate <= date_add(curdate(), INTERVAL 30 DAY) and classSchedule.scheduleddate >= date_sub(curdate(), INTERVAL 30 DAY) group by user.englishName order by user.englishName",
+  "view_user"  : [],
+  "param"	   :  "0"
+},
+
+ {"report_name":  "05 SA所带Active学员列表",
+  "report_sql" :  "select student.englishName as StudentEN,student.chineseName as StudentCN, city.name as City, student.ownerName as Consultant, user.englishName as SA from student left join user on student.tutorId = user.id left join city on student.city_id = city.id where student.id in (select distinct student_id from classschedule where classSchedule.status <> '2' and classSchedule.scheduleddate <= date_add(curdate(), INTERVAL 30 DAY) and classSchedule.scheduleddate >= date_sub(curdate(), INTERVAL 30 DAY)) order by user.englishName desc, city.name asc, student.ownername asc",
+  "view_user"  : [],
+  "param"	   :  "0"
+},
+
+ {"report_name":  "06 SA所带Inactive学员列表",
+  "report_sql" :  "select student.englishName as StudentEN, case student.status  when '1' then 'Outstanding' when '2' then 'Pending' when '3' then 'In Progress' when '4' then 'Completed' else 'Frozen' end as Status, student.chineseName as StudentCN, city.name as City, student.ownerName as Consultant, user.englishName as SA from student left join user on student.tutorId = user.id left join city on student.city_id = city.id where student.id not in (select distinct student_id from classschedule where classSchedule.status <> '2' and classSchedule.scheduleddate <= date_add(curdate(), INTERVAL 30 DAY) and classSchedule.scheduleddate >= date_sub(curdate(), INTERVAL 30 DAY)) and student.id not in (select X.Studentid from (select studentid, sum(amount)*2-sum(consumedclass) as balance1 from contract group by studentid) X  where X.balance1 = 0 and X.studentid not in (select distinct student_id from consumption_student_contract left join consumption_student on consumption_student_id = consumption_student.id where consumption_student_contract.contract_id is null) )order by user.englishName desc, city.name asc, student.ownername asc",
+  "view_user"  : [],
+  "param"	   :  "0"
+},
+
+ {"report_name":  "07 全职外教提交学员报告报表",
+  "report_sql" :  "select user.englishname as Tutor, param_1 as Start, param_2 as End, student.englishname as Student, student.chinesename as Student, count(*) as No  from ((filerecord left join user on filerecord.creator_id = user.id)  left join classschedule on filerecord.reference_id = classschedule.id)  left join student on classschedule.student_id = student.id  where reference_type = 'xueyuan' and classschedule.scheduleddate > param_1 and classschedule.scheduleddate < param_2  group by user.englishname, student.englishname",
+  "view_user"  : [],
+  "param"    :  "1"
+},
+
+{"report_name":  "08 全职外教月排课报表",
+  "report_sql" :  "select user.englishname as Tutor, sum(wage) as Hours, sum(wagededuction) as Deduction from consumption_teacher left join user on teacher_id = user.id  where classschedule_id in (select id from classschedule where teacher_id in (select id from user where isteaching = 1 and type = 1 and status = 1) and scheduleddate >= param_1 and scheduleddate <= param_2) group by teacher_id",
+  "view_user"  : ["Id_user00000006", "Id_user00000009", "Id_user_admin"],
+  "param"	   :  "1"
+},
+
+{"report_name":  "09 未维护手机号或接收短信的学生列表",
+  "report_sql" :  "select city.name as City, student.code as StudentNo, student.ChineseName, student.Englishname, student.Mobile, student.SMS, user.englishname as SA, ownername as Consultant from student left join city on city_id = city.id left join user on tutorid =user.id where student.delstatus = 0 and (student.mobile = '' or student.sms <> 1) order by city.name asc",
+  "view_user"  : [],
+  "param"	   :  "0"
+},
+
+{"report_name":  "10 学员排耗课报表",
+  "report_sql" :  "select X.name as City, X.SA, X.Englishname as Student, X.ownername as Consultant, X.TotalHours, X.totalhours-x.used1-if(isnull(Y.used2), 0, Y.used2) as Balance, X.totalhours-x.used1-if(isnull(Y.used2), 0, Y.used2)-if(isnull(Z.scheduled), 0, Z.scheduled) as ToBeScheduled from ((select city.name, studentid, user.englishname as SA, student.Englishname, student.ownername, sum(amount)*2 as TotalHours, sum(consumedclass) as Used1, sum(amount)*2-sum(consumedclass) as Balance from ((contract left join student on studentid = student.id) left join user on student.tutorid = user.id) left join city on student.city_id = city.id group by studentid order by SA desc) X left join (select student_id, sum(consumption_student_contract.consumedclass) as Used2 from consumption_student_contract left join consumption_student on consumption_student_id = consumption_student.id where consumption_student_contract.contract_id is null group by student_id) Y on X.studentid = Y.student_id) left join (select student_id, sum(time) as Scheduled from classschedule where id not in (select classschedule_id from consumption_student) and status <> 2 group by student_id) Z on X.studentid = Z.student_id order by SA desc, ToBeScheduled asc",
+  "view_user"  : [],
+  "param"	   :  "0"
+},
+
+{"report_name":  "11 学生签到表",
+ "report_sql" :  "select T1.SA,classSchedule.scheduledDate as 'Date',CONCAT_WS('-',classSchedule.startTime,classSchedule.endTime) as 'SessionTime',student.chinesename as 'Student CN',student.englishname as 'Student EN',user.englishName as 'Tutor',course.name as 'Subjects',student.ownerName as 'Consultant',classroom.name as 'Classroom' from classSchedule left join student on classSchedule.student_id = student.id left join user on classSchedule.teacher_id = user.id left join classroom on classSchedule.classroom_id = classroom.id left join course on classSchedule.course_id =  course.id left join (select student.id as 'id',user.englishName as 'SA' from student left join user on student.tutorid =  user.id  ) as T1 on classSchedule.student_id = T1.id where classSchedule.scheduledDate >=param_1 and classSchedule.scheduledDate<=param_2 and classSchedule.status = '1' and classSchedule.leaveState = '0' group by classSchedule.id order by T1.SA,SessionTime",
+  "view_user":  [],
+  "param" :     "1"
+},
+
+{"report_name":  "12 冻结学员",
+  "report_sql" :  "select Student.Chinesename, student.Englishname, freezedate as FrozenDate, thawedDate as UnFreezingDate, user.englishname as StudyAdvisor from student left join user on tutorid = user.id where student.status = 5 order by thawedDate asc",
+  "view_user"  : [],
+  "param"	   :  "0"
+},
+
+{"report_name":  "13 上海教室使用情况",
+ "report_sql" :  "select classroom.name as Classroom, X.ScheduledDate,  X.scheduledtime from classroom left join (select classroom_id, ScheduledDate, group_concat(concat(' ', starttime, ' - ', endtime)) as ScheduledTime from classschedule where scheduleddate >=param_1 and scheduleddate <=param_2 and status = 1 group by classroom_id, scheduleddate) X on classroom.id = X.classroom_id where zone_id = 'Id_zone00000001' and delstatus = 0 order by scheduleddate asc, classroom.name asc",
+  "view_user":  [],
+  "param" :     "1"
+},
+
+
+{"report_name":  "61 TE结转报表",
+  "report_sql" : "select X.ContractMonth, Y.Cash, Y.SoldHours, X.ConsumedMonth, X.Consumption from (select left(contract.startdate, 7) as ContractMonth, left(classschedule.scheduleddate, 7) as ConsumedMonth, sum(consumption_student_contract.consumedclass) as Consumption from ((consumption_student_contract left join contract on contract_id = contract.id) left join consumption_student on consumption_student_id = consumption_student.id) left join classschedule on consumption_student.classschedule_id = classschedule.id where contract.tuitionfee <> 0 and contract.delstatus = 0 group by ContractMonth, ConsumedMonth) X left join (select left(contract.startdate, 7) as ContractMonth, sum(contract.tuitionfee) as Cash, sum(contract.amount)*2 as SoldHours from contract where contract.tuitionfee <> 0 and delstatus = 0 group by ContractMonth ) Y on X.ContractMonth = Y.ContractMonth",
+  "view_user"  : ["Id_user00000006", "Id_user_admin"],
+  "param"	   :  "0"
+},
+
+{"report_name":  "62 外教Active率报表",
+  "report_sql" :  "select englishname as Tutor, X.Scheduled, Y.FreeHours, format(X.scheduled/Y.FreeHours,3) as ActiveRatio from (user left join (select teacher_id, sum(time) as Scheduled from classschedule where scheduleddate >= param_1 and scheduleddate <= param_2 and classschedule.status <> 2 group by teacher_id) X on user.id = X.teacher_id) left join (select Z.teacher_id, sum(hour(timediff(Z.endtime, Z.starttime))) as FreeHours from (select distinct teacher_id, freedate, starttime,endtime from teacher_freetime where freedate >= param_1 and freedate <= param_2) Z group by Z.teacher_id) Y on user.id = Y.teacher_id where status = 1 and isteaching = 1 order by  activeratio desc, Freehours desc",
+  "view_user"  : ["Id_user00000006", "Id_user_admin","Id_user00000133"],
+  "param"	   :  "1"
+},
+
+{"report_name":  "63 待维护课时费老师",
+  "report_sql" : "select distinct(user.Englishname) from teacher_course left join user on teacher_id = user.id where unitprice = 0 and (user.type = 2 or (user.type <>2 and periodlowerlimit <> 1))",
+  "view_user"  : ["Id_user00000006", "Id_user00000009", "Id_user_admin"],
+  "param"	   :  "0"
+}
+
+]

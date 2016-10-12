@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SeoUrlRegulars>
+  <SeoUrlRegular>
+    <GID>2a75d63b-7b47-45a6-85b0-0ccdb7b5c58a</GID>
+    <LookExpression>/about/adv.aspx</LookExpression>
+    <MetaKeywords>
+    </MetaKeywords>
+    <PageTitle>必益教育怎么样_英美寄宿中学申请咨询_必益教育</PageTitle>
+    <MetaDescription>
+    </MetaDescription>
+    <Ordinal>0</Ordinal>
+    <Enabled>True</Enabled>
+  </SeoUrlRegular>
+  <SeoUrlRegular>
+    <GID>00fc913c-cd24-4a39-b038-9f6853bf020c</GID>
+    <LookExpression>/</LookExpression>
+    <MetaKeywords>寄宿中学,寄宿高中,英国寄宿,美国寄宿,BE,必益,BE教育</MetaKeywords>
+    <PageTitle>英国寄宿中学|美国寄宿中学-咨询机构【BE必益教育官网】</PageTitle>
+    <MetaDescription>BE必益教育是由英国伊顿公学校友创办的知名寄宿中学申请咨询机构,与胡润百富合作出版《世界名校指南》,咨询热线:400-850-4118</MetaDescription>
+    <Ordinal>0</Ordinal>
+    <Enabled>True</Enabled>
+  </SeoUrlRegular>
+</SeoUrlRegulars>
